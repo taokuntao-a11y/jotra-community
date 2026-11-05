@@ -1,6 +1,7 @@
 name: Suggest an improvement / 功能建议
 description: Explain a user need and the result you want.
 title: "[Idea] "
+labels: ["enhancement", "needs-triage"]
 body:
   - type: textarea
     id: problem

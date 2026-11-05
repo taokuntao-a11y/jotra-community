@@ -1,6 +1,7 @@
 name: Translation / 翻译建议
 description: Improve wording or report a localization problem.
 title: "[Translation] "
+labels: ["translation", "needs-triage"]
 body:
   - type: input
     id: language

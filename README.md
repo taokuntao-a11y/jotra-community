@@ -4,7 +4,7 @@
 
 这里用于反馈问题、改进翻译和协作外围工具接入。**寸念产品源码保持私有。**
 
-[提交反馈或翻译建议](https://github.com/taokuntao-a11y/jotra-community/issues/new/choose) · [插件协作](integrations/README.md) · [贡献指南](CONTRIBUTING.md)
+[提交反馈或翻译建议](https://github.com/taokuntao-a11y/jotra-community/issues/new/choose) · [插件协作](integrations/README.md) · [贡献指南](CONTRIBUTING.md) · [讨论交流](https://github.com/taokuntao-a11y/jotra-community/discussions)
 
 官网只提供产品介绍、帮助、隐私及开发文档，并外链到确认后的 GitHub 项目；不在官网内建设社区、讨论区或托管插件代码。后续话题或社媒频道也通过外链进入。
 

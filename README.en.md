@@ -4,7 +4,7 @@
 
 Help improve Jotra through feedback, translations, documentation, and external integration proposals. **Product source code remains private.**
 
-[Report an issue](https://github.com/taokuntao-a11y/jotra-community/issues/new/choose) · [Plugin collaboration](integrations/README.md) · [Contributing](CONTRIBUTING.md)
+[Report an issue](https://github.com/taokuntao-a11y/jotra-community/issues/new/choose) · [Plugin collaboration](integrations/README.md) · [Contributing](CONTRIBUTING.md) · [Discussions](https://github.com/taokuntao-a11y/jotra-community/discussions)
 
 The website provides product information, help, privacy notices, and developer documentation with external links. Community discussions, contribution review, and any future plugin collaboration belong on GitHub or separately announced channels, not inside the website.
 

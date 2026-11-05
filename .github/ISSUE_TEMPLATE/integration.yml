@@ -1,6 +1,7 @@
 name: Plugin or workflow proposal / 插件接入提案
 description: Discuss a future integration; local CLI/MCP has not shipped.
 title: "[Integration] "
+labels: ["integration", "needs-triage"]
 body:
   - type: markdown
     attributes:

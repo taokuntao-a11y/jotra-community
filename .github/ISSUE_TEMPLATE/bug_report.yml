@@ -1,6 +1,7 @@
 name: Bug report / 问题反馈
 description: Report a reproducible problem using fictional notes.
 title: "[Bug] "
+labels: ["bug", "needs-triage"]
 body:
   - type: markdown
     attributes:
