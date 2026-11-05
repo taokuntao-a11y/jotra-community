@@ -66,6 +66,8 @@ The grant permits creation and retrieval of its own historical write receipts. I
 
 CLI exit codes: `0` success; `2` input/protocol error; `3` unavailable; `4` profile/identity/authorization error; `5` conflict; `6` unknown delivery or missing receipt; `7` confirmed storage rollback; `8` busy. Parse structured error codes and commit state, not localized messages or stderr.
 
+Preview exception: the frozen CLI maps `FORBIDDEN` to exit `2`. Treat the structured error code and commit state as authoritative rather than assuming every authorization error has exit `4`.
+
 ## Stop access / 停用
 
 Disable the adapter to stop new calls. Revoke its named authorization inside Jotra to invalidate all copies of that credential. Then remove the local client profile:

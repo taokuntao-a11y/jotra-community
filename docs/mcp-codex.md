@@ -52,7 +52,7 @@ Receipt lookup returns historical save metadata, not note content or current not
 
 ## Validation and removal
 
-Codex CLI 0.162.1's actual app-server MCP client passed discovery, creation, identical replay, receipt lookup, content-conflict, and missing-receipt checks against the real CLI and isolated App. It negotiated MCP **2025-06-18**. The locked official TypeScript SDK is **2.4.0**; a separate SDK protocol test covered **2026-07-28**. The latter is not a claim that this Codex version negotiated that revision.
+Codex CLI 0.162.1's actual app-server MCP client passed discovery, creation, identical replay, receipt lookup, content-conflict, and missing-receipt checks against the real CLI and isolated App. A new Codex/MCP process also replayed the original ID with the same Spark ID and persistence time; no other MCP services were enabled in that rerun. The Jotra App itself was not restarted. Codex negotiated MCP **2025-06-18**. The locked official TypeScript SDK is **2.4.0**; a separate SDK protocol test covered **2026-07-28**. The latter is not a claim that this Codex version negotiated that revision.
 
 Check [the validation matrix](validation.md) for the full scope. The Codex run used an isolated ephemeral app-server session and direct experimental `mcpServer/tool/call`, with no model turn and no persistent client configuration change. This establishes actual Codex transport/tool invocation, not model planning or automatic tool selection. Other desktop MCP clients remain unverified.
 
