@@ -1,0 +1,21 @@
+name: Suggest an improvement / 功能建议
+description: Explain a user need and the result you want.
+title: "[Idea] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: User need / 用户需求
+      description: What are you trying to do, and what gets in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed result / 建议的结果
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Existing workaround / 目前的替代办法

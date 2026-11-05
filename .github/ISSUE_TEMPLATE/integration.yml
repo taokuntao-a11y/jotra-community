@@ -1,0 +1,32 @@
+name: Plugin or workflow proposal / 插件接入提案
+description: Discuss a future integration; local CLI/MCP has not shipped.
+title: "[Integration] "
+body:
+  - type: markdown
+    attributes:
+      value: "Local CLI/MCP is a developer preview, not a released API. Product source remains private. 当前本机 CLI/MCP 尚未发布，产品代码保持私有。"
+  - type: input
+    id: tool
+    attributes:
+      label: Tool and target platforms / 工具与平台
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: User workflow and fictional input / 用户流程与虚构输入
+    validations:
+      required: true
+  - type: textarea
+    id: permissions
+    attributes:
+      label: Permissions and data flow / 权限与数据流
+      description: Describe creation, any requested read/search access, network services, authorization, and revocation.
+    validations:
+      required: true
+  - type: textarea
+    id: reliability
+    attributes:
+      label: Save verification, retry, and maintenance / 保存验证、重试与维护
+    validations:
+      required: true

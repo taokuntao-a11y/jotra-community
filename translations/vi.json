@@ -1,0 +1,602 @@
+{
+  "catalogs": {
+    "app": {
+      "app.name": "Jotra",
+      "notice.title": "Jotra",
+      "notice.empty": "Văn bản không được để trống",
+      "notice.tooLong": "Vượt quá giới hạn 20.000 ký tự",
+      "notice.missing": "Spark này không tồn tại",
+      "notice.storage": "Không thể lưu thay đổi. Vui lòng thử lại.",
+      "notice.tagSkipped %lld": "Đã bỏ qua %lld Spark vượt giới hạn ký tự",
+      "startup.failed": "Không thể mở ghi chú hoặc hộp thư dùng chung. Vui lòng thử lại.",
+      "action.ok": "OK",
+      "action.cancel": "Hủy",
+      "action.retry": "Thử lại",
+      "action.skip": "Bỏ qua",
+      "action.continue": "Tiếp tục",
+      "action.done": "Xong",
+      "action.select": "Chọn",
+      "action.pin": "Ghim",
+      "action.unpin": "Bỏ ghim",
+      "action.archive": "Lưu trữ",
+      "action.unarchive": "Bỏ lưu trữ",
+      "action.trash": "Chuyển vào Thùng rác",
+      "action.copy": "Sao chép",
+      "action.addTag": "Thêm thẻ",
+      "action.back": "Quay lại",
+      "action.save": "Lưu",
+      "navigation.all": "Tất cả Spark",
+      "navigation.pinned": "Đã ghim",
+      "navigation.archived": "Đã lưu trữ",
+      "navigation.trash": "Thùng rác",
+      "navigation.settings": "Cài đặt",
+      "navigation.menu": "Menu",
+      "list.pinned": "Đã ghim",
+      "list.recent": "Gần đây",
+      "list.empty.title": "Chưa có Spark",
+      "list.empty.body": "Lưu nội dung từ bảng chia sẻ, tiện ích Safari hoặc Phím tắt.",
+      "list.filtered.empty": "Không có Spark phù hợp",
+      "list.filtered.body": "Gỡ một bộ lọc để xem thêm Spark.",
+      "filter.title": "Bộ lọc",
+      "filter.status": "Trạng thái",
+      "filter.source": "Nguồn",
+      "filter.removeStatus": "Gỡ bộ lọc trạng thái",
+      "filter.removeSource %@": "Gỡ bộ lọc nguồn: %@",
+      "tag.placeholder": "Thẻ không có dấu #",
+      "selection.count %lld": "Đã chọn %lld",
+      "date.yesterday %@": "Hôm qua %@",
+      "detail.choose": "Chọn một Spark",
+      "detail.body": "Nội dung Spark",
+      "detail.created": "Ngày tạo",
+      "detail.sourceHint": "Hiển thị tất cả Spark từ nguồn này",
+      "trash.empty.title": "Thùng rác trống",
+      "trash.empty.body": "Spark đã xóa được giữ ở đây trong 30 ngày.",
+      "trash.retention": "Spark đã xóa được giữ trong 30 ngày",
+      "trash.remaining %lld": "Tự động xóa sau %lld ngày",
+      "trash.restore": "Khôi phục",
+      "trash.deletePermanent": "Xóa vĩnh viễn",
+      "trash.empty.action": "Dọn sạch Thùng rác",
+      "trash.confirm.message": "Không thể khôi phục Spark đã xóa vĩnh viễn.",
+      "settings.guides": "Hướng dẫn ghi lại",
+      "settings.about": "Giới thiệu",
+      "settings.version %@ %@": "Phiên bản %@ (%@)",
+      "guide.share.title": "Bảng chia sẻ",
+      "guide.share.body": "Trong ứng dụng bất kỳ, chọn văn bản hoặc liên kết, chạm Chia sẻ rồi chọn Jotra. Nếu không thấy Jotra, hãy bật trong Thêm → Sửa.",
+      "guide.safari.title": "Tiện ích Safari",
+      "guide.safari.body": "Trên iPhone hoặc iPad, bật Jotra tại Cài đặt → Ứng dụng → Safari → Phần mở rộng. Trên Mac, mở Safari → Cài đặt → Phần mở rộng. Sau đó dùng tiện ích Jotra để lưu trang hoặc nội dung đã chọn.",
+      "guide.shortcut.title": "Phím tắt và Siri",
+      "guide.shortcut.body": "Trong Phím tắt, thêm tác vụ “Spark mới” của Jotra và cung cấp văn bản, hoặc chạy phím tắt bằng Siri.",
+      "guide.services.title": "Dịch vụ Mac",
+      "guide.services.body": "Trên Mac, chọn văn bản rồi chọn Dịch vụ → Lưu vào Jotra từ menu ứng dụng hoặc menu ngữ cảnh.",
+      "onboarding.1.title": "Ghi lại từ mọi nơi",
+      "onboarding.1.body": "Từ trình duyệt, Agent hoặc bảng chia sẻ. Lưu ý tưởng mà không cần mở Jotra.",
+      "onboarding.2.title": "Tìm thấy tức thì",
+      "onboarding.2.body": "Tìm kiếm toàn văn. Lọc theo thẻ, nguồn và thời gian. Mỗi Spark đều ghi nhớ nguồn gốc.",
+      "onboarding.3.title": "Dữ liệu là của bạn",
+      "onboarding.3.body": "Lưu trên thiết bị và iCloud của bạn. Xuất Markdown trực tiếp sang Obsidian.",
+      "onboarding.start": "Bắt đầu",
+      "onboarding.progress %lld %lld": "Trang %lld / %lld",
+      "capture.saved": "Đã lưu",
+      "new.title": "Spark mới",
+      "settings.connections": "Kết nối tiện ích và Agent",
+      "settings.connections.count %lld": "Đã kết nối %lld",
+      "settings.pro": "Jotra Pro",
+      "settings.pro.notSubscribed": "Chưa đăng ký",
+      "settings.tab.general": "Cài đặt chung",
+      "settings.tab.connections": "Kết nối",
+      "settings.tab.pro": "Pro",
+      "connections.title": "Kết nối tiện ích và Agent",
+      "connections.rename.title": "Đổi tên kết nối",
+      "connections.rename.placeholder": "Tên (1–40 ký tự)",
+      "connections.rename": "Đổi tên",
+      "connections.revoke": "Thu hồi",
+      "connections.revoke.title": "Thu hồi kết nối này?",
+      "connections.revoke.message": "Sau khi thu hồi, kết nối này không thể ghi thêm. Spark đã nhận không bị ảnh hưởng.",
+      "connections.deleteAll": "Ngắt tất cả và xóa dữ liệu trung chuyển",
+      "connections.deleteAll.title": "Ngắt mọi kết nối?",
+      "connections.deleteAll.message": "Tất cả tiện ích và Agent sẽ ngừng ghi, và nội dung chưa nhận trên máy chủ trung chuyển sẽ bị xóa. Spark đã có trên thiết bị này không bị ảnh hưởng.",
+      "connections.unreachable": "Không thể kết nối dịch vụ Jotra. Hãy kiểm tra mạng.",
+      "connections.rateLimited": "Quá nhiều lần thử. Vui lòng thử lại sau.",
+      "connections.unavailable": "Dịch vụ Jotra không khả dụng. Vui lòng thử lại sau.",
+      "connections.extension.header": "Ghép đôi tiện ích trình duyệt (miễn phí)",
+      "connections.extension.footer": "Cài tiện ích Jotra trong Chrome hoặc Edge trên máy tính, rồi nhập mã trong tiện ích.",
+      "connections.pair": "Kết nối tiện ích Chrome / Edge",
+      "connections.pair.generating": "Đang tạo mã ghép đôi…",
+      "connections.list.header %lld": "Đã kết nối (%lld)",
+      "connections.list.failed": "Không thể tải các kết nối",
+      "connections.empty": "Chưa có kết nối",
+      "connections.lastWrite %@": "Lần ghi cuối: %@",
+      "connections.lastWriteYesterday %@": "Lần ghi cuối: hôm qua %@",
+      "connections.neverWritten": "Chưa ghi nội dung nào",
+      "pairing.instruction": "Nhập mã này trong tiện ích Chrome / Edge. Mã chỉ dùng được một lần.",
+      "pairing.expired": "Mã này đã hết hạn",
+      "pairing.regenerate": "Tạo mã mới",
+      "pairing.expires %lld %@": "Hết hạn sau %lld phút %@ giây",
+      "pro.title": "Jotra Pro",
+      "pro.comingSoon.title": "Sắp ra mắt",
+      "pro.comingSoon.body": "Pro sẽ hỗ trợ ghi từ Agent, sau đó bổ sung nhập email và Telegram.",
+      "pro.free.note": "Tiện ích lưu trích đoạn và các tính năng cơ bản luôn miễn phí.",
+      "notice.syncFailed": "Đồng bộ thất bại. Sẽ thử lại sau.",
+      "navigation.tags": "Thẻ",
+      "navigation.search": "Tìm kiếm",
+      "list.recentViews": "Đã xem gần đây",
+      "search.title": "Tìm kiếm",
+      "search.placeholder": "Tìm kiếm",
+      "search.clearText": "Xóa văn bản",
+      "search.find": "Tìm",
+      "search.recent.clearConfirm": "Xóa các tìm kiếm gần đây?",
+      "search.recent.clear": "Xóa",
+      "search.recent.title": "Tìm kiếm gần đây",
+      "search.recent.delete %@": "Xóa tìm kiếm gần đây %@",
+      "search.recent.deleteAction": "Xóa",
+      "search.topTags.title": "Thẻ thường dùng",
+      "search.filter.tag": "Thẻ",
+      "search.filter.source": "Nguồn",
+      "search.filter.time": "Thời gian",
+      "search.filter.status": "Trạng thái",
+      "search.filter.sort": "Sắp xếp",
+      "search.time.today": "Hôm nay",
+      "search.time.week": "Tuần này",
+      "search.time.month": "Tháng này",
+      "search.time.custom": "Tùy chỉnh…",
+      "search.time.any": "Mọi thời gian",
+      "search.time.from": "Từ",
+      "search.time.through": "Đến",
+      "search.sort.created": "Ngày tạo",
+      "search.sort.updated": "Ngày sửa",
+      "search.marker.sortUpdated": "Theo ngày sửa",
+      "search.marker.a11y %@": "Đang lọc theo %@, chạm để gỡ",
+      "search.clearAll": "Xóa tất cả",
+      "search.clearFilters": "Xóa bộ lọc",
+      "search.empty.title": "Không tìm thấy",
+      "search.empty.filteredBody": "Hãy thử giảm điều kiện lọc.",
+      "search.count %lld": "%lld kết quả",
+      "search.tags.placeholder": "Tìm thẻ",
+      "tags.toast.updated %lld": "Đã cập nhật %lld Spark",
+      "tags.rename.title": "Đổi tên thẻ",
+      "tags.rename.placeholder": "Đường dẫn thẻ đầy đủ",
+      "tags.rename.confirm": "Đổi tên",
+      "tags.merge.confirm.title": "Gộp thẻ",
+      "tags.merge.confirm.action": "Gộp",
+      "tags.merge.confirm.message %@ %@ %lld": "Gộp “%@” vào “%@”. Sẽ cập nhật %lld Spark.",
+      "tags.merge.exists %@": "“%@” đã tồn tại. Gộp vào thẻ đó?",
+      "tags.delete.confirm.title": "Xóa thẻ",
+      "tags.delete.confirm.action": "Xóa",
+      "tags.delete.confirm.message %@": "Xóa thẻ “%@”? Spark được giữ lại; dấu # được xóa khỏi nội dung.",
+      "tags.empty.title": "Chưa có thẻ",
+      "tags.empty.body": "Viết #từ trong một Spark để tạo thẻ.",
+      "tags.hint": "Vuốt sang trái để đổi tên, gộp hoặc xóa. Xóa thẻ không xóa Spark.",
+      "tags.collapse": "Thu gọn",
+      "tags.expand": "Mở rộng",
+      "tags.row.a11y %@ %lld": "Thẻ: %@, %lld Spark",
+      "tags.action.rename": "Đổi tên",
+      "tags.action.merge": "Gộp vào…",
+      "tags.action.delete": "Xóa",
+      "tags.merge.title": "Gộp vào…",
+      "tags.merge.none": "Không có thẻ khác",
+      "notice.tagEditSkipped %lld": "%lld Spark vượt giới hạn ký tự nên không được thay đổi",
+      "notice.invalidTag": "Thẻ không được chứa khoảng trắng hoặc dấu câu và không được chỉ gồm chữ số.",
+      "trash.restoreAll": "Khôi phục tất cả",
+      "settings.searchSection": "Tìm kiếm",
+      "settings.showRecentViews": "Hiển thị mục đã xem gần đây",
+      "settings.spotlight": "Hiển thị trong tìm kiếm hệ thống",
+      "settings.spotlight.footer": "Cho phép Spotlight tìm Spark. Tắt tính năng này sẽ gỡ chúng khỏi tìm kiếm hệ thống.",
+      "onboarding.localMac.1.body": "Ghi lại ý tưởng trong Jotra hoặc lưu văn bản từ bảng chia sẻ, Safari và Dịch vụ Mac.",
+      "onboarding.localMac.2.body": "Tìm kiếm toàn văn. Lọc theo thẻ, nguồn và thời gian. Mỗi Spark đều ghi nhớ nguồn gốc.",
+      "onboarding.localMac.3.body": "Ghi chú được lưu trên Mac này. Không cần tài khoản hoặc gói đăng ký.",
+      "settings.localMac.storage": "Ghi chú được lưu trên Mac này. Hãy sao lưu Mac định kỳ để giữ an toàn.",
+      "settings.localMac.support": "Hỗ trợ và trợ giúp",
+      "settings.localMac.privacy": "Chính sách quyền riêng tư",
+      "settings.localMac.releaseNotes": "Có gì mới",
+      "settings.localMac.releaseNotes.body": "• Đọc ghi chú phiên bản trong Cài đặt.\n• Mở trợ giúp và chính sách quyền riêng tư từ Giới thiệu.\n• Lưu ghi chú văn bản trên Mac này với tìm kiếm, thẻ, ghim, lưu trữ và Thùng rác.",
+      "settings.language": "Ngôn ngữ",
+      "settings.language.system": "Mặc định hệ thống",
+      "settings.language.footer": "Chọn ngôn ngữ dùng trong Jotra. Menu hệ thống và tiện ích tuân theo ngôn ngữ ứng dụng được đặt trong cài đặt hệ thống.",
+      "source.app": "Trong ứng dụng",
+      "source.control": "Điều khiển",
+      "source.actionButton": "Nút Tác vụ",
+      "source.widget": "Tiện ích",
+      "source.shortcut": "Phím tắt",
+      "source.siri": "Siri",
+      "source.link": "Liên kết",
+      "source.share": "Chia sẻ",
+      "source.safariIOS": "Tiện ích Safari (iOS)",
+      "source.safariMac": "Tiện ích Safari (Mac)",
+      "source.servicesMac": "Dịch vụ (Mac)",
+      "source.hotkeyMac": "Phím nóng Mac",
+      "source.menubarMac": "Thanh menu (Mac)",
+      "source.chrome": "Tiện ích Chrome",
+      "source.edge": "Tiện ích Edge",
+      "source.agent": "Agent",
+      "localTools.title": "Công cụ cục bộ",
+      "localTools.enabled": "Cho phép công cụ cục bộ",
+      "localTools.explanation": "Công cụ trên máy Mac này có thể lưu ghi chú mới miễn phí. Hãy giữ Jotra mở; không cần đăng ký đồng bộ.",
+      "localTools.running": "Truy cập cục bộ đang hoạt động",
+      "localTools.grants": "Công cụ đã cấp quyền",
+      "localTools.grants.empty": "Chưa có công cụ nào được cấp quyền.",
+      "localTools.grantName": "Tên công cụ",
+      "localTools.create": "Tạo quyền truy cập",
+      "localTools.revoked": "Đã thu hồi",
+      "localTools.revoke": "Thu hồi",
+      "localTools.receipt.title": "Kiểm tra biên nhận ghi",
+      "localTools.receipt.explanation": "Kiểm tra yêu cầu trước đây, kể cả từ công cụ đã bị thu hồi quyền. Biên nhận xác nhận lần lưu trước và không hiển thị nội dung ghi chú.",
+      "localTools.receipt.grant": "Công cụ",
+      "localTools.receipt.select": "Chọn công cụ",
+      "localTools.receipt.requestId": "ID yêu cầu",
+      "localTools.receipt.check": "Kiểm tra biên nhận",
+      "localTools.receipt.persisted": "Đã lưu cục bộ",
+      "localTools.receipt.sparkId": "ID ghi chú",
+      "localTools.receipt.savedAt": "Thời gian lưu",
+      "localTools.rebuild": "Đặt lại kết nối cục bộ",
+      "localTools.rebuild.explanation": "Thao tác này thu hồi quyền của mọi công cụ. Hãy kiểm tra các yêu cầu chưa rõ kết quả ở trên trước, rồi kết nối lại từng công cụ với quyền mới.",
+      "localTools.rebuild.confirm": "Đặt lại kết nối cục bộ và thu hồi quyền của mọi công cụ?",
+      "localTools.cancel": "Hủy",
+      "localTools.pairing.title": "Kết nối công cụ này",
+      "localTools.pairing.explanation": "Sao chép quyền này vào lệnh nhập CLI trên máy Mac này. Thông tin chỉ có sẵn lúc này. Hãy giữ bí mật.",
+      "localTools.pairing.copy": "Sao chép quyền",
+      "localTools.pairing.copied": "Đã sao chép",
+      "localTools.pairing.done": "Xong",
+      "localTools.error.port": "Cổng cục bộ đang được dùng. Đóng công cụ xung đột hoặc đặt lại kết nối.",
+      "localTools.error.identity": "Không có danh tính cục bộ. Đặt lại kết nối để tạo danh tính và quyền mới.",
+      "localTools.error.disabled": "Hãy bật công cụ cục bộ trước.",
+      "localTools.error.input": "Kiểm tra tên công cụ hoặc dữ liệu nhập rồi thử lại.",
+      "localTools.error.limit": "Có thể cấp quyền cho tối đa 32 công cụ. Hãy thu hồi quyền của công cụ không dùng trước.",
+      "localTools.error.unavailable": "Kết nối cục bộ không khả dụng. Hãy thử lại.",
+      "localTools.receipt.invalid": "Chọn công cụ và nhập ID yêu cầu hợp lệ.",
+      "localTools.receipt.notFound": "Không tìm thấy biên nhận đã lưu cho yêu cầu này. Yêu cầu đang xử lý vẫn có thể hoàn tất."
+    },
+    "ui": {
+      "source.accessibility %@": "Nguồn: %@",
+      "toast.undo": "Hoàn tác",
+      "toast.undo.hint": "Nút hoàn tác",
+      "source.app": "Trong ứng dụng",
+      "source.control": "Điều khiển",
+      "source.actionButton": "Nút Tác vụ",
+      "source.widget": "Tiện ích",
+      "source.shortcut": "Phím tắt",
+      "source.siri": "Siri",
+      "source.link": "Liên kết",
+      "source.share": "Chia sẻ",
+      "source.safariIOS": "Tiện ích Safari (iOS)",
+      "source.safariMac": "Tiện ích Safari (Mac)",
+      "source.servicesMac": "Dịch vụ (Mac)",
+      "source.hotkeyMac": "Phím nóng Mac",
+      "source.menubarMac": "Thanh menu (Mac)",
+      "source.chrome": "Tiện ích Chrome",
+      "source.edge": "Tiện ích Edge",
+      "source.agent": "Agent"
+    },
+    "sources": {
+      "source.app": "Trong ứng dụng",
+      "source.control": "Điều khiển",
+      "source.actionButton": "Nút Tác vụ",
+      "source.widget": "Tiện ích",
+      "source.shortcut": "Phím tắt",
+      "source.siri": "Siri",
+      "source.link": "Liên kết",
+      "source.share": "Chia sẻ",
+      "source.safariIOS": "Tiện ích Safari (iOS)",
+      "source.safariMac": "Tiện ích Safari (Mac)",
+      "source.servicesMac": "Dịch vụ (Mac)",
+      "source.hotkeyMac": "Phím nóng Mac",
+      "source.menubarMac": "Thanh menu (Mac)",
+      "source.chrome": "Tiện ích Chrome",
+      "source.edge": "Tiện ích Edge",
+      "source.agent": "Agent"
+    },
+    "share": {
+      "share.title": "Lưu vào Jotra",
+      "share.cancel": "Hủy",
+      "share.save": "Lưu",
+      "share.note": "Thêm ghi chú…",
+      "share.source": "Chia sẻ",
+      "share.offline": "Chỉ văn bản và liên kết. Có thể lưu ngoại tuyến.",
+      "share.loadFailed": "Không thể đọc nội dung được chia sẻ. Vui lòng thử lại.",
+      "capture.saved": "Đã lưu vào Jotra",
+      "capture.empty": "Văn bản không được để trống",
+      "capture.tooLong": "Vượt quá giới hạn 20.000 ký tự",
+      "capture.writeFailed": "Không thể lưu. Vui lòng thử lại."
+    },
+    "entries": {
+      "intent.newSpark": "Spark mới",
+      "intent.text": "Văn bản",
+      "capture.saved": "Đã lưu vào Jotra",
+      "capture.empty": "Văn bản không được để trống",
+      "capture.tooLong": "Vượt quá giới hạn 20.000 ký tự",
+      "capture.writeFailed": "Không thể lưu. Vui lòng thử lại."
+    },
+    "shortcuts": {
+      "Create a Spark with ${applicationName}": "Tạo Spark bằng ${applicationName}",
+      "Save to ${applicationName}": "Lưu vào ${applicationName}"
+    }
+  },
+  "website": {
+    "brand": "Jotra",
+    "home": "Sản phẩm",
+    "support": "Hỗ trợ",
+    "privacy": "Chính sách quyền riêng tư",
+    "switch": "English",
+    "eyebrow": "JOTRA · SỔ GHI CHÚ CỤC BỘ CỦA BẠN",
+    "headline": "Một ý nghĩ thoáng qua.<br>Một nơi để lưu giữ.",
+    "lead": "Ghi lại ý tưởng, ghi chú đọc sách và những quan sát hằng ngày. Dùng tìm kiếm và thẻ để trở lại những suy nghĩ đáng phát triển thêm.",
+    "status": "Đang chuẩn bị bản macOS đầu tiên · macOS 14 trở lên · Ghi chú lưu cục bộ",
+    "features": [
+      [
+        "Ghi lại ý tưởng",
+        "Tạo ghi chú văn bản cho một câu, ghi chú đọc sách hoặc ý tưởng chưa hoàn chỉnh. Không cần tài khoản."
+      ],
+      [
+        "Tìm lại dễ dàng",
+        "Tìm kiếm ghi chú và kết hợp bộ lọc thẻ, nguồn, thời gian. Sắp xếp bằng thẻ phân cấp."
+      ],
+      [
+        "Giữ trên Mac",
+        "Bản đầu tiên lưu dữ liệu trên Mac. Ghim nội dung quan trọng, lưu trữ ghi chú đã xử lý và khôi phục ghi chú đã xóa từ Thùng rác."
+      ]
+    ],
+    "support_sections": [
+      [
+        "start",
+        "Bắt đầu với một ghi chú",
+        "Chọn Spark mới trên thanh công cụ, viết nội dung và lưu. Chọn một ghi chú để tiếp tục chỉnh sửa. Spark đơn giản là một ghi chú."
+      ],
+      [
+        "find",
+        "Tìm kiếm và thẻ",
+        "Dùng ô tìm kiếm hoặc ⌘F để tìm văn bản, rồi thu hẹp kết quả theo thẻ, nguồn, thời gian hoặc trạng thái. Viết #thẻ hoặc #cha/con trong ghi chú để sắp xếp trên trang Thẻ."
+      ],
+      [
+        "capture",
+        "Lưu từ nơi khác",
+        "Dùng bảng chia sẻ của Mac, tiện ích Safari, Phím tắt hoặc Dịch vụ Mac để lưu văn bản. Bật tiện ích Safari trong Safari → Cài đặt → Phần mở rộng và chọn website được phép truy cập. Lưu trích đoạn web sẽ lưu văn bản đã chọn, tiêu đề, liên kết và chú thích của bạn."
+      ],
+      [
+        "storage",
+        "Ghi chú ở đâu?",
+        "Bản này lưu ghi chú và thông tin sắp xếp trong bộ nhớ cục bộ dành riêng cho ứng dụng. Ghi chú không tự đồng bộ giữa các Mac. Hãy sao chép ghi chú quan trọng sang tài liệu riêng và sao lưu Mac định kỳ."
+      ],
+      [
+        "spotlight",
+        "Tìm kiếm hệ thống và lịch sử gần đây",
+        "Hiển thị trong tìm kiếm hệ thống được bật mặc định. Tính năng này thêm tiêu đề, trích đoạn văn bản và thẻ vào Spotlight cục bộ. Tắt trong cài đặt Jotra để yêu cầu gỡ chỉ mục của ứng dụng. Hiển thị mục đã xem gần đây chỉ điều khiển việc hiển thị thẻ trên trang chủ; có thể xóa từng tìm kiếm gần đây hoặc xóa tất cả."
+      ],
+      [
+        "trash",
+        "Xóa và khôi phục",
+        "Xóa ghi chú sẽ chuyển ghi chú vào Thùng rác trước. Mục quá 30 ngày được xóa khi ứng dụng thực hiện lần dọn dẹp tiếp theo. Bạn có thể xóa vĩnh viễn sớm hơn hoặc dọn sạch Thùng rác. Không thể hoàn tác xóa vĩnh viễn trong ứng dụng; bạn tự quản lý các bản sao lưu hệ thống riêng."
+      ],
+      [
+        "upgrade",
+        "Nâng cấp từ bản thử nghiệm cũ",
+        "Trước khi nâng cấp, hãy sao lưu ghi chú quan trọng và giữ dữ liệu ứng dụng cũ. Nếu ghi chú cũ không xuất hiện, hãy liên hệ hỗ trợ trước khi xóa dữ liệu hoặc tệp cũ."
+      ],
+      [
+        "scope",
+        "Phạm vi bản đầu tiên",
+        "Bản macOS này tập trung vào ghi chú văn bản cục bộ, tìm kiếm và sắp xếp. Không bao gồm đồng bộ iCloud, tính năng Agent và AI, gói đăng ký, xuất Markdown hoặc sao lưu tự động trong ứng dụng."
+      ],
+      [
+        "contact",
+        "Liên hệ hỗ trợ",
+        "Gửi email tới <a href=\"mailto:hello@go2come.com?subject=Jotra%20Support\">hello@go2come.com</a> kèm phiên bản macOS, phiên bản ứng dụng và các bước tái hiện vấn đề. Che ghi chú riêng tư trong ảnh chụp màn hình. Không cần gửi cơ sở dữ liệu, mật khẩu hoặc khóa."
+      ]
+    ],
+    "privacy_sections": [
+      [
+        "scope",
+        "Phạm vi và đơn vị cung cấp",
+        "Chính sách này áp dụng cho bản macOS ghi chú cục bộ đầu tiên của Jotra do Manbao Interactive Entertainment Limited cung cấp và các trang sản phẩm, hỗ trợ, quyền riêng tư của Jotra trên henkeyi.com và jotra.henkeyi.com. Các sản phẩm khác trên henkeyi.com có thông báo riêng."
+      ],
+      [
+        "local",
+        "Dữ liệu lưu trên Mac",
+        "Nội dung ghi chú, tiêu đề, liên kết, nguồn, ngày giờ, thẻ, trạng thái sắp xếp, mục đã xem và tìm kiếm gần đây được lưu trên Mac. Tính năng ghi lại của hệ thống có thể tạm lưu nội dung trong bộ nhớ App Group cục bộ trước khi ứng dụng chính nhập vào. Bản này không tải nội dung đó lên nhà phát triển qua tính năng ứng dụng và không bật đồng bộ iCloud, dịch vụ AI hoặc Agent từ xa."
+      ],
+      [
+        "capture",
+        "Chia sẻ, Safari và ghi lại qua hệ thống",
+        "Bảng chia sẻ nhận văn bản, liên kết và chú thích bạn cung cấp. Khi được bật, tập lệnh lưu của Safari chạy trên website bạn cho phép và đọc tiêu đề trang, URL, văn bản đã chọn hoặc liên kết trong menu ngữ cảnh để xem trước và lưu. Nội dung được lưu qua tiện ích cục bộ vào ghi chú thay vì qua máy chủ trung chuyển của chúng tôi. Quản lý quyền truy cập website hoặc tắt tiện ích trong cài đặt Safari. Phím tắt và Dịch vụ Mac nhận văn bản truyền cho tác vụ đó; ứng dụng không liên tục theo dõi bảng nhớ tạm chung. Chức năng giọng nói Siri do dịch vụ hệ thống của Apple cung cấp."
+      ],
+      [
+        "search",
+        "Tìm kiếm hệ thống và lịch sử gần đây",
+        "Spotlight được bật mặc định. Ứng dụng gửi tiêu đề, 300 ký tự đầu của nội dung và thẻ từ ghi chú đang dùng hoặc đã lưu trữ vào chỉ mục tìm kiếm cục bộ của hệ thống. Tắt tính năng này sẽ yêu cầu gỡ chỉ mục ứng dụng; việc hoàn tất phụ thuộc vào hệ thống và trạng thái chạy. Tối đa năm mục đã xem gần đây và mười tìm kiếm gần đây được lưu cục bộ. Hiển thị mục đã xem gần đây chỉ ẩn thẻ trên trang chủ, không dừng ghi lịch sử hoặc xóa lịch sử. Có thể xóa từng tìm kiếm hoặc xóa tất cả trên trang tìm kiếm."
+      ],
+      [
+        "network",
+        "Phân tích, chẩn đoán và thao tác bên ngoài",
+        "Bản này không có quảng cáo, theo dõi liên ứng dụng, phân tích lượt truy cập hoặc SDK báo lỗi của bên thứ ba. Sao chép ghi nội dung ghi chú vào bảng nhớ tạm hệ thống. Mở liên kết bên ngoài, trang hỗ trợ hoặc email sẽ gọi dịch vụ khác có quy tắc xử lý riêng. Apple có thể xử lý thông tin App Store, hệ thống hoặc chẩn đoán theo cài đặt của bạn; điều này tách biệt với việc nhà phát triển thu thập dữ liệu qua ứng dụng."
+      ],
+      [
+        "website",
+        "Truy cập website",
+        "Cloudflare lưu trữ các trang Jotra. Phân phối trang, bảo mật và khắc phục sự cố có thể liên quan đến địa chỉ IP, thời gian yêu cầu, thông tin trình duyệt và nhật ký yêu cầu hoặc lỗi. Các trang Jotra không nhúng quảng cáo hoặc tập lệnh phân tích và không yêu cầu tài khoản. Thông tin yêu cầu website cần thiết được xử lý tách biệt với dữ liệu ghi chú. Xem <a href=\"https://www.cloudflare.com/privacypolicy/\" rel=\"noopener noreferrer\">chính sách quyền riêng tư của Cloudflare</a>."
+      ],
+      [
+        "support",
+        "Liên hệ hỗ trợ",
+        "Khi bạn gửi email, chúng tôi nhận địa chỉ email và nội dung bạn chọn cung cấp. Chúng tôi dùng thông tin để trả lời, điều tra và giải quyết vấn đề. Tránh gửi mật khẩu, khóa hoặc ghi chú riêng tư không cần thiết. Hãy yêu cầu xóa thông tin cá nhân trong thư hỗ trợ qua cùng địa chỉ email, trừ trường hợp pháp luật yêu cầu lưu giữ."
+      ],
+      [
+        "retention",
+        "Lưu giữ, xóa và sao lưu",
+        "Ghi chú thường được giữ đến khi bạn xóa. Xóa thông thường chuyển ghi chú vào Thùng rác; mục quá 30 ngày được xóa trong quá trình dọn dẹp của ứng dụng hoặc bạn có thể xóa vĩnh viễn sớm hơn. Lịch sử gần đây được cập nhật trong giới hạn số lượng. Xóa là loại bỏ dữ liệu ở cấp ứng dụng, không phải cam kết xóa an toàn vật lý trên thiết bị lưu trữ và không thể tự xóa tệp lưu riêng hoặc bản sao lưu hệ thống. Gỡ ứng dụng không đảm bảo mọi bản sao đã bị xóa."
+      ],
+      [
+        "control",
+        "Lựa chọn và bảo mật của bạn",
+        "Bạn có thể sửa hoặc xóa ghi chú, dọn sạch Thùng rác, quản lý tìm kiếm gần đây, tắt Spotlight và điều chỉnh quyền truy cập website của tiện ích. Hãy bảo vệ tài khoản đăng nhập Mac, sử dụng biện pháp bảo mật thiết bị phù hợp và giữ an toàn bản sao lưu. Bản này không có tài khoản ứng dụng cần đóng và không tuyên bố cung cấp mã hóa ghi chú riêng hoặc mã hóa đầu cuối."
+      ],
+      [
+        "changes",
+        "Cập nhật và liên hệ",
+        "Nếu các bản sau bổ sung đồng bộ, AI hoặc hoạt động xử lý dữ liệu khác, chúng tôi sẽ cập nhật thông báo liên quan. Với câu hỏi chính sách hoặc yêu cầu về thông tin cá nhân, gửi email tới <a href=\"mailto:hello@go2come.com?subject=Jotra%20Privacy\">hello@go2come.com</a>."
+      ]
+    ],
+    "language": "Ngôn ngữ",
+    "description": "Ghi lại ý tưởng trong Jotra, sổ ghi chú văn bản cục bộ cho Mac. Tìm kiếm, thẻ, ghim, lưu trữ và Thùng rác. Không cần tài khoản.",
+    "updated": "Cập nhật ngày 5 tháng 11 năm 2026",
+    "notice": "Thông báo này mô tả bản macOS ghi chú cục bộ đầu tiên.",
+    "toc": "Nội dung trang",
+    "screenAlt": "Jotra trên Mac với ghi chú mẫu hư cấu",
+    "productTitle": "Sổ ghi chú cục bộ cho Mac",
+    "languageHelp": "Trang web này có 15 ngôn ngữ. Hãy chọn ngôn ngữ trong menu."
+  },
+  "safari": {
+    "extensionDescription": "Lưu văn bản và trang vào Jotra trên thiết bị này.",
+    "close": "Đóng",
+    "save": "Lưu thành Spark",
+    "noteLabel": "Ghi chú",
+    "notePlaceholder": "Thêm ghi chú…",
+    "offline": "Không cần rời Safari. Có thể lưu ngoại tuyến.",
+    "currentPage": "Trang hiện tại",
+    "unsupported": "Không thể lưu trang này",
+    "saved": "Đã lưu",
+    "empty": "Văn bản không được để trống",
+    "tooLong": "Vượt quá giới hạn 20.000 ký tự",
+    "writeFailed": "Không thể lưu. Vui lòng thử lại.",
+    "contextSelection": "Lưu vào Jotra",
+    "contextLink": "Lưu liên kết vào Jotra",
+    "extension_name": "Jotra"
+  },
+  "chrome": {
+    "extension_name": {
+      "message": "Jotra"
+    },
+    "extension_description": {
+      "message": "Lưu văn bản đã chọn, liên kết hoặc trang hiện tại vào Jotra với mã hóa đầu cuối."
+    },
+    "brand_name": {
+      "message": "Jotra"
+    },
+    "pair_title": {
+      "message": "Kết nối với Jotra"
+    },
+    "pair_help": {
+      "message": "Lấy mã ghép đôi 6 chữ số trong Jotra trên iPhone / iPad / Mac → “Cài đặt → Tiện ích và Agent”."
+    },
+    "pair_code_label": {
+      "message": "Mã ghép đôi 6 chữ số"
+    },
+    "pair_connect": {
+      "message": "Kết nối"
+    },
+    "pair_connecting": {
+      "message": "Đang kết nối…"
+    },
+    "error_pairing_invalid": {
+      "message": "Mã ghép đôi không hợp lệ hoặc đã hết hạn"
+    },
+    "error_too_many_attempts": {
+      "message": "Quá nhiều lần thử. Hãy thử lại sau 1 phút"
+    },
+    "error_pair_network": {
+      "message": "Không thể kết nối dịch vụ Jotra. Hãy kiểm tra mạng"
+    },
+    "error_revoked": {
+      "message": "Kết nối này đã bị thu hồi. Vui lòng ghép đôi lại"
+    },
+    "error_not_paired": {
+      "message": "Chưa kết nối với Jotra. Hãy ghép đôi trước."
+    },
+    "error_text_empty": {
+      "message": "Không có nội dung để lưu"
+    },
+    "error_text_too_long": {
+      "message": "Vượt quá giới hạn 20.000 ký tự"
+    },
+    "error_daily_limit": {
+      "message": "Hôm nay có quá nhiều mục. Hãy thử lại ngày mai"
+    },
+    "error_send_network": {
+      "message": "Không thể gửi. Hãy kiểm tra mạng"
+    },
+    "error_send_generic": {
+      "message": "Không thể gửi. Vui lòng thử lại sau"
+    },
+    "error_payload_too_large": {
+      "message": "Nội dung quá lớn để gửi"
+    },
+    "error_cannot_read_page": {
+      "message": "Không thể đọc trang này"
+    },
+    "status_connected": {
+      "message": "Đã kết nối"
+    },
+    "preview_current_page": {
+      "message": "Trang hiện tại"
+    },
+    "note_placeholder": {
+      "message": "Thêm ghi chú…"
+    },
+    "note_label": {
+      "message": "Ghi chú"
+    },
+    "save_button": {
+      "message": "Lưu vào Jotra"
+    },
+    "saving": {
+      "message": "Đang gửi…"
+    },
+    "sent": {
+      "message": "Đã gửi"
+    },
+    "sent_notification": {
+      "message": "Đã gửi đến Jotra"
+    },
+    "recent_title": {
+      "message": "Gần đây"
+    },
+    "recent_empty": {
+      "message": "Chưa gửi nội dung nào"
+    },
+    "recent_untitled": {
+      "message": "(Trống)"
+    },
+    "status_sending": {
+      "message": "Đang gửi"
+    },
+    "status_pending": {
+      "message": "Đã gửi"
+    },
+    "status_delivered": {
+      "message": "Đã chuyển đến"
+    },
+    "status_expired": {
+      "message": "Chưa chuyển đến, đã hết hạn"
+    },
+    "status_failed": {
+      "message": "Thất bại"
+    },
+    "status_unknown": {
+      "message": "Không rõ"
+    },
+    "resend": {
+      "message": "Gửi lại"
+    },
+    "disconnect": {
+      "message": "Ngắt kết nối"
+    },
+    "disconnect_confirm": {
+      "message": "Bạn cần mã ghép đôi mới để gửi lại. Ngắt kết nối?"
+    },
+    "disconnect_confirm_ok": {
+      "message": "Ngắt kết nối"
+    },
+    "cancel": {
+      "message": "Hủy"
+    },
+    "menu_save_selection": {
+      "message": "Lưu vào Jotra"
+    },
+    "menu_save_link": {
+      "message": "Lưu liên kết vào Jotra"
+    },
+    "menu_save_page": {
+      "message": "Lưu trang vào Jotra"
+    },
+    "context_hint": {
+      "message": "Bạn cũng có thể nhấp chuột phải vào văn bản đã chọn → “Lưu vào Jotra”"
+    }
+  }
+}

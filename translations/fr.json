@@ -1,0 +1,602 @@
+{
+  "catalogs": {
+    "app": {
+      "app.name": "Jotra",
+      "notice.title": "Jotra",
+      "notice.empty": "Le texte ne peut pas être vide",
+      "notice.tooLong": "La limite de 20 000 caractères est dépassée",
+      "notice.missing": "Ce Spark n’existe pas",
+      "notice.storage": "Impossible d’enregistrer les modifications. Réessayez.",
+      "notice.tagSkipped %lld": "%lld Sparks dépassaient la limite de caractères et ont été ignorés",
+      "startup.failed": "Impossible d’ouvrir vos notes ou la boîte de réception partagée. Réessayez.",
+      "action.ok": "OK",
+      "action.cancel": "Annuler",
+      "action.retry": "Réessayer",
+      "action.skip": "Ignorer",
+      "action.continue": "Continuer",
+      "action.done": "Terminé",
+      "action.select": "Sélectionner",
+      "action.pin": "Épingler",
+      "action.unpin": "Désépingler",
+      "action.archive": "Archiver",
+      "action.unarchive": "Désarchiver",
+      "action.trash": "Placer dans la corbeille",
+      "action.copy": "Copier",
+      "action.addTag": "Ajouter une étiquette",
+      "action.back": "Retour",
+      "action.save": "Enregistrer",
+      "navigation.all": "Tous les Sparks",
+      "navigation.pinned": "Épinglés",
+      "navigation.archived": "Archivés",
+      "navigation.trash": "Corbeille",
+      "navigation.settings": "Réglages",
+      "navigation.menu": "Menu",
+      "list.pinned": "Épinglés",
+      "list.recent": "Récents",
+      "list.empty.title": "Aucun Spark pour le moment",
+      "list.empty.body": "Enregistrez du contenu depuis le menu de partage, l’extension Safari ou Raccourcis.",
+      "list.filtered.empty": "Aucun Spark correspondant",
+      "list.filtered.body": "Retirez un filtre pour afficher davantage de Sparks.",
+      "filter.title": "Filtrer",
+      "filter.status": "État",
+      "filter.source": "Sources",
+      "filter.removeStatus": "Retirer le filtre d’état",
+      "filter.removeSource %@": "Retirer le filtre de source : %@",
+      "tag.placeholder": "Étiquette sans #",
+      "selection.count %lld": "%lld sélectionnés",
+      "date.yesterday %@": "Hier %@",
+      "detail.choose": "Sélectionnez un Spark",
+      "detail.body": "Texte du Spark",
+      "detail.created": "Création",
+      "detail.sourceHint": "Afficher tous les Sparks de cette source",
+      "trash.empty.title": "La corbeille est vide",
+      "trash.empty.body": "Les Sparks supprimés restent ici pendant 30 jours.",
+      "trash.retention": "Les Sparks supprimés sont conservés 30 jours",
+      "trash.remaining %lld": "Suppression automatique dans %lld jours",
+      "trash.restore": "Restaurer",
+      "trash.deletePermanent": "Supprimer définitivement",
+      "trash.empty.action": "Vider la corbeille",
+      "trash.confirm.message": "Les Sparks supprimés définitivement ne peuvent pas être récupérés.",
+      "settings.guides": "Guides de capture",
+      "settings.about": "À propos",
+      "settings.version %@ %@": "Version %@ (%@)",
+      "guide.share.title": "Menu de partage",
+      "guide.share.body": "Dans une app, sélectionnez du texte ou un lien, touchez Partager, puis choisissez Jotra. Si Jotra est masqué, activez-le dans Plus → Modifier.",
+      "guide.safari.title": "Extension Safari",
+      "guide.safari.body": "Sur iPhone ou iPad, activez Jotra dans Réglages → Apps → Safari → Extensions. Sur Mac, ouvrez Safari → Réglages → Extensions. Utilisez ensuite l’extension Jotra pour enregistrer une page ou une sélection.",
+      "guide.shortcut.title": "Raccourcis et Siri",
+      "guide.shortcut.body": "Dans Raccourcis, ajoutez l’action « Nouveau Spark » de Jotra et fournissez du texte, ou exécutez le raccourci avec Siri.",
+      "guide.services.title": "Services Mac",
+      "guide.services.body": "Sur Mac, sélectionnez du texte et choisissez Services → Enregistrer dans Jotra dans le menu de l’app ou le menu contextuel.",
+      "onboarding.1.title": "Capturez partout",
+      "onboarding.1.body": "Depuis votre navigateur, un Agent ou le menu de partage. Enregistrez une idée sans ouvrir Jotra.",
+      "onboarding.2.title": "Retrouvez instantanément",
+      "onboarding.2.body": "Recherche en texte intégral. Filtrez par étiquette, source et date. Chaque Spark garde la trace de son origine.",
+      "onboarding.3.title": "Vos données vous appartiennent",
+      "onboarding.3.body": "Stockées sur vos appareils et dans votre iCloud. Exportez en Markdown directement vers Obsidian.",
+      "onboarding.start": "Commencer",
+      "onboarding.progress %lld %lld": "Page %lld sur %lld",
+      "capture.saved": "Enregistré",
+      "new.title": "Nouveau Spark",
+      "settings.connections": "Connecter des extensions et des Agents",
+      "settings.connections.count %lld": "%lld connectés",
+      "settings.pro": "Jotra Pro",
+      "settings.pro.notSubscribed": "Sans abonnement",
+      "settings.tab.general": "Général",
+      "settings.tab.connections": "Connexions",
+      "settings.tab.pro": "Pro",
+      "connections.title": "Connecter des extensions et des Agents",
+      "connections.rename.title": "Renommer la connexion",
+      "connections.rename.placeholder": "Nom (1 à 40 caractères)",
+      "connections.rename": "Renommer",
+      "connections.revoke": "Révoquer",
+      "connections.revoke.title": "Révoquer cette connexion ?",
+      "connections.revoke.message": "Une fois révoquée, cette connexion ne pourra plus écrire. Les Sparks déjà reçus ne sont pas affectés.",
+      "connections.deleteAll": "Tout déconnecter et supprimer les données du relais",
+      "connections.deleteAll.title": "Tout déconnecter ?",
+      "connections.deleteAll.message": "Les extensions et les Agents cesseront d’écrire, et tout contenu du relais non encore reçu sera supprimé. Les Sparks déjà présents sur cet appareil ne sont pas affectés.",
+      "connections.unreachable": "Impossible de joindre le service Jotra. Vérifiez votre connexion réseau.",
+      "connections.rateLimited": "Trop de tentatives. Réessayez plus tard.",
+      "connections.unavailable": "Le service Jotra est indisponible. Réessayez plus tard.",
+      "connections.extension.header": "Associer l’extension de navigateur (gratuit)",
+      "connections.extension.footer": "Installez l’extension Jotra dans Chrome ou Edge sur votre ordinateur, puis saisissez le code dans l’extension.",
+      "connections.pair": "Connecter l’extension Chrome / Edge",
+      "connections.pair.generating": "Génération du code d’association…",
+      "connections.list.header %lld": "Connectés (%lld)",
+      "connections.list.failed": "Impossible de charger les connexions",
+      "connections.empty": "Aucune connexion pour le moment",
+      "connections.lastWrite %@": "Dernière écriture : %@",
+      "connections.lastWriteYesterday %@": "Dernière écriture : hier %@",
+      "connections.neverWritten": "Aucune écriture pour le moment",
+      "pairing.instruction": "Saisissez ce code dans l’extension Chrome / Edge. Il ne fonctionne qu’une fois.",
+      "pairing.expired": "Ce code a expiré",
+      "pairing.regenerate": "Générer un nouveau code",
+      "pairing.expires %lld %@": "Expire dans %lld min %@ s",
+      "pro.title": "Jotra Pro",
+      "pro.comingSoon.title": "Bientôt disponible",
+      "pro.comingSoon.body": "Pro permettra l’écriture par Agent, puis l’importation par e-mail et Telegram.",
+      "pro.free.note": "L’extension de capture et les fonctions essentielles resteront gratuites.",
+      "notice.syncFailed": "Échec de la synchronisation. Nouvelle tentative ultérieure.",
+      "navigation.tags": "Étiquettes",
+      "navigation.search": "Rechercher",
+      "list.recentViews": "Consultés récemment",
+      "search.title": "Rechercher",
+      "search.placeholder": "Rechercher",
+      "search.clearText": "Effacer le texte",
+      "search.find": "Rechercher",
+      "search.recent.clearConfirm": "Effacer les recherches récentes ?",
+      "search.recent.clear": "Effacer",
+      "search.recent.title": "Recherches récentes",
+      "search.recent.delete %@": "Supprimer la recherche récente %@",
+      "search.recent.deleteAction": "Supprimer",
+      "search.topTags.title": "Étiquettes fréquentes",
+      "search.filter.tag": "Étiquette",
+      "search.filter.source": "Source",
+      "search.filter.time": "Date",
+      "search.filter.status": "État",
+      "search.filter.sort": "Tri",
+      "search.time.today": "Aujourd’hui",
+      "search.time.week": "Cette semaine",
+      "search.time.month": "Ce mois-ci",
+      "search.time.custom": "Personnaliser…",
+      "search.time.any": "Toute période",
+      "search.time.from": "Du",
+      "search.time.through": "Au",
+      "search.sort.created": "Création",
+      "search.sort.updated": "Modification",
+      "search.marker.sortUpdated": "Par modification",
+      "search.marker.a11y %@": "Filtre : %@, touchez pour le retirer",
+      "search.clearAll": "Tout effacer",
+      "search.clearFilters": "Effacer les filtres",
+      "search.empty.title": "Aucun résultat",
+      "search.empty.filteredBody": "Essayez d’élargir les filtres.",
+      "search.count %lld": "%lld résultats",
+      "search.tags.placeholder": "Rechercher des étiquettes",
+      "tags.toast.updated %lld": "%lld Sparks mis à jour",
+      "tags.rename.title": "Renommer l’étiquette",
+      "tags.rename.placeholder": "Chemin complet de l’étiquette",
+      "tags.rename.confirm": "Renommer",
+      "tags.merge.confirm.title": "Fusionner les étiquettes",
+      "tags.merge.confirm.action": "Fusionner",
+      "tags.merge.confirm.message %@ %@ %lld": "Fusionner « %@ » dans « %@ ». %lld Sparks seront mis à jour.",
+      "tags.merge.exists %@": "« %@ » existe déjà. Fusionner avec cette étiquette ?",
+      "tags.delete.confirm.title": "Supprimer l’étiquette",
+      "tags.delete.confirm.action": "Supprimer",
+      "tags.delete.confirm.message %@": "Supprimer l’étiquette « %@ » ? Les Sparks sont conservés ; le # est retiré de leur texte.",
+      "tags.empty.title": "Aucune étiquette pour le moment",
+      "tags.empty.body": "Écrivez #mot dans un Spark pour créer une étiquette.",
+      "tags.hint": "Balayez vers la gauche pour renommer, fusionner ou supprimer. Supprimer une étiquette ne supprime pas les Sparks.",
+      "tags.collapse": "Réduire",
+      "tags.expand": "Développer",
+      "tags.row.a11y %@ %lld": "Étiquette : %@, %lld Sparks",
+      "tags.action.rename": "Renommer",
+      "tags.action.merge": "Fusionner dans…",
+      "tags.action.delete": "Supprimer",
+      "tags.merge.title": "Fusionner dans…",
+      "tags.merge.none": "Aucune autre étiquette",
+      "notice.tagEditSkipped %lld": "%lld Sparks dépassaient la limite de caractères et n’ont pas été modifiés",
+      "notice.invalidTag": "Une étiquette ne peut contenir ni espaces ni ponctuation, ni être composée uniquement de chiffres.",
+      "trash.restoreAll": "Tout restaurer",
+      "settings.searchSection": "Recherche",
+      "settings.showRecentViews": "Afficher les consultations récentes",
+      "settings.spotlight": "Afficher dans la recherche système",
+      "settings.spotlight.footer": "Permet à Spotlight de trouver vos Sparks. Désactivez cette option pour les retirer de la recherche système.",
+      "onboarding.localMac.1.body": "Capturez des idées dans Jotra ou enregistrez du texte depuis le menu de partage, Safari et les Services Mac.",
+      "onboarding.localMac.2.body": "Recherche en texte intégral. Filtrez par étiquette, source et date. Chaque Spark garde la trace de son origine.",
+      "onboarding.localMac.3.body": "Vos notes sont stockées sur ce Mac. Aucun compte ni abonnement n’est nécessaire.",
+      "settings.localMac.storage": "Les notes sont stockées sur ce Mac. Sauvegardez régulièrement votre Mac pour les protéger.",
+      "settings.localMac.support": "Assistance et aide",
+      "settings.localMac.privacy": "Politique de confidentialité",
+      "settings.localMac.releaseNotes": "Nouveautés",
+      "settings.localMac.releaseNotes.body": "• Consultez les notes de version dans Réglages.\n• Ouvrez l’aide et la politique de confidentialité depuis À propos.\n• Conservez vos notes textuelles sur ce Mac avec recherche, étiquettes, épinglage, archivage et corbeille.",
+      "settings.language": "Langue",
+      "settings.language.system": "Langue du système",
+      "settings.language.footer": "Choisissez la langue de Jotra. Les menus système et les extensions suivent la langue de l’app définie dans les réglages système.",
+      "source.app": "Dans l’app",
+      "source.control": "Commande",
+      "source.actionButton": "Bouton Action",
+      "source.widget": "Widget",
+      "source.shortcut": "Raccourcis",
+      "source.siri": "Siri",
+      "source.link": "Lien",
+      "source.share": "Partage",
+      "source.safariIOS": "Extension Safari (iOS)",
+      "source.safariMac": "Extension Safari (Mac)",
+      "source.servicesMac": "Services (Mac)",
+      "source.hotkeyMac": "Raccourci clavier Mac",
+      "source.menubarMac": "Barre des menus (Mac)",
+      "source.chrome": "Extension Chrome",
+      "source.edge": "Extension Edge",
+      "source.agent": "Agent",
+      "localTools.title": "Outils locaux",
+      "localTools.enabled": "Autoriser les outils locaux",
+      "localTools.explanation": "Les outils de ce Mac peuvent enregistrer de nouvelles notes gratuitement. Gardez Jotra ouvert ; aucun abonnement de synchronisation n’est nécessaire.",
+      "localTools.running": "L’accès local est actif",
+      "localTools.grants": "Outils autorisés",
+      "localTools.grants.empty": "Aucun outil autorisé pour le moment.",
+      "localTools.grantName": "Nom de l’outil",
+      "localTools.create": "Créer une autorisation",
+      "localTools.revoked": "Révoquée",
+      "localTools.revoke": "Révoquer",
+      "localTools.receipt.title": "Vérifier un reçu d’écriture",
+      "localTools.receipt.explanation": "Vérifiez une requête antérieure, y compris celles des outils révoqués. Le reçu confirme un enregistrement passé sans afficher le contenu de la note.",
+      "localTools.receipt.grant": "Outil",
+      "localTools.receipt.select": "Choisir un outil",
+      "localTools.receipt.requestId": "ID de requête",
+      "localTools.receipt.check": "Vérifier le reçu",
+      "localTools.receipt.persisted": "Enregistré localement",
+      "localTools.receipt.sparkId": "ID de note",
+      "localTools.receipt.savedAt": "Date d’enregistrement",
+      "localTools.rebuild": "Réinitialiser la connexion locale",
+      "localTools.rebuild.explanation": "Cela révoque tous les outils. Vérifiez d’abord les requêtes en attente ci-dessus, puis reconnectez chaque outil avec une nouvelle autorisation.",
+      "localTools.rebuild.confirm": "Réinitialiser la connexion locale et révoquer tous les outils ?",
+      "localTools.cancel": "Annuler",
+      "localTools.pairing.title": "Connecter cet outil",
+      "localTools.pairing.explanation": "Copiez cette autorisation dans la commande d’importation CLI sur ce Mac. Elle n’est disponible que maintenant. Gardez-la confidentielle.",
+      "localTools.pairing.copy": "Copier l’autorisation",
+      "localTools.pairing.copied": "Copié",
+      "localTools.pairing.done": "Terminé",
+      "localTools.error.port": "Le port local est utilisé. Fermez l’outil en conflit ou réinitialisez la connexion.",
+      "localTools.error.identity": "L’identité locale est indisponible. Réinitialisez la connexion pour créer une nouvelle identité et de nouvelles autorisations.",
+      "localTools.error.disabled": "Activez d’abord les outils locaux.",
+      "localTools.error.input": "Vérifiez le nom de l’outil ou la saisie, puis réessayez.",
+      "localTools.error.limit": "Vous pouvez autoriser jusqu’à 32 outils. Révoquez d’abord un outil inutilisé.",
+      "localTools.error.unavailable": "La connexion locale est indisponible. Réessayez.",
+      "localTools.receipt.invalid": "Choisissez un outil et saisissez un ID de requête valide.",
+      "localTools.receipt.notFound": "Aucun reçu enregistré pour cette requête. Une requête en cours peut encore aboutir."
+    },
+    "ui": {
+      "source.accessibility %@": "Source : %@",
+      "toast.undo": "Annuler",
+      "toast.undo.hint": "Bouton Annuler",
+      "source.app": "Dans l’app",
+      "source.control": "Commande",
+      "source.actionButton": "Bouton Action",
+      "source.widget": "Widget",
+      "source.shortcut": "Raccourcis",
+      "source.siri": "Siri",
+      "source.link": "Lien",
+      "source.share": "Partage",
+      "source.safariIOS": "Extension Safari (iOS)",
+      "source.safariMac": "Extension Safari (Mac)",
+      "source.servicesMac": "Services (Mac)",
+      "source.hotkeyMac": "Raccourci clavier Mac",
+      "source.menubarMac": "Barre des menus (Mac)",
+      "source.chrome": "Extension Chrome",
+      "source.edge": "Extension Edge",
+      "source.agent": "Agent"
+    },
+    "sources": {
+      "source.app": "Dans l’app",
+      "source.control": "Commande",
+      "source.actionButton": "Bouton Action",
+      "source.widget": "Widget",
+      "source.shortcut": "Raccourcis",
+      "source.siri": "Siri",
+      "source.link": "Lien",
+      "source.share": "Partage",
+      "source.safariIOS": "Extension Safari (iOS)",
+      "source.safariMac": "Extension Safari (Mac)",
+      "source.servicesMac": "Services (Mac)",
+      "source.hotkeyMac": "Raccourci clavier Mac",
+      "source.menubarMac": "Barre des menus (Mac)",
+      "source.chrome": "Extension Chrome",
+      "source.edge": "Extension Edge",
+      "source.agent": "Agent"
+    },
+    "share": {
+      "share.title": "Enregistrer dans Jotra",
+      "share.cancel": "Annuler",
+      "share.save": "Enregistrer",
+      "share.note": "Ajouter une note…",
+      "share.source": "Partage",
+      "share.offline": "Texte et liens uniquement. L’enregistrement fonctionne hors ligne.",
+      "share.loadFailed": "Impossible de lire le contenu partagé. Réessayez.",
+      "capture.saved": "Enregistré dans Jotra",
+      "capture.empty": "Le texte ne peut pas être vide",
+      "capture.tooLong": "La limite de 20 000 caractères est dépassée",
+      "capture.writeFailed": "Impossible d’enregistrer. Réessayez."
+    },
+    "entries": {
+      "intent.newSpark": "Nouveau Spark",
+      "intent.text": "Texte",
+      "capture.saved": "Enregistré dans Jotra",
+      "capture.empty": "Le texte ne peut pas être vide",
+      "capture.tooLong": "La limite de 20 000 caractères est dépassée",
+      "capture.writeFailed": "Impossible d’enregistrer. Réessayez."
+    },
+    "shortcuts": {
+      "Create a Spark with ${applicationName}": "Créer un Spark avec ${applicationName}",
+      "Save to ${applicationName}": "Enregistrer dans ${applicationName}"
+    }
+  },
+  "website": {
+    "brand": "Jotra",
+    "home": "Produit",
+    "support": "Assistance",
+    "privacy": "Politique de confidentialité",
+    "switch": "English",
+    "eyebrow": "JOTRA · VOTRE CARNET LOCAL",
+    "headline": "Une idée qui passe.<br>Un endroit où la garder.",
+    "lead": "Capturez vos idées, vos notes de lecture et vos observations quotidiennes. Retrouvez les pensées à approfondir grâce à la recherche et aux étiquettes.",
+    "status": "Première version macOS en préparation · macOS 14 ou ultérieur · Notes stockées localement",
+    "language": "Langue",
+    "description": "Capturez vos idées dans Jotra, un carnet de notes textuelles local pour Mac. Recherche, étiquettes, épinglage, archivage et corbeille. Aucun compte nécessaire.",
+    "updated": "Mise à jour le 5 novembre 2026",
+    "notice": "Cette notice décrit la première version macOS du carnet local.",
+    "toc": "Sur cette page",
+    "screenAlt": "Jotra sur Mac avec des exemples de notes fictives",
+    "productTitle": "Un carnet local pour Mac",
+    "languageHelp": "Ce site est disponible en 15 langues. Choisissez une langue dans le menu.",
+    "features": [
+      [
+        "Capturer une idée",
+        "Créez une note textuelle pour une phrase, une note de lecture ou une idée inachevée. Aucun compte nécessaire."
+      ],
+      [
+        "La retrouver",
+        "Recherchez dans vos notes et combinez les filtres par étiquette, source et date. Structurez-les avec des étiquettes imbriquées."
+      ],
+      [
+        "Tout garder sur votre Mac",
+        "Cette première version stocke les données sur votre Mac. Épinglez l’essentiel, archivez les notes terminées et récupérez les notes supprimées dans la corbeille."
+      ]
+    ],
+    "support_sections": [
+      [
+        "start",
+        "Commencez par une note",
+        "Choisissez Nouveau Spark dans la barre d’outils, saisissez votre texte et enregistrez. Sélectionnez une note pour continuer à la modifier. Un Spark est simplement une note."
+      ],
+      [
+        "find",
+        "Recherche et étiquettes",
+        "Utilisez le champ de recherche ou ⌘F pour trouver du texte, puis affinez les résultats par étiquette, source, date ou état. Écrivez #étiquette ou #parent/enfant dans une note pour l’organiser dans la page Étiquettes."
+      ],
+      [
+        "capture",
+        "Capturer depuis ailleurs",
+        "Utilisez le menu de partage du Mac, l’extension Safari, Raccourcis ou les Services Mac pour enregistrer du texte. Activez l’extension Safari dans Safari → Réglages → Extensions et choisissez les sites auxquels elle peut accéder. Les captures web enregistrent le texte sélectionné, les titres, les liens et vos annotations."
+      ],
+      [
+        "storage",
+        "Où sont mes notes ?",
+        "Cette version stocke les notes et leur organisation dans un espace local propre à l’app. Les notes ne sont pas synchronisées automatiquement entre Mac. Copiez les notes importantes dans un document séparé et sauvegardez régulièrement votre Mac."
+      ],
+      [
+        "spotlight",
+        "Recherche système et historique récent",
+        "Afficher dans la recherche système est activé par défaut. Cette option ajoute les titres, extraits de texte et étiquettes des notes à Spotlight en local. Désactivez-la dans les réglages de Jotra pour demander la suppression de l’index de l’app. Afficher les consultations récentes contrôle la visibilité des cartes d’accueil ; les recherches récentes peuvent être supprimées individuellement ou effacées."
+      ],
+      [
+        "trash",
+        "Supprimer et restaurer",
+        "La suppression déplace d’abord une note dans la corbeille. Les éléments de plus de 30 jours sont retirés lors du prochain nettoyage par l’app. Vous pouvez les supprimer définitivement plus tôt ou vider la corbeille. Une suppression définitive ne peut pas être annulée dans l’app ; les sauvegardes système séparées restent sous votre contrôle."
+      ],
+      [
+        "upgrade",
+        "Mise à niveau depuis une ancienne version de test",
+        "Sauvegardez vos notes importantes et conservez les données de l’ancienne app avant la mise à niveau. Si vos anciennes notes n’apparaissent pas, contactez l’assistance avant d’effacer les données ou de supprimer les anciens fichiers."
+      ],
+      [
+        "scope",
+        "Périmètre de la première version",
+        "Cette version macOS se concentre sur les notes textuelles locales, la recherche et l’organisation. La synchronisation iCloud, les fonctions Agent et IA, les abonnements ainsi que l’exportation Markdown ou la sauvegarde automatique dans l’app ne sont pas inclus."
+      ],
+      [
+        "contact",
+        "Contacter l’assistance",
+        "Écrivez à <a href=\"mailto:hello@go2come.com?subject=Jotra%20Support\">hello@go2come.com</a> en précisant les versions de macOS et de l’app ainsi que les étapes pour reproduire le problème. Masquez vos notes privées dans les captures d’écran. Vous n’avez pas besoin d’envoyer votre base de données, vos mots de passe ou vos clés."
+      ]
+    ],
+    "privacy_sections": [
+      [
+        "scope",
+        "Périmètre et fournisseur",
+        "Cette politique couvre la première version macOS de Jotra, un carnet local fourni par Manbao Interactive Entertainment Limited, ainsi que les pages produit, d’assistance et de confidentialité de Jotra sur henkeyi.com et jotra.henkeyi.com. Les autres produits hébergés sur henkeyi.com disposent de leurs propres notices."
+      ],
+      [
+        "local",
+        "Données stockées sur votre Mac",
+        "Le texte, les titres, les liens, les sources, les dates, les étiquettes, l’état d’organisation, les consultations récentes et les recherches récentes des notes sont stockés sur votre Mac. Les fonctions de capture système peuvent d’abord déposer le contenu dans un stockage local App Group avant son importation par l’app principale. Les fonctions de cette version n’envoient pas ce contenu au développeur et n’activent ni synchronisation iCloud, ni services d’IA, ni Agents distants."
+      ],
+      [
+        "capture",
+        "Partage, Safari et capture système",
+        "Le menu de partage reçoit le texte, les liens et les annotations que vous fournissez. Une fois activés, les scripts de capture Safari s’exécutent sur les sites que vous autorisez et lisent les titres, les URL, le texte sélectionné ou les liens du menu contextuel pour l’aperçu et la capture. Le contenu enregistré passe par une extension locale vers vos notes, et non par notre serveur relais. Gérez les accès aux sites ou désactivez l’extension dans les réglages Safari. Raccourcis et les Services Mac reçoivent le texte fourni à l’action ; l’app ne surveille pas en continu le presse-papiers général. Les fonctions vocales de Siri sont fournies par les services système d’Apple."
+      ],
+      [
+        "search",
+        "Recherche système et historique récent",
+        "Spotlight est activé par défaut. L’app envoie les titres, les 300 premiers caractères du texte et les étiquettes des notes actives et archivées à l’index local de recherche système. La désactivation demande la suppression de l’index de l’app ; son exécution dépend du système et de l’état d’exécution. Jusqu’à cinq consultations récentes et dix recherches récentes sont stockées localement. Afficher les consultations récentes masque uniquement les cartes d’accueil ; cette option n’arrête pas l’enregistrement et n’efface pas l’historique. Les recherches récentes peuvent être supprimées ou effacées dans la page de recherche."
+      ],
+      [
+        "network",
+        "Analyse, diagnostic et actions externes",
+        "Cette version ne contient ni publicité, ni suivi entre apps, ni outil d’analyse, ni SDK tiers de rapport de plantage. Copier écrit le texte de la note dans le presse-papiers système. L’ouverture d’un lien externe, d’une page d’assistance ou d’un e-mail fait intervenir d’autres services soumis à leurs propres pratiques. Apple peut traiter des informations d’App Store, du système ou de diagnostic selon vos réglages ; cela est distinct de la collecte de données par le développeur via cette app."
+      ],
+      [
+        "website",
+        "Visites du site",
+        "Cloudflare héberge les pages Jotra. La diffusion des pages, la sécurité et le dépannage peuvent impliquer des adresses IP, des heures de requête, des informations de navigateur et des journaux de requête ou d’erreur. Ces pages Jotra n’intègrent ni publicité ni scripts d’analyse et ne demandent pas de compte. Les informations de requête nécessaires au site sont traitées séparément des notes. Consultez la <a href=\"https://www.cloudflare.com/privacypolicy/\" rel=\"noopener noreferrer\">politique de confidentialité de Cloudflare</a>."
+      ],
+      [
+        "support",
+        "Contacter l’assistance",
+        "Si vous nous envoyez un e-mail, nous recevons votre adresse et le contenu que vous choisissez de fournir. Nous les utilisons pour répondre, enquêter et résoudre le problème. Évitez d’envoyer des mots de passe, des clés ou des notes privées inutiles. Demandez la suppression des informations personnelles présentes dans les échanges d’assistance à la même adresse, sous réserve des obligations légales de conservation."
+      ],
+      [
+        "retention",
+        "Conservation, suppression et sauvegardes",
+        "Les notes restent normalement jusqu’à leur suppression par vos soins. Une suppression ordinaire les déplace dans la corbeille ; les éléments de plus de 30 jours sont supprimés lors du nettoyage par l’app, ou vous pouvez les supprimer définitivement plus tôt. Les historiques récents évoluent dans leurs limites. La suppression retire les données au niveau de l’app ; elle ne garantit pas un effacement physique sécurisé et ne peut pas supprimer automatiquement les fichiers enregistrés séparément ou les sauvegardes système. Désinstaller l’app ne garantit pas la suppression de toutes les copies."
+      ],
+      [
+        "control",
+        "Vos choix et la sécurité",
+        "Modifiez ou supprimez les notes, videz la corbeille, gérez les recherches récentes, désactivez Spotlight et ajustez les autorisations de sites de l’extension. Protégez votre session Mac, utilisez des mesures de sécurité adaptées et conservez des sauvegardes. Cette version ne possède pas de compte d’app à fermer et ne revendique pas de chiffrement indépendant des notes ni de chiffrement de bout en bout."
+      ],
+      [
+        "changes",
+        "Mises à jour et contact",
+        "Si de futures versions ajoutent la synchronisation, l’IA ou d’autres traitements de données, nous mettrons à jour les notices concernées. Pour toute question de confidentialité ou demande concernant des informations personnelles, écrivez à <a href=\"mailto:hello@go2come.com?subject=Jotra%20Privacy\">hello@go2come.com</a>."
+      ]
+    ]
+  },
+  "safari": {
+    "extensionDescription": "Enregistrez du texte et des pages dans Jotra sur cet appareil.",
+    "close": "Fermer",
+    "save": "Enregistrer comme Spark",
+    "noteLabel": "Note",
+    "notePlaceholder": "Ajouter une note…",
+    "offline": "Restez dans Safari. L’enregistrement fonctionne hors ligne.",
+    "currentPage": "Page actuelle",
+    "unsupported": "Cette page ne peut pas être enregistrée",
+    "saved": "Enregistré",
+    "empty": "Le texte ne peut pas être vide",
+    "tooLong": "La limite de 20 000 caractères est dépassée",
+    "writeFailed": "Impossible d’enregistrer. Réessayez.",
+    "contextSelection": "Enregistrer dans Jotra",
+    "contextLink": "Enregistrer le lien dans Jotra",
+    "extension_name": "Jotra"
+  },
+  "chrome": {
+    "extension_name": {
+      "message": "Jotra"
+    },
+    "extension_description": {
+      "message": "Enregistrez du texte sélectionné, des liens ou la page actuelle dans Jotra avec chiffrement de bout en bout."
+    },
+    "brand_name": {
+      "message": "Jotra"
+    },
+    "pair_title": {
+      "message": "Se connecter à Jotra"
+    },
+    "pair_help": {
+      "message": "Obtenez un code d’association à 6 chiffres dans Jotra sur iPhone / iPad / Mac → « Réglages → Extensions et Agents »."
+    },
+    "pair_code_label": {
+      "message": "Code d’association à 6 chiffres"
+    },
+    "pair_connect": {
+      "message": "Connecter"
+    },
+    "pair_connecting": {
+      "message": "Connexion…"
+    },
+    "error_pairing_invalid": {
+      "message": "Le code d’association est invalide ou a expiré"
+    },
+    "error_too_many_attempts": {
+      "message": "Trop de tentatives. Réessayez dans 1 minute"
+    },
+    "error_pair_network": {
+      "message": "Impossible de joindre le service Jotra. Vérifiez votre connexion réseau"
+    },
+    "error_revoked": {
+      "message": "Cette connexion a été révoquée. Veuillez l’associer à nouveau"
+    },
+    "error_not_paired": {
+      "message": "Pas encore connecté à Jotra. Effectuez d’abord l’association."
+    },
+    "error_text_empty": {
+      "message": "Rien à enregistrer"
+    },
+    "error_text_too_long": {
+      "message": "La limite de 20 000 caractères est dépassée"
+    },
+    "error_daily_limit": {
+      "message": "Trop d’éléments aujourd’hui. Réessayez demain"
+    },
+    "error_send_network": {
+      "message": "Envoi impossible. Vérifiez votre connexion réseau"
+    },
+    "error_send_generic": {
+      "message": "Envoi impossible. Réessayez plus tard"
+    },
+    "error_payload_too_large": {
+      "message": "Le contenu est trop volumineux pour être envoyé"
+    },
+    "error_cannot_read_page": {
+      "message": "Impossible de lire cette page"
+    },
+    "status_connected": {
+      "message": "Connecté"
+    },
+    "preview_current_page": {
+      "message": "Page actuelle"
+    },
+    "note_placeholder": {
+      "message": "Ajouter une note…"
+    },
+    "note_label": {
+      "message": "Note"
+    },
+    "save_button": {
+      "message": "Enregistrer dans Jotra"
+    },
+    "saving": {
+      "message": "Envoi…"
+    },
+    "sent": {
+      "message": "Envoyé"
+    },
+    "sent_notification": {
+      "message": "Envoyé à Jotra"
+    },
+    "recent_title": {
+      "message": "Récents"
+    },
+    "recent_empty": {
+      "message": "Aucun envoi pour le moment"
+    },
+    "recent_untitled": {
+      "message": "(Vide)"
+    },
+    "status_sending": {
+      "message": "Envoi"
+    },
+    "status_pending": {
+      "message": "Envoyé"
+    },
+    "status_delivered": {
+      "message": "Livré"
+    },
+    "status_expired": {
+      "message": "Non livré, expiré"
+    },
+    "status_failed": {
+      "message": "Échec"
+    },
+    "status_unknown": {
+      "message": "Inconnu"
+    },
+    "resend": {
+      "message": "Renvoyer"
+    },
+    "disconnect": {
+      "message": "Déconnecter"
+    },
+    "disconnect_confirm": {
+      "message": "Un nouveau code d’association sera nécessaire pour envoyer à nouveau. Déconnecter ?"
+    },
+    "disconnect_confirm_ok": {
+      "message": "Déconnecter"
+    },
+    "cancel": {
+      "message": "Annuler"
+    },
+    "menu_save_selection": {
+      "message": "Enregistrer dans Jotra"
+    },
+    "menu_save_link": {
+      "message": "Enregistrer le lien dans Jotra"
+    },
+    "menu_save_page": {
+      "message": "Enregistrer la page dans Jotra"
+    },
+    "context_hint": {
+      "message": "Vous pouvez aussi faire un clic droit sur le texte sélectionné → « Enregistrer dans Jotra »"
+    }
+  }
+}

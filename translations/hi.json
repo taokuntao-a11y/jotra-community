@@ -1,0 +1,602 @@
+{
+  "catalogs": {
+    "app": {
+      "app.name": "Jotra",
+      "notice.title": "Jotra",
+      "notice.empty": "टेक्स्ट खाली नहीं हो सकता",
+      "notice.tooLong": "20,000 अक्षरों की सीमा पार हो गई",
+      "notice.missing": "यह Spark मौजूद नहीं है",
+      "notice.storage": "बदलाव सहेजे नहीं जा सके। कृपया फिर कोशिश करें।",
+      "notice.tagSkipped %lld": "अक्षर सीमा पार करने वाले %lld Spark छोड़ दिए गए",
+      "startup.failed": "आपके नोट या साझा इनबॉक्स नहीं खोले जा सके। कृपया फिर कोशिश करें।",
+      "action.ok": "ठीक है",
+      "action.cancel": "रद्द करें",
+      "action.retry": "फिर कोशिश करें",
+      "action.skip": "छोड़ें",
+      "action.continue": "जारी रखें",
+      "action.done": "हो गया",
+      "action.select": "चुनें",
+      "action.pin": "पिन करें",
+      "action.unpin": "पिन हटाएँ",
+      "action.archive": "संग्रहित करें",
+      "action.unarchive": "संग्रह से निकालें",
+      "action.trash": "कूड़ेदान में भेजें",
+      "action.copy": "कॉपी करें",
+      "action.addTag": "टैग जोड़ें",
+      "action.back": "वापस",
+      "action.save": "सहेजें",
+      "navigation.all": "सभी Spark",
+      "navigation.pinned": "पिन किए गए",
+      "navigation.archived": "संग्रहित",
+      "navigation.trash": "कूड़ेदान",
+      "navigation.settings": "सेटिंग्स",
+      "navigation.menu": "मेन्यू",
+      "list.pinned": "पिन किए गए",
+      "list.recent": "हाल के",
+      "list.empty.title": "अभी कोई Spark नहीं है",
+      "list.empty.body": "शेयर शीट, Safari एक्सटेंशन या शॉर्टकट से कुछ सहेजें।",
+      "list.filtered.empty": "कोई मेल खाता Spark नहीं",
+      "list.filtered.body": "और Spark देखने के लिए कोई फ़िल्टर हटाएँ।",
+      "filter.title": "फ़िल्टर",
+      "filter.status": "स्थिति",
+      "filter.source": "स्रोत",
+      "filter.removeStatus": "स्थिति फ़िल्टर हटाएँ",
+      "filter.removeSource %@": "स्रोत फ़िल्टर हटाएँ: %@",
+      "tag.placeholder": "# के बिना टैग",
+      "selection.count %lld": "%lld चुने गए",
+      "date.yesterday %@": "कल %@",
+      "detail.choose": "कोई Spark चुनें",
+      "detail.body": "Spark का टेक्स्ट",
+      "detail.created": "बनाया गया",
+      "detail.sourceHint": "इस स्रोत के सभी Spark दिखाएँ",
+      "trash.empty.title": "कूड़ेदान खाली है",
+      "trash.empty.body": "मिटाए गए Spark यहाँ 30 दिनों तक रहते हैं।",
+      "trash.retention": "मिटाए गए Spark 30 दिनों तक रखे जाते हैं",
+      "trash.remaining %lld": "%lld दिनों में अपने आप मिट जाएगा",
+      "trash.restore": "बहाल करें",
+      "trash.deletePermanent": "हमेशा के लिए मिटाएँ",
+      "trash.empty.action": "कूड़ेदान खाली करें",
+      "trash.confirm.message": "हमेशा के लिए मिटाए गए Spark वापस नहीं लाए जा सकते।",
+      "settings.guides": "कैप्चर गाइड",
+      "settings.about": "परिचय",
+      "settings.version %@ %@": "संस्करण %@ (%@)",
+      "guide.share.title": "शेयर शीट",
+      "guide.share.body": "किसी भी ऐप में टेक्स्ट या लिंक चुनें, शेयर पर टैप करें और Jotra चुनें। अगर Jotra नहीं दिखता, तो अधिक → संपादित करें में उसे चालू करें।",
+      "guide.safari.title": "Safari एक्सटेंशन",
+      "guide.safari.body": "iPhone या iPad पर सेटिंग्स → ऐप्स → Safari → एक्सटेंशन में Jotra चालू करें। Mac पर Safari → सेटिंग्स → एक्सटेंशन खोलें। फिर पेज या चुना हुआ टेक्स्ट सहेजने के लिए Jotra एक्सटेंशन का इस्तेमाल करें।",
+      "guide.shortcut.title": "शॉर्टकट और Siri",
+      "guide.shortcut.body": "शॉर्टकट में Jotra की “नया Spark” क्रिया जोड़कर टेक्स्ट दें, या Siri से शॉर्टकट चलाएँ।",
+      "guide.services.title": "Mac सेवाएँ",
+      "guide.services.body": "Mac पर टेक्स्ट चुनें और ऐप मेन्यू या संदर्भ मेन्यू से सेवाएँ → Jotra में सहेजें चुनें।",
+      "onboarding.1.title": "कहीं से भी कैप्चर करें",
+      "onboarding.1.body": "ब्राउज़र, Agent या शेयर शीट से। Jotra खोले बिना विचार सहेजें।",
+      "onboarding.2.title": "तुरंत खोजें",
+      "onboarding.2.body": "पूरे टेक्स्ट में खोजें। टैग, स्रोत और समय के अनुसार फ़िल्टर करें। हर Spark अपना स्रोत याद रखता है।",
+      "onboarding.3.title": "आपका डेटा, आपका नियंत्रण",
+      "onboarding.3.body": "आपके डिवाइस और आपके iCloud में रखा जाता है। Markdown सीधे Obsidian में निर्यात करें।",
+      "onboarding.start": "शुरू करें",
+      "onboarding.progress %lld %lld": "पेज %lld / %lld",
+      "capture.saved": "सहेजा गया",
+      "new.title": "नया Spark",
+      "settings.connections": "एक्सटेंशन और Agent जोड़ें",
+      "settings.connections.count %lld": "%lld जुड़े हैं",
+      "settings.pro": "Jotra Pro",
+      "settings.pro.notSubscribed": "सदस्यता नहीं है",
+      "settings.tab.general": "सामान्य",
+      "settings.tab.connections": "कनेक्शन",
+      "settings.tab.pro": "Pro",
+      "connections.title": "एक्सटेंशन और Agent जोड़ें",
+      "connections.rename.title": "कनेक्शन का नाम बदलें",
+      "connections.rename.placeholder": "नाम (1–40 अक्षर)",
+      "connections.rename": "नाम बदलें",
+      "connections.revoke": "पहुँच रद्द करें",
+      "connections.revoke.title": "इस कनेक्शन की पहुँच रद्द करें?",
+      "connections.revoke.message": "रद्द करने के बाद यह कनेक्शन और नहीं लिख पाएगा। पहले से मिले Spark प्रभावित नहीं होंगे।",
+      "connections.deleteAll": "सभी कनेक्शन हटाएँ और रिले डेटा मिटाएँ",
+      "connections.deleteAll.title": "सब कुछ डिस्कनेक्ट करें?",
+      "connections.deleteAll.message": "सभी एक्सटेंशन और Agent लिखना बंद कर देंगे और रिले पर मौजूद वह सामग्री मिटा दी जाएगी जो अभी मिली नहीं है। इस डिवाइस पर पहले से मौजूद Spark प्रभावित नहीं होंगे।",
+      "connections.unreachable": "Jotra सेवा से संपर्क नहीं हो पा रहा। अपना नेटवर्क जाँचें।",
+      "connections.rateLimited": "बहुत अधिक कोशिशें हुईं। बाद में फिर कोशिश करें।",
+      "connections.unavailable": "Jotra सेवा उपलब्ध नहीं है। बाद में फिर कोशिश करें।",
+      "connections.extension.header": "ब्राउज़र एक्सटेंशन पेयर करें (मुफ़्त)",
+      "connections.extension.footer": "अपने कंप्यूटर के Chrome या Edge में Jotra एक्सटेंशन लगाएँ और फिर एक्सटेंशन में कोड दर्ज करें।",
+      "connections.pair": "Chrome / Edge एक्सटेंशन जोड़ें",
+      "connections.pair.generating": "पेयरिंग कोड बनाया जा रहा है…",
+      "connections.list.header %lld": "जुड़े हैं (%lld)",
+      "connections.list.failed": "कनेक्शन लोड नहीं हो सके",
+      "connections.empty": "अभी कोई कनेक्शन नहीं है",
+      "connections.lastWrite %@": "पिछली बार लिखा: %@",
+      "connections.lastWriteYesterday %@": "पिछली बार लिखा: कल %@",
+      "connections.neverWritten": "अभी तक कुछ नहीं लिखा गया",
+      "pairing.instruction": "यह कोड Chrome / Edge एक्सटेंशन में दर्ज करें। यह केवल एक बार काम करता है।",
+      "pairing.expired": "इस कोड की समय-सीमा समाप्त हो गई",
+      "pairing.regenerate": "नया कोड बनाएँ",
+      "pairing.expires %lld %@": "%lld मिनट %@ सेकंड में समाप्त होगा",
+      "pro.title": "Jotra Pro",
+      "pro.comingSoon.title": "जल्द आ रहा है",
+      "pro.comingSoon.body": "Pro में Agent से लिखने की सुविधा होगी; ईमेल आयात और Telegram बाद में आएँगे।",
+      "pro.free.note": "क्लिपिंग एक्सटेंशन और मुख्य सुविधाएँ हमेशा मुफ़्त हैं।",
+      "notice.syncFailed": "सिंक नहीं हो सका। बाद में फिर कोशिश की जाएगी।",
+      "navigation.tags": "टैग",
+      "navigation.search": "खोजें",
+      "list.recentViews": "हाल में देखे गए",
+      "search.title": "खोजें",
+      "search.placeholder": "खोजें",
+      "search.clearText": "टेक्स्ट साफ़ करें",
+      "search.find": "ढूँढें",
+      "search.recent.clearConfirm": "हाल की खोजें साफ़ करें?",
+      "search.recent.clear": "साफ़ करें",
+      "search.recent.title": "हाल की खोजें",
+      "search.recent.delete %@": "हाल की खोज %@ मिटाएँ",
+      "search.recent.deleteAction": "मिटाएँ",
+      "search.topTags.title": "आम टैग",
+      "search.filter.tag": "टैग",
+      "search.filter.source": "स्रोत",
+      "search.filter.time": "समय",
+      "search.filter.status": "स्थिति",
+      "search.filter.sort": "क्रम",
+      "search.time.today": "आज",
+      "search.time.week": "इस सप्ताह",
+      "search.time.month": "इस महीने",
+      "search.time.custom": "कस्टम…",
+      "search.time.any": "किसी भी समय",
+      "search.time.from": "से",
+      "search.time.through": "तक",
+      "search.sort.created": "बनाया गया",
+      "search.sort.updated": "बदला गया",
+      "search.marker.sortUpdated": "बदलाव के अनुसार",
+      "search.marker.a11y %@": "%@ से फ़िल्टर किया गया, हटाने के लिए टैप करें",
+      "search.clearAll": "सब साफ़ करें",
+      "search.clearFilters": "फ़िल्टर साफ़ करें",
+      "search.empty.title": "कुछ नहीं मिला",
+      "search.empty.filteredBody": "फ़िल्टर कम करके देखें।",
+      "search.count %lld": "%lld नतीजे",
+      "search.tags.placeholder": "टैग खोजें",
+      "tags.toast.updated %lld": "%lld Spark अपडेट किए गए",
+      "tags.rename.title": "टैग का नाम बदलें",
+      "tags.rename.placeholder": "टैग का पूरा पथ",
+      "tags.rename.confirm": "नाम बदलें",
+      "tags.merge.confirm.title": "टैग मिलाएँ",
+      "tags.merge.confirm.action": "मिलाएँ",
+      "tags.merge.confirm.message %@ %@ %lld": "“%@” को “%@” में मिलाएँ। %lld Spark अपडेट किए जाएँगे।",
+      "tags.merge.exists %@": "“%@” पहले से मौजूद है। उसमें मिलाएँ?",
+      "tags.delete.confirm.title": "टैग मिटाएँ",
+      "tags.delete.confirm.action": "मिटाएँ",
+      "tags.delete.confirm.message %@": "टैग “%@” मिटाएँ? Spark बने रहेंगे; उनके टेक्स्ट से # हटा दिया जाएगा।",
+      "tags.empty.title": "अभी कोई टैग नहीं है",
+      "tags.empty.body": "Spark में #शब्द लिखें और वह टैग बन जाएगा।",
+      "tags.hint": "नाम बदलने, मिलाने या मिटाने के लिए बाईं ओर स्वाइप करें। टैग मिटाने से Spark नहीं मिटते।",
+      "tags.collapse": "समेटें",
+      "tags.expand": "फैलाएँ",
+      "tags.row.a11y %@ %lld": "टैग: %@, %lld Spark",
+      "tags.action.rename": "नाम बदलें",
+      "tags.action.merge": "इसमें मिलाएँ…",
+      "tags.action.delete": "मिटाएँ",
+      "tags.merge.title": "इसमें मिलाएँ…",
+      "tags.merge.none": "कोई अन्य टैग नहीं",
+      "notice.tagEditSkipped %lld": "अक्षर सीमा पार करने वाले %lld Spark बदले नहीं गए",
+      "notice.invalidTag": "टैग में खाली जगह या विराम चिह्न नहीं हो सकते और वह केवल अंकों का नहीं हो सकता।",
+      "trash.restoreAll": "सभी बहाल करें",
+      "settings.searchSection": "खोजें",
+      "settings.showRecentViews": "हाल में देखे गए दिखाएँ",
+      "settings.spotlight": "सिस्टम खोज में दिखाएँ",
+      "settings.spotlight.footer": "Spotlight को आपके Spark खोजने देता है। इसे बंद करने पर वे सिस्टम खोज से हटा दिए जाते हैं।",
+      "onboarding.localMac.1.body": "Jotra में विचार कैप्चर करें या शेयर शीट, Safari और Mac सेवाओं से टेक्स्ट सहेजें।",
+      "onboarding.localMac.2.body": "पूरे टेक्स्ट में खोजें। टैग, स्रोत और समय के अनुसार फ़िल्टर करें। हर Spark अपना स्रोत याद रखता है।",
+      "onboarding.localMac.3.body": "आपके नोट इस Mac पर रखे जाते हैं। किसी खाते या सदस्यता की ज़रूरत नहीं।",
+      "settings.localMac.storage": "नोट इस Mac पर रखे जाते हैं। उन्हें सुरक्षित रखने के लिए नियमित रूप से Mac का बैकअप लें।",
+      "settings.localMac.support": "सहायता और मदद",
+      "settings.localMac.privacy": "गोपनीयता नीति",
+      "settings.localMac.releaseNotes": "नया क्या है",
+      "settings.localMac.releaseNotes.body": "• सेटिंग्स में संस्करण की जानकारी पढ़ें।\n• परिचय से मदद और गोपनीयता नीति खोलें।\n• इस Mac पर खोज, टैग, पिन, संग्रह और कूड़ेदान के साथ टेक्स्ट नोट रखें।",
+      "settings.language": "भाषा",
+      "settings.language.system": "सिस्टम का डिफ़ॉल्ट",
+      "settings.language.footer": "Jotra में इस्तेमाल होने वाली भाषा चुनें। सिस्टम मेन्यू और एक्सटेंशन, सिस्टम सेटिंग्स में तय ऐप की भाषा का पालन करते हैं।",
+      "source.app": "ऐप में",
+      "source.control": "कंट्रोल",
+      "source.actionButton": "ऐक्शन बटन",
+      "source.widget": "विजेट",
+      "source.shortcut": "शॉर्टकट",
+      "source.siri": "Siri",
+      "source.link": "लिंक",
+      "source.share": "शेयर",
+      "source.safariIOS": "Safari एक्सटेंशन (iOS)",
+      "source.safariMac": "Safari एक्सटेंशन (Mac)",
+      "source.servicesMac": "सेवाएँ (Mac)",
+      "source.hotkeyMac": "Mac हॉटकी",
+      "source.menubarMac": "मेन्यू बार (Mac)",
+      "source.chrome": "Chrome एक्सटेंशन",
+      "source.edge": "Edge एक्सटेंशन",
+      "source.agent": "Agent",
+      "localTools.title": "स्थानीय टूल",
+      "localTools.enabled": "स्थानीय टूल को अनुमति दें",
+      "localTools.explanation": "इस Mac के टूल नई टिप्पणियाँ मुफ़्त में सहेज सकते हैं। Jotra खुला रखें; सिंक सदस्यता आवश्यक नहीं है।",
+      "localTools.running": "स्थानीय पहुँच चालू है",
+      "localTools.grants": "अधिकृत टूल",
+      "localTools.grants.empty": "अभी कोई अधिकृत टूल नहीं है।",
+      "localTools.grantName": "टूल का नाम",
+      "localTools.create": "अनुमति बनाएँ",
+      "localTools.revoked": "रद्द की गई",
+      "localTools.revoke": "अनुमति रद्द करें",
+      "localTools.receipt.title": "लिखने की रसीद जाँचें",
+      "localTools.receipt.explanation": "रद्द किए गए टूल सहित किसी पुराने अनुरोध की जाँच करें। रसीद पहले हुए सेव की पुष्टि करती है और टिप्पणी की सामग्री नहीं दिखाती।",
+      "localTools.receipt.grant": "टूल",
+      "localTools.receipt.select": "टूल चुनें",
+      "localTools.receipt.requestId": "अनुरोध ID",
+      "localTools.receipt.check": "रसीद जाँचें",
+      "localTools.receipt.persisted": "स्थानीय रूप से सहेजा गया",
+      "localTools.receipt.sparkId": "टिप्पणी ID",
+      "localTools.receipt.savedAt": "सहेजने का समय",
+      "localTools.rebuild": "स्थानीय कनेक्शन रीसेट करें",
+      "localTools.rebuild.explanation": "इससे सभी टूल की अनुमति रद्द हो जाएगी। पहले ऊपर लंबित अनुरोध जाँचें, फिर हर टूल को नई अनुमति से दोबारा जोड़ें।",
+      "localTools.rebuild.confirm": "स्थानीय कनेक्शन रीसेट करके सभी टूल की अनुमति रद्द करें?",
+      "localTools.cancel": "रद्द करें",
+      "localTools.pairing.title": "इस टूल को जोड़ें",
+      "localTools.pairing.explanation": "इस अनुमति को इस Mac के CLI आयात कमांड में कॉपी करें। यह केवल अभी उपलब्ध है। इसे निजी रखें।",
+      "localTools.pairing.copy": "अनुमति कॉपी करें",
+      "localTools.pairing.copied": "कॉपी किया गया",
+      "localTools.pairing.done": "हो गया",
+      "localTools.error.port": "स्थानीय पोर्ट उपयोग में है। टकराव वाले टूल को बंद करें या कनेक्शन रीसेट करें।",
+      "localTools.error.identity": "स्थानीय पहचान उपलब्ध नहीं है। नई पहचान और अनुमतियाँ बनाने के लिए कनेक्शन रीसेट करें।",
+      "localTools.error.disabled": "पहले स्थानीय टूल सक्षम करें।",
+      "localTools.error.input": "टूल का नाम या इनपुट जाँचकर फिर से प्रयास करें।",
+      "localTools.error.limit": "अधिकतम 32 टूल अधिकृत किए जा सकते हैं। पहले किसी अप्रयुक्त टूल की अनुमति रद्द करें।",
+      "localTools.error.unavailable": "स्थानीय कनेक्शन उपलब्ध नहीं है। फिर से प्रयास करें।",
+      "localTools.receipt.invalid": "टूल चुनें और मान्य अनुरोध ID दर्ज करें।",
+      "localTools.receipt.notFound": "इस अनुरोध की सहेजी गई रसीद नहीं मिली। चल रहा अनुरोध अभी भी पूरा हो सकता है।"
+    },
+    "ui": {
+      "source.accessibility %@": "स्रोत: %@",
+      "toast.undo": "पूर्ववत करें",
+      "toast.undo.hint": "पूर्ववत करें बटन",
+      "source.app": "ऐप में",
+      "source.control": "कंट्रोल",
+      "source.actionButton": "ऐक्शन बटन",
+      "source.widget": "विजेट",
+      "source.shortcut": "शॉर्टकट",
+      "source.siri": "Siri",
+      "source.link": "लिंक",
+      "source.share": "शेयर",
+      "source.safariIOS": "Safari एक्सटेंशन (iOS)",
+      "source.safariMac": "Safari एक्सटेंशन (Mac)",
+      "source.servicesMac": "सेवाएँ (Mac)",
+      "source.hotkeyMac": "Mac हॉटकी",
+      "source.menubarMac": "मेन्यू बार (Mac)",
+      "source.chrome": "Chrome एक्सटेंशन",
+      "source.edge": "Edge एक्सटेंशन",
+      "source.agent": "Agent"
+    },
+    "sources": {
+      "source.app": "ऐप में",
+      "source.control": "कंट्रोल",
+      "source.actionButton": "ऐक्शन बटन",
+      "source.widget": "विजेट",
+      "source.shortcut": "शॉर्टकट",
+      "source.siri": "Siri",
+      "source.link": "लिंक",
+      "source.share": "शेयर",
+      "source.safariIOS": "Safari एक्सटेंशन (iOS)",
+      "source.safariMac": "Safari एक्सटेंशन (Mac)",
+      "source.servicesMac": "सेवाएँ (Mac)",
+      "source.hotkeyMac": "Mac हॉटकी",
+      "source.menubarMac": "मेन्यू बार (Mac)",
+      "source.chrome": "Chrome एक्सटेंशन",
+      "source.edge": "Edge एक्सटेंशन",
+      "source.agent": "Agent"
+    },
+    "share": {
+      "share.title": "Jotra में सहेजें",
+      "share.cancel": "रद्द करें",
+      "share.save": "सहेजें",
+      "share.note": "नोट जोड़ें…",
+      "share.source": "शेयर",
+      "share.offline": "केवल टेक्स्ट और लिंक। ऑफ़लाइन भी सहेजा जा सकता है।",
+      "share.loadFailed": "साझा की गई सामग्री पढ़ी नहीं जा सकी। कृपया फिर कोशिश करें।",
+      "capture.saved": "Jotra में सहेजा गया",
+      "capture.empty": "टेक्स्ट खाली नहीं हो सकता",
+      "capture.tooLong": "20,000 अक्षरों की सीमा पार हो गई",
+      "capture.writeFailed": "सहेजा नहीं जा सका। कृपया फिर कोशिश करें।"
+    },
+    "entries": {
+      "intent.newSpark": "नया Spark",
+      "intent.text": "टेक्स्ट",
+      "capture.saved": "Jotra में सहेजा गया",
+      "capture.empty": "टेक्स्ट खाली नहीं हो सकता",
+      "capture.tooLong": "20,000 अक्षरों की सीमा पार हो गई",
+      "capture.writeFailed": "सहेजा नहीं जा सका। कृपया फिर कोशिश करें।"
+    },
+    "shortcuts": {
+      "Create a Spark with ${applicationName}": "${applicationName} से Spark बनाएँ",
+      "Save to ${applicationName}": "${applicationName} में सहेजें"
+    }
+  },
+  "website": {
+    "brand": "Jotra",
+    "home": "उत्पाद",
+    "support": "सहायता",
+    "privacy": "गोपनीयता नीति",
+    "switch": "English",
+    "eyebrow": "JOTRA · आपकी स्थानीय नोटबुक",
+    "headline": "एक पल का विचार।<br>उसे सहेजने की जगह।",
+    "lead": "विचार, पढ़ते समय के नोट और रोज़मर्रा की बातें सहेजें। खोज और टैग से उन विचारों पर लौटें जिन्हें आप आगे बढ़ाना चाहते हैं।",
+    "status": "macOS का पहला संस्करण तैयारी में है · macOS 14 या बाद का संस्करण · नोट स्थानीय रूप से रखे जाते हैं",
+    "features": [
+      [
+        "विचार सहेजें",
+        "किसी वाक्य, पढ़ते समय के नोट या अधूरे विचार के लिए टेक्स्ट नोट बनाएँ। खाते की ज़रूरत नहीं।"
+      ],
+      [
+        "फिर से खोजें",
+        "अपने नोट खोजें और टैग, स्रोत तथा समय के फ़िल्टर साथ इस्तेमाल करें। नेस्टेड टैग से उन्हें व्यवस्थित करें।"
+      ],
+      [
+        "अपने Mac पर रखें",
+        "यह पहला संस्करण डेटा आपके Mac पर रखता है। ज़रूरी नोट पिन करें, पूरे हो चुके नोट संग्रहित करें और मिटाए गए नोट कूड़ेदान से वापस लाएँ।"
+      ]
+    ],
+    "support_sections": [
+      [
+        "start",
+        "एक नोट से शुरू करें",
+        "टूलबार में नया Spark चुनें, अपना टेक्स्ट लिखें और सहेजें। संपादन जारी रखने के लिए कोई नोट चुनें। Spark बस एक नोट है।"
+      ],
+      [
+        "find",
+        "खोज और टैग",
+        "टेक्स्ट ढूँढने के लिए खोज फ़ील्ड या ⌘F इस्तेमाल करें, फिर टैग, स्रोत, समय या स्थिति से नतीजे सीमित करें। नोट में #टैग या #मुख्य/उप लिखकर उसे टैग पेज पर व्यवस्थित करें।"
+      ],
+      [
+        "capture",
+        "अन्य जगहों से कैप्चर करें",
+        "टेक्स्ट सहेजने के लिए Mac की शेयर शीट, Safari एक्सटेंशन, शॉर्टकट या Mac सेवाएँ इस्तेमाल करें। Safari → सेटिंग्स → एक्सटेंशन में Safari एक्सटेंशन चालू करें और तय करें कि वह किन वेबसाइटों तक पहुँच सकता है। वेब कैप्चर चुना हुआ टेक्स्ट, शीर्षक, लिंक और आपकी टिप्पणियाँ सहेजता है।"
+      ],
+      [
+        "storage",
+        "मेरे नोट कहाँ हैं?",
+        "यह संस्करण नोट और संगठन के रिकॉर्ड ऐप के लिए निर्धारित स्थानीय स्टोरेज में रखता है। नोट अपने आप अलग-अलग Mac के बीच सिंक नहीं होते। महत्वपूर्ण नोट अलग दस्तावेज़ में कॉपी करें और नियमित रूप से Mac का बैकअप लें।"
+      ],
+      [
+        "spotlight",
+        "सिस्टम खोज और हाल के रिकॉर्ड",
+        "सिस्टम खोज में दिखाएँ डिफ़ॉल्ट रूप से चालू होता है। यह नोट के शीर्षक, टेक्स्ट के अंश और टैग स्थानीय Spotlight में जोड़ता है। ऐप का इंडेक्स हटाने का अनुरोध करने के लिए Jotra की सेटिंग्स में इसे बंद करें। हाल में देखे गए दिखाएँ से होम स्क्रीन के कार्ड की दृश्यता नियंत्रित होती है; हाल की खोजें अलग-अलग मिटाई या साफ़ की जा सकती हैं।"
+      ],
+      [
+        "trash",
+        "मिटाएँ और बहाल करें",
+        "नोट मिटाने पर वह पहले कूड़ेदान में जाता है। 30 दिन से पुराने आइटम ऐप की अगली सफ़ाई के समय हटाए जाते हैं। आप उन्हें पहले ही हमेशा के लिए मिटा सकते हैं या कूड़ेदान खाली कर सकते हैं। हमेशा के लिए मिटाना ऐप में पूर्ववत नहीं किया जा सकता; सिस्टम के अलग बैकअप आपके नियंत्रण में रहते हैं।"
+      ],
+      [
+        "upgrade",
+        "पुराने परीक्षण संस्करण से अपडेट करना",
+        "अपडेट करने से पहले महत्वपूर्ण नोट का बैकअप लें और पुराने ऐप का डेटा सुरक्षित रखें। अगर पुराने नोट नहीं दिखें, तो डेटा साफ़ करने या पुरानी फ़ाइलें मिटाने से पहले सहायता से संपर्क करें।"
+      ],
+      [
+        "scope",
+        "पहले संस्करण का दायरा",
+        "macOS का यह संस्करण स्थानीय टेक्स्ट नोट, खोज और संगठन पर केंद्रित है। iCloud सिंक, Agent और AI सुविधाएँ, सदस्यता तथा ऐप के अंदर Markdown निर्यात या अपने आप बैकअप लेना इसमें शामिल नहीं हैं।"
+      ],
+      [
+        "contact",
+        "सहायता से संपर्क करें",
+        "अपने macOS संस्करण, ऐप संस्करण और समस्या दोहराने के चरणों के साथ <a href=\"mailto:hello@go2come.com?subject=Jotra%20Support\">hello@go2come.com</a> पर ईमेल करें। स्क्रीनशॉट में निजी नोट छिपाएँ। डेटाबेस, पासवर्ड या कुंजियाँ भेजने की ज़रूरत नहीं है।"
+      ]
+    ],
+    "privacy_sections": [
+      [
+        "scope",
+        "दायरा और प्रदाता",
+        "यह नीति Manbao Interactive Entertainment Limited द्वारा प्रदान किए गए Jotra के macOS के लिए पहले स्थानीय नोटबुक संस्करण और henkeyi.com तथा jotra.henkeyi.com पर Jotra के उत्पाद, सहायता और गोपनीयता पेज पर लागू होती है। henkeyi.com पर होस्ट किए गए अन्य उत्पादों के अपने नोटिस हैं।"
+      ],
+      [
+        "local",
+        "आपके Mac पर रखा डेटा",
+        "नोट का टेक्स्ट, शीर्षक, लिंक, स्रोत, तारीखें, टैग, संगठन की स्थिति, हाल में देखे गए नोट और हाल की खोजें आपके Mac पर रखे जाते हैं। सिस्टम कैप्चर सुविधाएँ सामग्री को मुख्य ऐप के आयात करने से पहले स्थानीय App Group स्टोरेज में रख सकती हैं। यह संस्करण ऐप की सुविधाओं से यह सामग्री डेवलपर को अपलोड नहीं करता और iCloud सिंक, AI सेवाएँ या दूरस्थ Agent चालू नहीं करता।"
+      ],
+      [
+        "capture",
+        "शेयरिंग, Safari और सिस्टम कैप्चर",
+        "शेयर शीट को वही टेक्स्ट, लिंक और टिप्पणियाँ मिलती हैं जो आप देते हैं। चालू होने पर Safari कैप्चर स्क्रिप्ट आपकी अनुमति वाली वेबसाइटों पर चलती हैं और प्रीव्यू तथा कैप्चर के लिए पेज के शीर्षक, URL, चुना हुआ टेक्स्ट या संदर्भ मेन्यू के लिंक पढ़ती हैं। सहेजी गई सामग्री हमारे रिले सर्वर के बजाय स्थानीय एक्सटेंशन से आपके नोट में पहुँचती है। Safari की सेटिंग्स में वेबसाइट की पहुँच बदलें या एक्सटेंशन बंद करें। शॉर्टकट और Mac सेवाओं को उस क्रिया में दिया गया टेक्स्ट मिलता है; ऐप सामान्य क्लिपबोर्ड की लगातार निगरानी नहीं करता। Siri की आवाज़ वाली सुविधाएँ Apple की सिस्टम सेवाएँ देती हैं।"
+      ],
+      [
+        "search",
+        "सिस्टम खोज और हाल का इतिहास",
+        "Spotlight डिफ़ॉल्ट रूप से चालू होता है। ऐप सक्रिय और संग्रहित नोट के शीर्षक, टेक्स्ट के पहले 300 अक्षर तथा टैग स्थानीय सिस्टम खोज इंडेक्स में भेजता है। इसे बंद करने पर ऐप का इंडेक्स हटाने का अनुरोध होता है; काम पूरा होना सिस्टम और चलने की स्थिति पर निर्भर करता है। हाल में देखे गए अधिकतम पाँच नोट और दस हाल की खोजें स्थानीय रूप से रखी जाती हैं। हाल में देखे गए दिखाएँ केवल होम कार्ड छिपाता है; रिकॉर्ड करना बंद नहीं करता और इतिहास साफ़ नहीं करता। खोज पेज पर हाल की खोजें मिटाई या साफ़ की जा सकती हैं।"
+      ],
+      [
+        "network",
+        "विश्लेषण, निदान और बाहरी क्रियाएँ",
+        "इस संस्करण में विज्ञापन, अलग-अलग ऐप के बीच ट्रैकिंग, उपयोग विश्लेषण या क्रैश रिपोर्ट भेजने वाला तीसरे पक्ष का SDK नहीं है। कॉपी करने से नोट का टेक्स्ट सिस्टम क्लिपबोर्ड में जाता है। बाहरी लिंक, सहायता पेज या ईमेल खोलने पर अन्य सेवाएँ इस्तेमाल होती हैं, जिनकी अपनी प्रक्रियाएँ लागू होती हैं। Apple आपकी सेटिंग्स के अनुसार App Store, सिस्टम या निदान संबंधी जानकारी संसाधित कर सकता है; यह इस ऐप से डेवलपर द्वारा डेटा संग्रह से अलग है।"
+      ],
+      [
+        "website",
+        "वेबसाइट पर आना",
+        "Cloudflare Jotra के पेज होस्ट करता है। पेज देने, सुरक्षा प्रदान करने और समस्याएँ सुलझाने के लिए IP पते, अनुरोध का समय, ब्राउज़र की जानकारी तथा अनुरोध या त्रुटि लॉग शामिल हो सकते हैं। Jotra के इन पेज में विज्ञापन या विश्लेषण स्क्रिप्ट नहीं हैं और खाते की ज़रूरत नहीं है। वेबसाइट के अनुरोधों की ज़रूरी जानकारी नोट के डेटा से अलग संसाधित होती है। <a href=\"https://www.cloudflare.com/privacypolicy/\" rel=\"noopener noreferrer\">Cloudflare की गोपनीयता नीति</a> देखें।"
+      ],
+      [
+        "support",
+        "सहायता से संपर्क",
+        "अगर आप हमें ईमेल करते हैं, तो हमें आपका ईमेल पता और वह सामग्री मिलती है जो आप देना चुनते हैं। हम उसका इस्तेमाल जवाब देने, जाँच करने और समस्या हल करने में करते हैं। पासवर्ड, कुंजियाँ या अनावश्यक निजी नोट भेजने से बचें। सहायता संबंधी पत्राचार में व्यक्तिगत जानकारी मिटाने का अनुरोध उसी ईमेल पर करें; कानून के अनुसार रखना ज़रूरी होने की शर्त लागू रहेगी।"
+      ],
+      [
+        "retention",
+        "रखना, मिटाना और बैकअप",
+        "नोट आम तौर पर तब तक रहते हैं जब तक आप उन्हें मिटाते नहीं। सामान्य रूप से मिटाने पर वे कूड़ेदान में जाते हैं; 30 दिन से पुराने आइटम ऐप की सफ़ाई के दौरान मिटते हैं, या आप उन्हें पहले ही हमेशा के लिए मिटा सकते हैं। हाल के रिकॉर्ड अपनी तय सीमा के भीतर अपडेट होते हैं। मिटाने से ऐप के स्तर पर डेटा हटता है; यह स्टोरेज को भौतिक रूप से सुरक्षित तरीके से मिटाने का वादा नहीं है और अलग से सहेजी गई फ़ाइलें या सिस्टम बैकअप अपने आप नहीं मिटा सकता। ऐप अनइंस्टॉल करने से हर प्रति हट जाने की गारंटी नहीं है।"
+      ],
+      [
+        "control",
+        "आपके विकल्प और सुरक्षा",
+        "नोट संपादित या मिटाएँ, कूड़ेदान खाली करें, हाल की खोजें प्रबंधित करें, Spotlight बंद करें और एक्सटेंशन की वेबसाइट अनुमतियाँ बदलें। Mac के लॉगिन की सुरक्षा करें, डिवाइस के लिए उचित सुरक्षा उपाय अपनाएँ और बैकअप सुरक्षित रखें। इस संस्करण में बंद करने के लिए ऐप खाता नहीं है और यह नोट का अलग एन्क्रिप्शन या शुरू से अंत तक एन्क्रिप्शन देने का दावा नहीं करता।"
+      ],
+      [
+        "changes",
+        "अपडेट और संपर्क",
+        "अगर बाद के संस्करणों में सिंक, AI या डेटा संसाधित करने की कोई अन्य सुविधा जोड़ी जाती है, तो हम संबंधित नोटिस अपडेट करेंगे। नीति के सवालों या व्यक्तिगत जानकारी के अनुरोधों के लिए <a href=\"mailto:hello@go2come.com?subject=Jotra%20Privacy\">hello@go2come.com</a> पर ईमेल करें।"
+      ]
+    ],
+    "language": "भाषा",
+    "description": "Mac के लिए स्थानीय टेक्स्ट नोटबुक Jotra में विचार सहेजें। खोज, टैग, पिन, संग्रह और कूड़ेदान। खाते की ज़रूरत नहीं।",
+    "updated": "5 नवंबर 2026 को अपडेट किया गया",
+    "notice": "यह नोटिस macOS के लिए स्थानीय नोटबुक के पहले संस्करण के बारे में है।",
+    "toc": "इस पेज पर",
+    "screenAlt": "काल्पनिक उदाहरण नोट के साथ Mac पर Jotra",
+    "productTitle": "Mac के लिए स्थानीय नोटबुक",
+    "languageHelp": "यह वेबसाइट 15 भाषाओं में उपलब्ध है। मेन्यू से भाषा चुनें।"
+  },
+  "safari": {
+    "extensionDescription": "इस डिवाइस पर टेक्स्ट और पेज Jotra में सहेजें।",
+    "close": "बंद करें",
+    "save": "Spark के रूप में सहेजें",
+    "noteLabel": "नोट",
+    "notePlaceholder": "नोट जोड़ें…",
+    "offline": "Safari में ही रहें। ऑफ़लाइन भी सहेजा जा सकता है।",
+    "currentPage": "मौजूदा पेज",
+    "unsupported": "यह पेज सहेजा नहीं जा सकता",
+    "saved": "सहेजा गया",
+    "empty": "टेक्स्ट खाली नहीं हो सकता",
+    "tooLong": "20,000 अक्षरों की सीमा पार हो गई",
+    "writeFailed": "सहेजा नहीं जा सका। कृपया फिर कोशिश करें।",
+    "contextSelection": "Jotra में सहेजें",
+    "contextLink": "लिंक Jotra में सहेजें",
+    "extension_name": "Jotra"
+  },
+  "chrome": {
+    "extension_name": {
+      "message": "Jotra"
+    },
+    "extension_description": {
+      "message": "चयनित टेक्स्ट, लिंक या मौजूदा पेज Jotra में शुरू से अंत तक एन्क्रिप्शन के साथ सहेजें।"
+    },
+    "brand_name": {
+      "message": "Jotra"
+    },
+    "pair_title": {
+      "message": "Jotra से जुड़ें"
+    },
+    "pair_help": {
+      "message": "अपने iPhone / iPad / Mac पर Jotra → “सेटिंग्स → एक्सटेंशन और Agent” में 6 अंकों का पेयरिंग कोड पाएँ।"
+    },
+    "pair_code_label": {
+      "message": "6 अंकों का पेयरिंग कोड"
+    },
+    "pair_connect": {
+      "message": "जोड़ें"
+    },
+    "pair_connecting": {
+      "message": "जोड़ा जा रहा है…"
+    },
+    "error_pairing_invalid": {
+      "message": "पेयरिंग कोड अमान्य है या उसकी समय-सीमा समाप्त हो गई है"
+    },
+    "error_too_many_attempts": {
+      "message": "बहुत अधिक कोशिशें हुईं। 1 मिनट बाद फिर कोशिश करें"
+    },
+    "error_pair_network": {
+      "message": "Jotra सेवा से संपर्क नहीं हो पा रहा। अपना नेटवर्क जाँचें"
+    },
+    "error_revoked": {
+      "message": "इस कनेक्शन की पहुँच रद्द कर दी गई। कृपया फिर पेयर करें"
+    },
+    "error_not_paired": {
+      "message": "अभी Jotra से जुड़े नहीं हैं। पहले पेयर करें।"
+    },
+    "error_text_empty": {
+      "message": "सहेजने के लिए कुछ नहीं है"
+    },
+    "error_text_too_long": {
+      "message": "20,000 अक्षरों की सीमा पार हो गई"
+    },
+    "error_daily_limit": {
+      "message": "आज बहुत अधिक आइटम हैं। कल फिर कोशिश करें"
+    },
+    "error_send_network": {
+      "message": "भेजा नहीं जा सका। अपना नेटवर्क जाँचें"
+    },
+    "error_send_generic": {
+      "message": "भेजा नहीं जा सका। कृपया बाद में फिर कोशिश करें"
+    },
+    "error_payload_too_large": {
+      "message": "भेजने के लिए सामग्री बहुत बड़ी है"
+    },
+    "error_cannot_read_page": {
+      "message": "यह पेज पढ़ा नहीं जा सका"
+    },
+    "status_connected": {
+      "message": "जुड़ा है"
+    },
+    "preview_current_page": {
+      "message": "मौजूदा पेज"
+    },
+    "note_placeholder": {
+      "message": "नोट जोड़ें…"
+    },
+    "note_label": {
+      "message": "नोट"
+    },
+    "save_button": {
+      "message": "Jotra में सहेजें"
+    },
+    "saving": {
+      "message": "भेजा जा रहा है…"
+    },
+    "sent": {
+      "message": "भेज दिया गया"
+    },
+    "sent_notification": {
+      "message": "Jotra को भेजा गया"
+    },
+    "recent_title": {
+      "message": "हाल के"
+    },
+    "recent_empty": {
+      "message": "अभी तक कुछ नहीं भेजा गया"
+    },
+    "recent_untitled": {
+      "message": "(खाली)"
+    },
+    "status_sending": {
+      "message": "भेजा जा रहा है"
+    },
+    "status_pending": {
+      "message": "भेज दिया गया"
+    },
+    "status_delivered": {
+      "message": "पहुँच गया"
+    },
+    "status_expired": {
+      "message": "नहीं पहुँचा, समय-सीमा समाप्त"
+    },
+    "status_failed": {
+      "message": "असफल"
+    },
+    "status_unknown": {
+      "message": "अज्ञात"
+    },
+    "resend": {
+      "message": "फिर भेजें"
+    },
+    "disconnect": {
+      "message": "डिस्कनेक्ट करें"
+    },
+    "disconnect_confirm": {
+      "message": "फिर भेजने के लिए नए पेयरिंग कोड की ज़रूरत होगी। डिस्कनेक्ट करें?"
+    },
+    "disconnect_confirm_ok": {
+      "message": "डिस्कनेक्ट करें"
+    },
+    "cancel": {
+      "message": "रद्द करें"
+    },
+    "menu_save_selection": {
+      "message": "Jotra में सहेजें"
+    },
+    "menu_save_link": {
+      "message": "लिंक Jotra में सहेजें"
+    },
+    "menu_save_page": {
+      "message": "पेज Jotra में सहेजें"
+    },
+    "context_hint": {
+      "message": "आप चुने हुए टेक्स्ट पर राइट-क्लिक करके → “Jotra में सहेजें” भी चुन सकते हैं।"
+    }
+  }
+}

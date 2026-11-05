@@ -1,0 +1,602 @@
+{
+  "catalogs": {
+    "app": {
+      "app.name": "Jotra",
+      "notice.title": "Jotra",
+      "notice.empty": "لا يمكن أن يكون النص فارغًا",
+      "notice.tooLong": "تم تجاوز الحد الأقصى البالغ 20,000 حرف",
+      "notice.missing": "ملاحظة Spark هذه غير موجودة",
+      "notice.storage": "تعذر حفظ التغييرات. يُرجى المحاولة مرة أخرى.",
+      "notice.tagSkipped %lld": "تم تخطي %lld من ملاحظات Spark لتجاوزها الحد الأقصى للأحرف",
+      "startup.failed": "تعذر فتح ملاحظاتك أو صندوق الوارد المشترك. يُرجى المحاولة مرة أخرى.",
+      "action.ok": "موافق",
+      "action.cancel": "إلغاء",
+      "action.retry": "إعادة المحاولة",
+      "action.skip": "تخطي",
+      "action.continue": "متابعة",
+      "action.done": "تم",
+      "action.select": "تحديد",
+      "action.pin": "تثبيت",
+      "action.unpin": "إلغاء التثبيت",
+      "action.archive": "أرشفة",
+      "action.unarchive": "إلغاء الأرشفة",
+      "action.trash": "نقل إلى سلة المهملات",
+      "action.copy": "نسخ",
+      "action.addTag": "إضافة وسم",
+      "action.back": "رجوع",
+      "action.save": "حفظ",
+      "navigation.all": "كل ملاحظات Spark",
+      "navigation.pinned": "المثبتة",
+      "navigation.archived": "المؤرشفة",
+      "navigation.trash": "سلة المهملات",
+      "navigation.settings": "الإعدادات",
+      "navigation.menu": "القائمة",
+      "list.pinned": "المثبتة",
+      "list.recent": "الأخيرة",
+      "list.empty.title": "لا توجد ملاحظات Spark بعد",
+      "list.empty.body": "احفظ محتوى من ورقة المشاركة أو امتداد Safari أو تطبيق الاختصارات.",
+      "list.filtered.empty": "لا توجد ملاحظات Spark مطابقة",
+      "list.filtered.body": "أزل أحد المرشحات لعرض المزيد من ملاحظات Spark.",
+      "filter.title": "تصفية",
+      "filter.status": "الحالة",
+      "filter.source": "المصادر",
+      "filter.removeStatus": "إزالة مرشح الحالة",
+      "filter.removeSource %@": "إزالة مرشح المصدر: %@",
+      "tag.placeholder": "وسم دون #",
+      "selection.count %lld": "تم تحديد %lld",
+      "date.yesterday %@": "أمس %@",
+      "detail.choose": "اختر ملاحظة Spark",
+      "detail.body": "نص ملاحظة Spark",
+      "detail.created": "تاريخ الإنشاء",
+      "detail.sourceHint": "عرض كل ملاحظات Spark من هذا المصدر",
+      "trash.empty.title": "سلة المهملات فارغة",
+      "trash.empty.body": "تبقى ملاحظات Spark المحذوفة هنا لمدة 30 يومًا.",
+      "trash.retention": "تُحفظ ملاحظات Spark المحذوفة لمدة 30 يومًا",
+      "trash.remaining %lld": "الحذف التلقائي بعد %lld يومًا",
+      "trash.restore": "استعادة",
+      "trash.deletePermanent": "حذف نهائي",
+      "trash.empty.action": "إفراغ سلة المهملات",
+      "trash.confirm.message": "لا يمكن استعادة ملاحظات Spark المحذوفة نهائيًا.",
+      "settings.guides": "أدلة الالتقاط",
+      "settings.about": "حول",
+      "settings.version %@ %@": "الإصدار %@ (%@)",
+      "guide.share.title": "ورقة المشاركة",
+      "guide.share.body": "في أي تطبيق، حدد نصًا أو رابطًا، ثم اضغط على مشاركة واختر Jotra. إذا لم يظهر Jotra، ففعّله من المزيد ← تحرير.",
+      "guide.safari.title": "امتداد Safari",
+      "guide.safari.body": "على iPhone أو iPad، فعّل Jotra من الإعدادات ← التطبيقات ← Safari ← الامتدادات. على Mac، افتح Safari ← الإعدادات ← الامتدادات. ثم استخدم امتداد Jotra لحفظ صفحة أو نص محدد.",
+      "guide.shortcut.title": "الاختصارات وSiri",
+      "guide.shortcut.body": "في تطبيق الاختصارات، أضف إجراء «Spark جديد» من Jotra وأدخل النص، أو شغّل الاختصار باستخدام Siri.",
+      "guide.services.title": "خدمات Mac",
+      "guide.services.body": "على Mac، حدد نصًا واختر الخدمات ← حفظ في Jotra من قائمة التطبيق أو قائمة السياق.",
+      "onboarding.1.title": "التقط من أي مكان",
+      "onboarding.1.body": "من المتصفح أو Agent أو ورقة المشاركة. احفظ فكرة دون فتح Jotra.",
+      "onboarding.2.title": "اعثر عليها فورًا",
+      "onboarding.2.body": "بحث في النص الكامل. صفِّ حسب الوسوم والمصدر والوقت. تتذكر كل ملاحظة Spark مصدرها.",
+      "onboarding.3.title": "بياناتك ملكك",
+      "onboarding.3.body": "تُخزن على أجهزتك وفي iCloud الخاص بك. صدّر Markdown مباشرة إلى Obsidian.",
+      "onboarding.start": "ابدأ",
+      "onboarding.progress %lld %lld": "الصفحة %lld من %lld",
+      "capture.saved": "تم الحفظ",
+      "new.title": "Spark جديد",
+      "settings.connections": "توصيل الامتدادات وAgents",
+      "settings.connections.count %lld": "المتصل: %lld",
+      "settings.pro": "Jotra Pro",
+      "settings.pro.notSubscribed": "لا يوجد اشتراك",
+      "settings.tab.general": "عام",
+      "settings.tab.connections": "الاتصالات",
+      "settings.tab.pro": "Pro",
+      "connections.title": "توصيل الامتدادات وAgents",
+      "connections.rename.title": "إعادة تسمية الاتصال",
+      "connections.rename.placeholder": "الاسم (1–40 حرفًا)",
+      "connections.rename": "إعادة التسمية",
+      "connections.revoke": "إلغاء الوصول",
+      "connections.revoke.title": "هل تريد إلغاء هذا الاتصال؟",
+      "connections.revoke.message": "بعد الإلغاء، لن يعود هذا الاتصال قادرًا على الكتابة. لن تتأثر ملاحظات Spark المستلمة سابقًا.",
+      "connections.deleteAll": "قطع كل الاتصالات وحذف بيانات الترحيل",
+      "connections.deleteAll.title": "هل تريد قطع كل الاتصالات؟",
+      "connections.deleteAll.message": "ستتوقف جميع الامتدادات وAgents عن الكتابة، وستُحذف البيانات الموجودة على خادم الترحيل التي لم تُستلم بعد. لن تتأثر ملاحظات Spark الموجودة على هذا الجهاز.",
+      "connections.unreachable": "تعذر الوصول إلى خدمة Jotra. تحقق من اتصال الشبكة.",
+      "connections.rateLimited": "محاولات كثيرة جدًا. حاول لاحقًا.",
+      "connections.unavailable": "خدمة Jotra غير متاحة. حاول لاحقًا.",
+      "connections.extension.header": "إقران امتداد المتصفح (مجانًا)",
+      "connections.extension.footer": "ثبّت امتداد Jotra في Chrome أو Edge على حاسوبك، ثم أدخل الرمز في الامتداد.",
+      "connections.pair": "توصيل امتداد Chrome / Edge",
+      "connections.pair.generating": "جارٍ إنشاء رمز الإقران…",
+      "connections.list.header %lld": "المتصل (%lld)",
+      "connections.list.failed": "تعذر تحميل الاتصالات",
+      "connections.empty": "لا توجد اتصالات بعد",
+      "connections.lastWrite %@": "آخر كتابة: %@",
+      "connections.lastWriteYesterday %@": "آخر كتابة: أمس %@",
+      "connections.neverWritten": "لم تتم الكتابة بعد",
+      "pairing.instruction": "أدخل هذا الرمز في امتداد Chrome / Edge. يُستخدم مرة واحدة.",
+      "pairing.expired": "انتهت صلاحية هذا الرمز",
+      "pairing.regenerate": "إنشاء رمز جديد",
+      "pairing.expires %lld %@": "تنتهي الصلاحية خلال %lld دقيقة و%@ ثانية",
+      "pro.title": "Jotra Pro",
+      "pro.comingSoon.title": "قريبًا",
+      "pro.comingSoon.body": "سيتضمن Pro الكتابة عبر Agents، ثم استيراد البريد الإلكتروني وTelegram لاحقًا.",
+      "pro.free.note": "امتداد الالتقاط والميزات الأساسية مجانية للأبد.",
+      "notice.syncFailed": "فشلت المزامنة. ستتم إعادة المحاولة لاحقًا.",
+      "navigation.tags": "الوسوم",
+      "navigation.search": "البحث",
+      "list.recentViews": "المعروضة مؤخرًا",
+      "search.title": "البحث",
+      "search.placeholder": "البحث",
+      "search.clearText": "مسح النص",
+      "search.find": "بحث",
+      "search.recent.clearConfirm": "هل تريد مسح عمليات البحث الأخيرة؟",
+      "search.recent.clear": "مسح",
+      "search.recent.title": "عمليات البحث الأخيرة",
+      "search.recent.delete %@": "حذف عملية البحث الأخيرة %@",
+      "search.recent.deleteAction": "حذف",
+      "search.topTags.title": "الوسوم الشائعة",
+      "search.filter.tag": "الوسم",
+      "search.filter.source": "المصدر",
+      "search.filter.time": "الوقت",
+      "search.filter.status": "الحالة",
+      "search.filter.sort": "الترتيب",
+      "search.time.today": "اليوم",
+      "search.time.week": "هذا الأسبوع",
+      "search.time.month": "هذا الشهر",
+      "search.time.custom": "مخصص…",
+      "search.time.any": "أي وقت",
+      "search.time.from": "من",
+      "search.time.through": "حتى",
+      "search.sort.created": "تاريخ الإنشاء",
+      "search.sort.updated": "تاريخ التعديل",
+      "search.marker.sortUpdated": "حسب التعديل",
+      "search.marker.a11y %@": "تمت التصفية حسب %@، اضغط للإزالة",
+      "search.clearAll": "مسح الكل",
+      "search.clearFilters": "مسح المرشحات",
+      "search.empty.title": "لا توجد نتائج",
+      "search.empty.filteredBody": "حاول تخفيف المرشحات.",
+      "search.count %lld": "عدد النتائج: %lld",
+      "search.tags.placeholder": "البحث في الوسوم",
+      "tags.toast.updated %lld": "تم تحديث %lld من ملاحظات Spark",
+      "tags.rename.title": "إعادة تسمية الوسم",
+      "tags.rename.placeholder": "المسار الكامل للوسم",
+      "tags.rename.confirm": "إعادة التسمية",
+      "tags.merge.confirm.title": "دمج الوسوم",
+      "tags.merge.confirm.action": "دمج",
+      "tags.merge.confirm.message %@ %@ %lld": "دمج «%@» في «%@». سيتم تحديث %lld من ملاحظات Spark.",
+      "tags.merge.exists %@": "«%@» موجود بالفعل. هل تريد الدمج فيه؟",
+      "tags.delete.confirm.title": "حذف الوسم",
+      "tags.delete.confirm.action": "حذف",
+      "tags.delete.confirm.message %@": "هل تريد حذف الوسم «%@»؟ ستبقى ملاحظات Spark، وستُزال علامة # من نصوصها.",
+      "tags.empty.title": "لا توجد وسوم بعد",
+      "tags.empty.body": "اكتب #كلمة في ملاحظة Spark لتصبح وسمًا.",
+      "tags.hint": "اسحب لليسار لإعادة التسمية أو الدمج أو الحذف. حذف الوسم لا يحذف ملاحظات Spark.",
+      "tags.collapse": "طي",
+      "tags.expand": "توسيع",
+      "tags.row.a11y %@ %lld": "الوسم: %@، ملاحظات Spark: %lld",
+      "tags.action.rename": "إعادة التسمية",
+      "tags.action.merge": "دمج في…",
+      "tags.action.delete": "حذف",
+      "tags.merge.title": "دمج في…",
+      "tags.merge.none": "لا توجد وسوم أخرى",
+      "notice.tagEditSkipped %lld": "لم يتم تغيير %lld من ملاحظات Spark لتجاوزها الحد الأقصى للأحرف",
+      "notice.invalidTag": "لا يمكن أن يحتوي الوسم على مسافات أو علامات ترقيم، ولا أن يتكون من أرقام فقط.",
+      "trash.restoreAll": "استعادة الكل",
+      "settings.searchSection": "البحث",
+      "settings.showRecentViews": "إظهار المعروضة مؤخرًا",
+      "settings.spotlight": "إظهار في بحث النظام",
+      "settings.spotlight.footer": "يسمح لـ Spotlight بالعثور على ملاحظات Spark. يؤدي إيقافه إلى إزالتها من بحث النظام.",
+      "onboarding.localMac.1.body": "التقط أفكارك في Jotra، أو احفظ النصوص من ورقة المشاركة وSafari وخدمات Mac.",
+      "onboarding.localMac.2.body": "بحث في النص الكامل. صفِّ حسب الوسوم والمصدر والوقت. تتذكر كل ملاحظة Spark مصدرها.",
+      "onboarding.localMac.3.body": "تُخزن ملاحظاتك على هذا الـ Mac. لا حاجة إلى حساب أو اشتراك.",
+      "settings.localMac.storage": "تُخزن الملاحظات على هذا الـ Mac. أنشئ نسخًا احتياطية من Mac بانتظام للحفاظ عليها.",
+      "settings.localMac.support": "الدعم والمساعدة",
+      "settings.localMac.privacy": "سياسة الخصوصية",
+      "settings.localMac.releaseNotes": "ما الجديد",
+      "settings.localMac.releaseNotes.body": "• اقرأ ملاحظات الإصدار في الإعدادات.\n• افتح المساعدة وسياسة الخصوصية من قسم «حول».\n• احتفظ بالملاحظات النصية على هذا الـ Mac مع البحث والوسوم والتثبيت والأرشفة وسلة المهملات.",
+      "settings.language": "اللغة",
+      "settings.language.system": "إعداد النظام الافتراضي",
+      "settings.language.footer": "اختر لغة Jotra. تتبع قوائم النظام والامتدادات لغة التطبيق المحددة في إعدادات النظام.",
+      "source.app": "داخل التطبيق",
+      "source.control": "عنصر تحكم",
+      "source.actionButton": "زر الإجراءات",
+      "source.widget": "أداة",
+      "source.shortcut": "الاختصارات",
+      "source.siri": "Siri",
+      "source.link": "رابط",
+      "source.share": "مشاركة",
+      "source.safariIOS": "امتداد Safari ‏(iOS)",
+      "source.safariMac": "امتداد Safari ‏(Mac)",
+      "source.servicesMac": "الخدمات (Mac)",
+      "source.hotkeyMac": "اختصار لوحة مفاتيح Mac",
+      "source.menubarMac": "شريط القوائم (Mac)",
+      "source.chrome": "امتداد Chrome",
+      "source.edge": "امتداد Edge",
+      "source.agent": "Agent",
+      "localTools.title": "الأدوات المحلية",
+      "localTools.enabled": "السماح بالأدوات المحلية",
+      "localTools.explanation": "يمكن لأدوات هذا الـ Mac حفظ ملاحظات جديدة مجانًا. أبقِ Jotra مفتوحًا؛ لا يلزم اشتراك مزامنة.",
+      "localTools.running": "الوصول المحلي قيد التشغيل",
+      "localTools.grants": "الأدوات المصرح لها",
+      "localTools.grants.empty": "لا توجد أدوات مصرح لها بعد.",
+      "localTools.grantName": "اسم الأداة",
+      "localTools.create": "إنشاء تصريح",
+      "localTools.revoked": "تم الإلغاء",
+      "localTools.revoke": "إلغاء التصريح",
+      "localTools.receipt.title": "التحقق من إيصال الكتابة",
+      "localTools.receipt.explanation": "تحقق من طلب سابق، بما في ذلك طلبات الأدوات الملغاة. يؤكد الإيصال حفظًا سابقًا ولا يعرض محتوى الملاحظة.",
+      "localTools.receipt.grant": "الأداة",
+      "localTools.receipt.select": "اختيار أداة",
+      "localTools.receipt.requestId": "معرّف الطلب",
+      "localTools.receipt.check": "التحقق من الإيصال",
+      "localTools.receipt.persisted": "تم الحفظ محليًا",
+      "localTools.receipt.sparkId": "معرّف الملاحظة",
+      "localTools.receipt.savedAt": "وقت الحفظ",
+      "localTools.rebuild": "إعادة تعيين الاتصال المحلي",
+      "localTools.rebuild.explanation": "يلغي هذا تصاريح جميع الأدوات. تحقق أولًا من الطلبات المعلقة أعلاه، ثم أعد توصيل كل أداة بتصريح جديد.",
+      "localTools.rebuild.confirm": "إعادة تعيين الاتصال المحلي وإلغاء تصاريح جميع الأدوات؟",
+      "localTools.cancel": "إلغاء",
+      "localTools.pairing.title": "توصيل هذه الأداة",
+      "localTools.pairing.explanation": "انسخ هذا التصريح إلى أمر الاستيراد في CLI على هذا الـ Mac. يتوفر الآن فقط. احتفظ به بشكل خاص.",
+      "localTools.pairing.copy": "نسخ التصريح",
+      "localTools.pairing.copied": "تم النسخ",
+      "localTools.pairing.done": "تم",
+      "localTools.error.port": "المنفذ المحلي قيد الاستخدام. أغلق الأداة المتعارضة أو أعد تعيين الاتصال.",
+      "localTools.error.identity": "الهوية المحلية غير متاحة. أعد تعيين الاتصال لإنشاء هوية وتصاريح جديدة.",
+      "localTools.error.disabled": "فعّل الأدوات المحلية أولًا.",
+      "localTools.error.input": "تحقق من اسم الأداة أو الإدخال وحاول مجددًا.",
+      "localTools.error.limit": "يمكن التصريح لما يصل إلى 32 أداة. ألغِ تصريح أداة غير مستخدمة أولًا.",
+      "localTools.error.unavailable": "الاتصال المحلي غير متاح. حاول مجددًا.",
+      "localTools.receipt.invalid": "اختر أداة وأدخل معرّف طلب صالحًا.",
+      "localTools.receipt.notFound": "لم يتم العثور على إيصال محفوظ لهذا الطلب. قد يكتمل الطلب الجاري لاحقًا."
+    },
+    "ui": {
+      "source.accessibility %@": "المصدر: %@",
+      "toast.undo": "تراجع",
+      "toast.undo.hint": "زر التراجع",
+      "source.app": "داخل التطبيق",
+      "source.control": "عنصر تحكم",
+      "source.actionButton": "زر الإجراءات",
+      "source.widget": "أداة",
+      "source.shortcut": "الاختصارات",
+      "source.siri": "Siri",
+      "source.link": "رابط",
+      "source.share": "مشاركة",
+      "source.safariIOS": "امتداد Safari ‏(iOS)",
+      "source.safariMac": "امتداد Safari ‏(Mac)",
+      "source.servicesMac": "الخدمات (Mac)",
+      "source.hotkeyMac": "اختصار لوحة مفاتيح Mac",
+      "source.menubarMac": "شريط القوائم (Mac)",
+      "source.chrome": "امتداد Chrome",
+      "source.edge": "امتداد Edge",
+      "source.agent": "Agent"
+    },
+    "sources": {
+      "source.app": "داخل التطبيق",
+      "source.control": "عنصر تحكم",
+      "source.actionButton": "زر الإجراءات",
+      "source.widget": "أداة",
+      "source.shortcut": "الاختصارات",
+      "source.siri": "Siri",
+      "source.link": "رابط",
+      "source.share": "مشاركة",
+      "source.safariIOS": "امتداد Safari ‏(iOS)",
+      "source.safariMac": "امتداد Safari ‏(Mac)",
+      "source.servicesMac": "الخدمات (Mac)",
+      "source.hotkeyMac": "اختصار لوحة مفاتيح Mac",
+      "source.menubarMac": "شريط القوائم (Mac)",
+      "source.chrome": "امتداد Chrome",
+      "source.edge": "امتداد Edge",
+      "source.agent": "Agent"
+    },
+    "share": {
+      "share.title": "حفظ في Jotra",
+      "share.cancel": "إلغاء",
+      "share.save": "حفظ",
+      "share.note": "إضافة ملاحظة…",
+      "share.source": "مشاركة",
+      "share.offline": "نصوص وروابط فقط. يعمل الحفظ دون اتصال.",
+      "share.loadFailed": "تعذرت قراءة المحتوى المشترك. يُرجى المحاولة مرة أخرى.",
+      "capture.saved": "تم الحفظ في Jotra",
+      "capture.empty": "لا يمكن أن يكون النص فارغًا",
+      "capture.tooLong": "تم تجاوز الحد الأقصى البالغ 20,000 حرف",
+      "capture.writeFailed": "تعذر الحفظ. يُرجى المحاولة مرة أخرى."
+    },
+    "entries": {
+      "intent.newSpark": "Spark جديد",
+      "intent.text": "النص",
+      "capture.saved": "تم الحفظ في Jotra",
+      "capture.empty": "لا يمكن أن يكون النص فارغًا",
+      "capture.tooLong": "تم تجاوز الحد الأقصى البالغ 20,000 حرف",
+      "capture.writeFailed": "تعذر الحفظ. يُرجى المحاولة مرة أخرى."
+    },
+    "shortcuts": {
+      "Create a Spark with ${applicationName}": "إنشاء Spark باستخدام ${applicationName}",
+      "Save to ${applicationName}": "حفظ في ${applicationName}"
+    }
+  },
+  "website": {
+    "brand": "Jotra",
+    "home": "المنتج",
+    "support": "الدعم",
+    "privacy": "سياسة الخصوصية",
+    "switch": "English",
+    "eyebrow": "JOTRA · دفتر ملاحظاتك المحلي",
+    "headline": "فكرة عابرة.<br>ومكان للاحتفاظ بها.",
+    "lead": "التقط الأفكار وملاحظات القراءة وتفاصيل يومك. استخدم البحث والوسوم للعودة إلى الأفكار التي تستحق المزيد من التفكير.",
+    "status": "الإصدار الأول لـ macOS قيد التحضير · macOS 14 أو أحدث · تُخزن الملاحظات محليًا",
+    "features": [
+      [
+        "التقط فكرة",
+        "أنشئ ملاحظة نصية لجملة أو ملاحظة قراءة أو فكرة غير مكتملة. لا حاجة إلى حساب."
+      ],
+      [
+        "اعثر عليها مجددًا",
+        "ابحث في ملاحظاتك وادمج المرشحات حسب الوسوم والمصدر والوقت. نظّم المحتوى باستخدام الوسوم المتداخلة."
+      ],
+      [
+        "احتفظ بها على Mac",
+        "يخزن هذا الإصدار الأول البيانات على Mac الخاص بك. ثبّت ما يهمك، وأرشف الملاحظات المكتملة، واستعد الملاحظات المحذوفة من سلة المهملات."
+      ]
+    ],
+    "support_sections": [
+      [
+        "start",
+        "ابدأ بملاحظة واحدة",
+        "اختر «Spark جديد» في شريط الأدوات، واكتب النص واحفظه. اختر ملاحظة لمتابعة تحريرها. Spark هو ببساطة ملاحظة."
+      ],
+      [
+        "find",
+        "البحث والوسوم",
+        "استخدم حقل البحث أو ⌘F للعثور على النص، ثم ضيّق النتائج حسب الوسوم أو المصدر أو الوقت أو الحالة. اكتب #وسم أو #أصل/فرع في الملاحظة لتنظيمها في صفحة الوسوم."
+      ],
+      [
+        "capture",
+        "التقط من أماكن أخرى",
+        "استخدم ورقة مشاركة Mac أو امتداد Safari أو الاختصارات أو خدمات Mac لحفظ النصوص. فعّل امتداد Safari من Safari ← الإعدادات ← الامتدادات، واختر المواقع التي يمكنه الوصول إليها. تحفظ عمليات التقاط الويب النص المحدد والعناوين والروابط وتعليقاتك."
+      ],
+      [
+        "storage",
+        "أين ملاحظاتي؟",
+        "يخزن هذا الإصدار الملاحظات وسجلات التنظيم في مساحة تخزين محلية مخصصة للتطبيق. لا تتم مزامنة الملاحظات تلقائيًا بين أجهزة Mac. انسخ الملاحظات المهمة إلى مستند منفصل وأنشئ نسخًا احتياطية من Mac بانتظام."
+      ],
+      [
+        "spotlight",
+        "بحث النظام والسجلات الأخيرة",
+        "يكون خيار «إظهار في بحث النظام» مفعّلًا افتراضيًا. يضيف عناوين الملاحظات ومقتطفات النص والوسوم إلى Spotlight المحلي. أوقفه في إعدادات Jotra لطلب إزالة فهرس التطبيق. يتحكم خيار «إظهار المعروضة مؤخرًا» في ظهور بطاقات الصفحة الرئيسية؛ ويمكن حذف عمليات البحث الأخيرة منفردة أو مسحها."
+      ],
+      [
+        "trash",
+        "الحذف والاستعادة",
+        "ينقل حذف الملاحظة محتواها أولًا إلى سلة المهملات. تُزال العناصر الأقدم من 30 يومًا عند عملية التنظيف التالية في التطبيق. يمكنك حذفها نهائيًا قبل ذلك أو إفراغ السلة. لا يمكن التراجع عن الحذف النهائي داخل التطبيق؛ وتبقى نسخ النظام الاحتياطية المنفصلة تحت إدارتك."
+      ],
+      [
+        "upgrade",
+        "الترقية من نسخة اختبار سابقة",
+        "انسخ الملاحظات المهمة احتياطيًا واحتفظ ببيانات التطبيق السابق قبل الترقية. إذا لم تظهر الملاحظات القديمة، فتواصل مع الدعم قبل مسح البيانات أو حذف الملفات القديمة."
+      ],
+      [
+        "scope",
+        "نطاق الإصدار الأول",
+        "يركز هذا الإصدار لـ macOS على الملاحظات النصية المحلية والبحث والتنظيم. لا يتضمن مزامنة iCloud أو ميزات Agent والذكاء الاصطناعي أو الاشتراكات أو تصدير Markdown أو النسخ الاحتياطي التلقائي داخل التطبيق."
+      ],
+      [
+        "contact",
+        "التواصل مع الدعم",
+        "راسل <a href=\"mailto:hello@go2come.com?subject=Jotra%20Support\">hello@go2come.com</a> مع ذكر إصدار macOS وإصدار التطبيق وخطوات إعادة إظهار المشكلة. أخفِ الملاحظات الخاصة من لقطات الشاشة. لا تحتاج إلى إرسال قاعدة بياناتك أو كلمات المرور أو المفاتيح."
+      ]
+    ],
+    "privacy_sections": [
+      [
+        "scope",
+        "النطاق ومقدم الخدمة",
+        "تغطي هذه السياسة الإصدار الأول من Jotra لـ macOS بوصفه دفتر ملاحظات محليًا، الذي تقدمه Manbao Interactive Entertainment Limited، وصفحات منتج Jotra ودعمه وخصوصيته على henkeyi.com وjotra.henkeyi.com. للمنتجات الأخرى المستضافة على henkeyi.com إشعاراتها الخاصة."
+      ],
+      [
+        "local",
+        "البيانات المخزنة على Mac",
+        "تُخزن نصوص الملاحظات وعناوينها وروابطها ومصادرها وتواريخها ووسومها وحالات تنظيمها وعمليات العرض والبحث الأخيرة على Mac الخاص بك. قد تضع ميزات الالتقاط في النظام المحتوى أولًا في تخزين App Group المحلي قبل أن يستورده التطبيق الرئيسي. لا يرفع هذا الإصدار ذلك المحتوى إلى المطور عبر ميزات التطبيق، ولا يفعّل مزامنة iCloud أو خدمات الذكاء الاصطناعي أو Agents عن بُعد."
+      ],
+      [
+        "capture",
+        "المشاركة وSafari والالتقاط عبر النظام",
+        "تتلقى ورقة المشاركة النصوص والروابط والتعليقات التي تقدمها. عند التفعيل، تعمل نصوص الالتقاط البرمجية لـ Safari على المواقع التي تسمح بها، وتقرأ عناوين الصفحات وعناوين URL والنص المحدد أو روابط قائمة السياق للمعاينة والالتقاط. ينتقل المحتوى المحفوظ إلى ملاحظاتك عبر امتداد محلي بدلًا من خادم الترحيل لدينا. يمكنك إدارة الوصول إلى المواقع أو تعطيل الامتداد في إعدادات Safari. تتلقى الاختصارات وخدمات Mac النص المرسل إلى ذلك الإجراء؛ ولا يراقب التطبيق الحافظة العامة باستمرار. تقدم خدمات نظام Apple ميزات Siri الصوتية."
+      ],
+      [
+        "search",
+        "بحث النظام والسجل الأخير",
+        "يكون Spotlight مفعّلًا افتراضيًا. يرسل التطبيق العناوين وأول 300 حرف من النص والوسوم من الملاحظات النشطة والمؤرشفة إلى فهرس البحث المحلي للنظام. يطلب إيقافه إزالة فهرس التطبيق؛ ويعتمد اكتمال ذلك على النظام وحالة التشغيل. تُخزن محليًا حتى خمس عمليات عرض أخيرة وعشر عمليات بحث أخيرة. لا يفعل خيار «إظهار المعروضة مؤخرًا» سوى إخفاء بطاقات الصفحة الرئيسية؛ ولا يوقف التسجيل أو يمسح السجل. يمكن حذف عمليات البحث الأخيرة أو مسحها من صفحة البحث."
+      ],
+      [
+        "network",
+        "التحليلات والتشخيص والإجراءات الخارجية",
+        "لا يتضمن هذا الإصدار إعلانات أو تتبعًا عبر التطبيقات أو تحليلات أو حزم تطوير خارجية للإبلاغ عن الأعطال. ينسخ إجراء النسخ نص الملاحظة إلى حافظة النظام. يستدعي فتح رابط خارجي أو صفحة دعم أو بريد إلكتروني خدمات أخرى تنطبق عليها ممارساتها الخاصة. قد تعالج Apple معلومات App Store أو النظام أو التشخيص وفق إعداداتك؛ وهذا منفصل عن جمع المطور للبيانات عبر هذا التطبيق."
+      ],
+      [
+        "website",
+        "زيارة الموقع",
+        "تستضيف Cloudflare صفحات Jotra. قد يتطلب تقديم الصفحات والحماية واستكشاف المشكلات معالجة عناوين IP وأوقات الطلبات ومعلومات المتصفح وسجلات الطلبات أو الأخطاء. لا تتضمن صفحات Jotra هذه إعلانات أو نصوص تحليلات برمجية، ولا تتطلب حسابًا. تُعالج معلومات طلبات الموقع الضرورية بصورة منفصلة عن بيانات الملاحظات. راجع <a href=\"https://www.cloudflare.com/privacypolicy/\" rel=\"noopener noreferrer\">سياسة خصوصية Cloudflare</a>."
+      ],
+      [
+        "support",
+        "التواصل مع الدعم",
+        "إذا راسلتنا، نتلقى عنوان بريدك الإلكتروني والمحتوى الذي تختار تقديمه. نستخدمه للرد والتحقيق وحل المشكلة. تجنب إرسال كلمات المرور أو المفاتيح أو الملاحظات الخاصة غير الضرورية. يمكنك طلب حذف المعلومات الشخصية من مراسلات الدعم عبر عنوان البريد نفسه، مع مراعاة أي احتفاظ يفرضه القانون."
+      ],
+      [
+        "retention",
+        "الاحتفاظ والحذف والنسخ الاحتياطية",
+        "تبقى الملاحظات عادة حتى تحذفها. ينقلها الحذف العادي إلى سلة المهملات؛ وتُحذف العناصر الأقدم من 30 يومًا أثناء تنظيف التطبيق، أو يمكنك حذفها نهائيًا قبل ذلك. تُحدّث السجلات الأخيرة ضمن حدودها. يزيل الحذف البيانات على مستوى التطبيق؛ ولا يمثل وعدًا بمحو مادي آمن، ولا يمكنه حذف الملفات المحفوظة منفصلة أو نسخ النظام الاحتياطية تلقائيًا. لا يضمن إلغاء تثبيت التطبيق إزالة كل نسخة."
+      ],
+      [
+        "control",
+        "خياراتك والأمان",
+        "يمكنك تحرير الملاحظات أو حذفها وإفراغ سلة المهملات وإدارة عمليات البحث الأخيرة وإيقاف Spotlight وضبط أذونات المواقع للامتداد. احمِ حساب الدخول إلى Mac، واتخذ إجراءات مناسبة لأمان الجهاز، وحافظ على أمان النسخ الاحتياطية. لا يوجد في هذا الإصدار حساب تطبيق لإغلاقه، ولا يدّعي توفير تشفير مستقل للملاحظات أو تشفير بين الطرفين."
+      ],
+      [
+        "changes",
+        "التحديثات والتواصل",
+        "إذا أضافت الإصدارات اللاحقة المزامنة أو الذكاء الاصطناعي أو أي معالجة بيانات أخرى، فسنحدّث الإشعارات ذات الصلة. لأسئلة السياسة أو طلبات المعلومات الشخصية، راسل <a href=\"mailto:hello@go2come.com?subject=Jotra%20Privacy\">hello@go2come.com</a>."
+      ]
+    ],
+    "language": "اللغة",
+    "description": "التقط أفكارك في Jotra، دفتر ملاحظات نصي محلي لـ Mac. بحث ووسوم وتثبيت وأرشفة وسلة مهملات. لا حاجة إلى حساب.",
+    "updated": "آخر تحديث: 5 نوفمبر 2026",
+    "notice": "يصف هذا الإشعار الإصدار الأول من دفتر الملاحظات المحلي لـ macOS.",
+    "toc": "في هذه الصفحة",
+    "screenAlt": "Jotra على Mac مع ملاحظات تجريبية خيالية",
+    "productTitle": "دفتر ملاحظات محلي لـ Mac",
+    "languageHelp": "يتوفر هذا الموقع بخمس عشرة لغة. اختر لغة من القائمة."
+  },
+  "safari": {
+    "extensionDescription": "احفظ النصوص والصفحات في Jotra على هذا الجهاز.",
+    "close": "إغلاق",
+    "save": "حفظ كملاحظة Spark",
+    "noteLabel": "ملاحظة",
+    "notePlaceholder": "إضافة ملاحظة…",
+    "offline": "ابقَ في Safari. يعمل الحفظ دون اتصال.",
+    "currentPage": "الصفحة الحالية",
+    "unsupported": "لا يمكن حفظ هذه الصفحة",
+    "saved": "تم الحفظ",
+    "empty": "لا يمكن أن يكون النص فارغًا",
+    "tooLong": "تم تجاوز الحد الأقصى البالغ 20,000 حرف",
+    "writeFailed": "تعذر الحفظ. يُرجى المحاولة مرة أخرى.",
+    "contextSelection": "حفظ في Jotra",
+    "contextLink": "حفظ الرابط في Jotra",
+    "extension_name": "Jotra"
+  },
+  "chrome": {
+    "extension_name": {
+      "message": "Jotra"
+    },
+    "extension_description": {
+      "message": "احفظ النص المحدد أو الروابط أو الصفحة الحالية في Jotra مع تشفير بين الطرفين."
+    },
+    "brand_name": {
+      "message": "Jotra"
+    },
+    "pair_title": {
+      "message": "الاتصال بـ Jotra"
+    },
+    "pair_help": {
+      "message": "احصل على رمز إقران من 6 أرقام في Jotra على iPhone / iPad / Mac ← «الإعدادات ← الامتدادات وAgents»."
+    },
+    "pair_code_label": {
+      "message": "رمز إقران من 6 أرقام"
+    },
+    "pair_connect": {
+      "message": "اتصال"
+    },
+    "pair_connecting": {
+      "message": "جارٍ الاتصال…"
+    },
+    "error_pairing_invalid": {
+      "message": "رمز الإقران غير صالح أو انتهت صلاحيته"
+    },
+    "error_too_many_attempts": {
+      "message": "محاولات كثيرة جدًا. حاول مجددًا بعد دقيقة واحدة"
+    },
+    "error_pair_network": {
+      "message": "تعذر الوصول إلى خدمة Jotra. تحقق من اتصال الشبكة"
+    },
+    "error_revoked": {
+      "message": "تم إلغاء هذا الاتصال. يُرجى الإقران مرة أخرى"
+    },
+    "error_not_paired": {
+      "message": "لم تتصل بـ Jotra بعد. أجرِ الإقران أولًا."
+    },
+    "error_text_empty": {
+      "message": "لا يوجد شيء لحفظه"
+    },
+    "error_text_too_long": {
+      "message": "تم تجاوز الحد الأقصى البالغ 20,000 حرف"
+    },
+    "error_daily_limit": {
+      "message": "عدد العناصر اليوم كبير جدًا. حاول غدًا"
+    },
+    "error_send_network": {
+      "message": "تعذر الإرسال. تحقق من اتصال الشبكة"
+    },
+    "error_send_generic": {
+      "message": "تعذر الإرسال. يُرجى المحاولة لاحقًا"
+    },
+    "error_payload_too_large": {
+      "message": "المحتوى أكبر من أن يُرسل"
+    },
+    "error_cannot_read_page": {
+      "message": "تعذرت قراءة هذه الصفحة"
+    },
+    "status_connected": {
+      "message": "متصل"
+    },
+    "preview_current_page": {
+      "message": "الصفحة الحالية"
+    },
+    "note_placeholder": {
+      "message": "إضافة ملاحظة…"
+    },
+    "note_label": {
+      "message": "ملاحظة"
+    },
+    "save_button": {
+      "message": "حفظ في Jotra"
+    },
+    "saving": {
+      "message": "جارٍ الإرسال…"
+    },
+    "sent": {
+      "message": "تم الإرسال"
+    },
+    "sent_notification": {
+      "message": "تم الإرسال إلى Jotra"
+    },
+    "recent_title": {
+      "message": "الأخيرة"
+    },
+    "recent_empty": {
+      "message": "لم يتم إرسال شيء بعد"
+    },
+    "recent_untitled": {
+      "message": "(فارغ)"
+    },
+    "status_sending": {
+      "message": "جارٍ الإرسال"
+    },
+    "status_pending": {
+      "message": "تم الإرسال"
+    },
+    "status_delivered": {
+      "message": "تم التسليم"
+    },
+    "status_expired": {
+      "message": "لم يتم التسليم، انتهت الصلاحية"
+    },
+    "status_failed": {
+      "message": "فشل"
+    },
+    "status_unknown": {
+      "message": "غير معروف"
+    },
+    "resend": {
+      "message": "إعادة الإرسال"
+    },
+    "disconnect": {
+      "message": "قطع الاتصال"
+    },
+    "disconnect_confirm": {
+      "message": "ستحتاج إلى رمز إقران جديد للإرسال مجددًا. هل تريد قطع الاتصال؟"
+    },
+    "disconnect_confirm_ok": {
+      "message": "قطع الاتصال"
+    },
+    "cancel": {
+      "message": "إلغاء"
+    },
+    "menu_save_selection": {
+      "message": "حفظ في Jotra"
+    },
+    "menu_save_link": {
+      "message": "حفظ الرابط في Jotra"
+    },
+    "menu_save_page": {
+      "message": "حفظ الصفحة في Jotra"
+    },
+    "context_hint": {
+      "message": "يمكنك أيضًا النقر بزر الفأرة الأيمن على النص المحدد ← «حفظ في Jotra»"
+    }
+  }
+}

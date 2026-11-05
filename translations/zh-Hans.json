@@ -1,0 +1,602 @@
+{
+  "catalogs": {
+    "app": {
+      "app.name": "寸念",
+      "notice.title": "寸念",
+      "notice.empty": "文本不能为空",
+      "notice.tooLong": "超过 20,000 字上限",
+      "notice.missing": "这条 Spark 不存在",
+      "notice.storage": "未能保存更改，请重试。",
+      "notice.tagSkipped %lld": "%lld 条超过字数上限，未添加",
+      "startup.failed": "无法打开笔记或共享收件箱，请重试。",
+      "action.ok": "好",
+      "action.cancel": "取消",
+      "action.retry": "重试",
+      "action.skip": "跳过",
+      "action.continue": "继续",
+      "action.done": "完成",
+      "action.select": "选择",
+      "action.pin": "置顶",
+      "action.unpin": "取消置顶",
+      "action.archive": "归档",
+      "action.unarchive": "取消归档",
+      "action.trash": "删除",
+      "action.copy": "复制",
+      "action.addTag": "加标签",
+      "action.back": "返回",
+      "action.save": "保存",
+      "navigation.all": "全部",
+      "navigation.pinned": "置顶",
+      "navigation.archived": "归档",
+      "navigation.trash": "回收站",
+      "navigation.settings": "设置",
+      "navigation.menu": "菜单",
+      "list.pinned": "置顶",
+      "list.recent": "最近",
+      "list.empty.title": "还没有 Spark",
+      "list.empty.body": "从分享菜单、Safari 扩展或快捷指令存一条试试",
+      "list.filtered.empty": "没有符合条件的 Spark",
+      "list.filtered.body": "移除筛选条件，查看更多 Spark。",
+      "filter.title": "筛选",
+      "filter.status": "状态",
+      "filter.source": "来源",
+      "filter.removeStatus": "移除状态筛选",
+      "filter.removeSource %@": "移除来源筛选：%@",
+      "tag.placeholder": "标签名称（不含 #）",
+      "selection.count %lld": "已选 %lld 条",
+      "date.yesterday %@": "昨天 %@",
+      "detail.choose": "选择一条 Spark",
+      "detail.body": "Spark 正文",
+      "detail.created": "创建时间",
+      "detail.sourceHint": "查看这个来源的全部 Spark",
+      "trash.empty.title": "回收站是空的",
+      "trash.empty.body": "删除的 Spark 会在这里保留 30 天",
+      "trash.retention": "删除的 Spark 保留 30 天",
+      "trash.remaining %lld": "%lld 天后自动删除",
+      "trash.restore": "恢复",
+      "trash.deletePermanent": "彻底删除",
+      "trash.empty.action": "清空回收站",
+      "trash.confirm.message": "彻底删除后无法找回",
+      "settings.guides": "记录入口指引",
+      "settings.about": "关于",
+      "settings.version %@ %@": "版本 %@（%@）",
+      "guide.share.title": "分享菜单",
+      "guide.share.body": "在任意 App 中选择文字或链接，点分享，再选择寸念。若未看到寸念，请在「更多 → 编辑」中启用。",
+      "guide.safari.title": "Safari 扩展",
+      "guide.safari.body": "iPhone 或 iPad：在「设置 → App → Safari → 扩展」启用寸念。Mac：在「Safari → 设置 → 扩展」启用。随后通过寸念扩展保存网页或选中文字。",
+      "guide.shortcut.title": "快捷指令与 Siri",
+      "guide.shortcut.body": "在快捷指令中添加寸念「新建 Spark」操作并传入文本，也可以用 Siri 运行该快捷指令。",
+      "guide.services.title": "Mac 服务菜单",
+      "guide.services.body": "在 Mac 上选中文字，从 App 菜单或右键菜单选择「服务 → 存到寸念」。",
+      "onboarding.1.title": "随手记",
+      "onboarding.1.body": "在浏览器、Agent、分享菜单里，\n想到就存，不用打开寸念。",
+      "onboarding.2.title": "一下找到",
+      "onboarding.2.body": "全文搜索，按标签、来源、时间筛选。\n每一条都记得它从哪里来。",
+      "onboarding.3.title": "数据归你",
+      "onboarding.3.body": "存在你的设备和 iCloud，\n随时导出 Markdown，直接放进 Obsidian。",
+      "onboarding.start": "开始使用",
+      "onboarding.progress %lld %lld": "第 %lld 页，共 %lld 页",
+      "capture.saved": "已保存",
+      "new.title": "新建 Spark",
+      "settings.connections": "连接扩展与 Agent",
+      "settings.connections.count %lld": "已连接 %lld 个",
+      "settings.pro": "寸念 Pro",
+      "settings.pro.notSubscribed": "未订阅",
+      "settings.tab.general": "通用",
+      "settings.tab.connections": "连接",
+      "settings.tab.pro": "Pro",
+      "connections.title": "连接扩展与 Agent",
+      "connections.rename.title": "重命名连接",
+      "connections.rename.placeholder": "名称（1~40 字）",
+      "connections.rename": "重命名",
+      "connections.revoke": "撤销",
+      "connections.revoke.title": "撤销这个连接？",
+      "connections.revoke.message": "撤销后该连接无法再写入，已收到的 Spark 不受影响",
+      "connections.deleteAll": "断开全部连接并删除中转数据",
+      "connections.deleteAll.title": "断开全部连接？",
+      "connections.deleteAll.message": "所有扩展和 Agent 将无法再写入，中转服务上尚未收取的数据也会被删除。已在本机的 Spark 不受影响。",
+      "connections.unreachable": "无法连接寸念服务，请检查网络",
+      "connections.rateLimited": "操作太频繁，请稍后再试",
+      "connections.unavailable": "寸念服务暂时不可用，请稍后重试",
+      "connections.extension.header": "配对浏览器扩展（免费）",
+      "connections.extension.footer": "在电脑的 Chrome / Edge 中安装寸念扩展，打开扩展输入此码",
+      "connections.pair": "连接 Chrome / Edge 扩展",
+      "connections.pair.generating": "正在生成配对码…",
+      "connections.list.header %lld": "已连接（%lld）",
+      "connections.list.failed": "未能加载连接列表",
+      "connections.empty": "还没有连接",
+      "connections.lastWrite %@": "最近写入：%@",
+      "connections.lastWriteYesterday %@": "最近写入：昨天 %@",
+      "connections.neverWritten": "尚未写入",
+      "pairing.instruction": "在 Chrome / Edge 扩展里输入配对码 · 只能用一次",
+      "pairing.expired": "配对码已失效",
+      "pairing.regenerate": "重新生成",
+      "pairing.expires %lld %@": "%lld 分 %@ 秒后失效",
+      "pro.title": "寸念 Pro",
+      "pro.comingSoon.title": "即将推出",
+      "pro.comingSoon.body": "Pro 将包含 Agent 写入，以后还会加入邮件导入、Telegram",
+      "pro.free.note": "剪藏扩展和核心功能永远免费",
+      "notice.syncFailed": "同步失败，稍后重试",
+      "navigation.tags": "标签",
+      "navigation.search": "搜索",
+      "list.recentViews": "最近查看",
+      "search.title": "搜索",
+      "search.placeholder": "搜索",
+      "search.clearText": "清除文字",
+      "search.find": "查找",
+      "search.recent.clearConfirm": "清空最近搜索？",
+      "search.recent.clear": "清空",
+      "search.recent.title": "最近搜索",
+      "search.recent.delete %@": "删除最近搜索 %@",
+      "search.recent.deleteAction": "删除",
+      "search.topTags.title": "常用标签",
+      "search.filter.tag": "标签",
+      "search.filter.source": "来源",
+      "search.filter.time": "时间",
+      "search.filter.status": "状态",
+      "search.filter.sort": "排序",
+      "search.time.today": "今天",
+      "search.time.week": "本周",
+      "search.time.month": "本月",
+      "search.time.custom": "自定义…",
+      "search.time.any": "不限时间",
+      "search.time.from": "开始",
+      "search.time.through": "结束",
+      "search.sort.created": "创建时间",
+      "search.sort.updated": "修改时间",
+      "search.marker.sortUpdated": "按修改时间",
+      "search.marker.a11y %@": "已筛选：%@，点按移除",
+      "search.clearAll": "清除全部",
+      "search.clearFilters": "清除筛选",
+      "search.empty.title": "没有找到",
+      "search.empty.filteredBody": "试试放宽筛选条件。",
+      "search.count %lld": "%lld 条结果",
+      "search.tags.placeholder": "搜索标签",
+      "tags.toast.updated %lld": "已更新 %lld 条",
+      "tags.rename.title": "重命名标签",
+      "tags.rename.placeholder": "标签完整路径",
+      "tags.rename.confirm": "重命名",
+      "tags.merge.confirm.title": "合并标签",
+      "tags.merge.confirm.action": "合并",
+      "tags.merge.confirm.message %@ %@ %lld": "把『%@』合并到『%@』，%lld 条 Spark 会更新",
+      "tags.merge.exists %@": "『%@』已存在，要合并吗？",
+      "tags.delete.confirm.title": "删除标签",
+      "tags.delete.confirm.action": "删除",
+      "tags.delete.confirm.message %@": "删除标签『%@』？Spark 不会被删除，正文中的 # 会去掉",
+      "tags.empty.title": "还没有标签",
+      "tags.empty.body": "在正文里写 #词 就会变成标签",
+      "tags.hint": "左滑可重命名、合并、删除。删除标签不删除 Spark。",
+      "tags.collapse": "收起",
+      "tags.expand": "展开",
+      "tags.row.a11y %@ %lld": "标签：%@，%lld 条",
+      "tags.action.rename": "重命名",
+      "tags.action.merge": "合并到…",
+      "tags.action.delete": "删除",
+      "tags.merge.title": "合并到…",
+      "tags.merge.none": "没有其他标签",
+      "notice.tagEditSkipped %lld": "%lld 条超过字数上限，未修改",
+      "notice.invalidTag": "标签不能含空格或标点，且不能全是数字",
+      "trash.restoreAll": "全部恢复",
+      "settings.searchSection": "查找",
+      "settings.showRecentViews": "显示最近查看",
+      "settings.spotlight": "在系统搜索中显示",
+      "settings.spotlight.footer": "允许在系统搜索中找到你的 Spark。关闭后会从系统搜索中移除。",
+      "onboarding.localMac.1.body": "在寸念里随手记录，也可以通过分享菜单、Safari 和 Mac 服务保存文字。",
+      "onboarding.localMac.2.body": "全文搜索，按标签、来源、时间筛选。每一条都记得它从哪里来。",
+      "onboarding.localMac.3.body": "笔记保存在这台 Mac 上，无需注册账号或订阅。",
+      "settings.localMac.storage": "笔记保存在这台 Mac 上。请定期备份 Mac，妥善保管你的记录。",
+      "settings.localMac.support": "使用帮助与支持",
+      "settings.localMac.privacy": "隐私政策",
+      "settings.localMac.releaseNotes": "本版更新",
+      "settings.localMac.releaseNotes.body": "• 在设置中查看本版更新说明。\n• 从关于打开使用帮助与隐私政策。\n• 本机文字笔记支持搜索、标签、置顶、归档与回收站。",
+      "settings.language": "语言",
+      "settings.language.system": "跟随系统",
+      "settings.language.footer": "选择寸念界面的语言。系统菜单与扩展使用系统设置中的 App 语言。",
+      "source.app": "App 内速记",
+      "source.control": "控件",
+      "source.actionButton": "操作按钮",
+      "source.widget": "小组件",
+      "source.shortcut": "快捷指令",
+      "source.siri": "Siri",
+      "source.link": "链接",
+      "source.share": "分享",
+      "source.safariIOS": "Safari 扩展（iOS）",
+      "source.safariMac": "Safari 扩展（Mac）",
+      "source.servicesMac": "服务菜单（Mac）",
+      "source.hotkeyMac": "Mac 快捷键",
+      "source.menubarMac": "菜单栏（Mac）",
+      "source.chrome": "Chrome 扩展",
+      "source.edge": "Edge 扩展",
+      "source.agent": "Agent",
+      "localTools.title": "本机工具",
+      "localTools.enabled": "允许本机工具接入",
+      "localTools.explanation": "这台 Mac 上的工具可以免费新建笔记。使用时请保持寸念运行，无需订阅同步。",
+      "localTools.running": "本机接入正在运行",
+      "localTools.grants": "已授权工具",
+      "localTools.grants.empty": "还没有已授权的工具。",
+      "localTools.grantName": "工具名称",
+      "localTools.create": "创建授权",
+      "localTools.revoked": "已撤销",
+      "localTools.revoke": "撤销",
+      "localTools.receipt.title": "核对写入回执",
+      "localTools.receipt.explanation": "核对之前的请求，包括已撤销工具的请求。回执仅证明曾经保存成功，不显示笔记内容。",
+      "localTools.receipt.grant": "工具",
+      "localTools.receipt.select": "选择工具",
+      "localTools.receipt.requestId": "请求 ID",
+      "localTools.receipt.check": "核对回执",
+      "localTools.receipt.persisted": "已保存到本机",
+      "localTools.receipt.sparkId": "笔记 ID",
+      "localTools.receipt.savedAt": "保存时间",
+      "localTools.rebuild": "重建本机连接",
+      "localTools.rebuild.explanation": "这会撤销所有工具。请先在上方核对未决请求，再为各工具创建新授权并重新连接。",
+      "localTools.rebuild.confirm": "重建本机连接并撤销所有工具？",
+      "localTools.cancel": "取消",
+      "localTools.pairing.title": "连接这个工具",
+      "localTools.pairing.explanation": "将授权复制到这台 Mac 的 CLI 导入命令中。授权仅在此时提供，请妥善保管。",
+      "localTools.pairing.copy": "复制授权",
+      "localTools.pairing.copied": "已复制",
+      "localTools.pairing.done": "完成",
+      "localTools.error.port": "本机端口被占用。请关闭冲突工具，或重建连接。",
+      "localTools.error.identity": "本机身份不可用。请重建连接，生成新的身份和授权。",
+      "localTools.error.disabled": "请先启用本机工具。",
+      "localTools.error.input": "请检查工具名称或输入后重试。",
+      "localTools.error.limit": "最多可授权 32 个工具，请先撤销不用的工具。",
+      "localTools.error.unavailable": "本机连接不可用，请重试。",
+      "localTools.receipt.invalid": "请选择工具并输入有效的请求 ID。",
+      "localTools.receipt.notFound": "未找到这个请求的保存回执，正在执行的请求仍可能完成。"
+    },
+    "ui": {
+      "source.accessibility %@": "来源：%@",
+      "toast.undo": "撤销",
+      "toast.undo.hint": "撤销按钮",
+      "source.app": "App 内速记",
+      "source.control": "控件",
+      "source.actionButton": "操作按钮",
+      "source.widget": "小组件",
+      "source.shortcut": "快捷指令",
+      "source.siri": "Siri",
+      "source.link": "链接",
+      "source.share": "分享",
+      "source.safariIOS": "Safari 扩展（iOS）",
+      "source.safariMac": "Safari 扩展（Mac）",
+      "source.servicesMac": "服务菜单（Mac）",
+      "source.hotkeyMac": "Mac 快捷键",
+      "source.menubarMac": "菜单栏（Mac）",
+      "source.chrome": "Chrome 扩展",
+      "source.edge": "Edge 扩展",
+      "source.agent": "Agent"
+    },
+    "sources": {
+      "source.app": "App 内速记",
+      "source.control": "控件",
+      "source.actionButton": "操作按钮",
+      "source.widget": "小组件",
+      "source.shortcut": "快捷指令",
+      "source.siri": "Siri",
+      "source.link": "链接",
+      "source.share": "分享",
+      "source.safariIOS": "Safari 扩展（iOS）",
+      "source.safariMac": "Safari 扩展（Mac）",
+      "source.servicesMac": "服务菜单（Mac）",
+      "source.hotkeyMac": "Mac 快捷键",
+      "source.menubarMac": "菜单栏（Mac）",
+      "source.chrome": "Chrome 扩展",
+      "source.edge": "Edge 扩展",
+      "source.agent": "Agent"
+    },
+    "share": {
+      "share.title": "存到寸念",
+      "share.cancel": "取消",
+      "share.save": "保存",
+      "share.note": "补一句…",
+      "share.source": "分享",
+      "share.offline": "只接收文字和链接，离线也能保存。",
+      "share.loadFailed": "无法读取分享内容，请重试。",
+      "capture.saved": "已保存到寸念",
+      "capture.empty": "文本不能为空",
+      "capture.tooLong": "超过 20,000 字上限",
+      "capture.writeFailed": "保存失败，请重试。"
+    },
+    "entries": {
+      "intent.newSpark": "新建 Spark",
+      "intent.text": "文本",
+      "capture.saved": "已保存到寸念",
+      "capture.empty": "文本不能为空",
+      "capture.tooLong": "超过 20,000 字上限",
+      "capture.writeFailed": "保存失败，请重试。"
+    },
+    "shortcuts": {
+      "Create a Spark with ${applicationName}": "用${applicationName}新建 Spark",
+      "Save to ${applicationName}": "存到${applicationName}"
+    }
+  },
+  "website": {
+    "brand": "寸念 / Jotra",
+    "home": "产品",
+    "support": "使用帮助",
+    "privacy": "隐私政策",
+    "switch": "English",
+    "eyebrow": "JOTRA · 你的本机笔记本",
+    "headline": "念头很小，<br>也值得留下来。",
+    "lead": "随手记下灵感、阅读摘记和日常片段。再用搜索与标签，找回值得继续思考的那一条。",
+    "status": "macOS 首版准备中 · macOS 14 或更新版本 · 笔记保存在本机",
+    "features": [
+      [
+        "想到就记",
+        "新建一条文字笔记，一句话或一段摘记都可以。无需注册账号。"
+      ],
+      [
+        "一下找到",
+        "全文搜索，结合标签、来源与时间筛选。用层级标签整理零散内容。"
+      ],
+      [
+        "留在本机",
+        "首版数据保存在你的 Mac 上。置顶重要记录，归档已处理内容，误删后可从回收站恢复。"
+      ]
+    ],
+    "support_sections": [
+      [
+        "start",
+        "从一条笔记开始",
+        "在工具栏点击「新建 Spark」写下文字并保存。点击列表中的笔记可以继续编辑。Spark 就是一条笔记。"
+      ],
+      [
+        "find",
+        "搜索与标签",
+        "使用搜索框或 ⌘F 查找正文，再用标签、来源、时间和状态缩小范围。在正文里输入 #词 或 #父标签/子标签，保存后会整理到标签页。"
+      ],
+      [
+        "capture",
+        "从其他地方保存",
+        "可使用 Mac 分享菜单、Safari 扩展、快捷指令与系统服务保存文字。Safari 扩展需要先在 Safari → 设置 → 扩展中启用，并自行选择允许访问的网站。网页剪藏用于保存选中文字、标题、链接及附注。"
+      ],
+      [
+        "storage",
+        "笔记在哪里？",
+        "首版笔记和整理记录保存在应用专属的本机存储中。不同 Mac 之间尚不自动同步。重要内容可逐条复制保存，并建议定期备份 Mac。"
+      ],
+      [
+        "spotlight",
+        "系统搜索与最近记录",
+        "「在系统搜索中显示」默认开启，会把笔记标题、正文摘要和标签加入本机 Spotlight。可以在寸念设置中关闭，应用会请求清理其索引。「显示最近查看」只控制首页卡片是否显示；最近搜索可单条删除或清空。"
+      ],
+      [
+        "trash",
+        "删除与恢复",
+        "普通删除会先移入回收站。超过 30 天的条目会在应用后续清理时删除；也可以提前彻底删除或清空回收站。彻底删除后无法在应用内恢复，独立的系统备份需要由你另行管理。"
+      ],
+      [
+        "upgrade",
+        "从旧测试版升级",
+        "升级前请先备份重要笔记，保留旧版本的应用资料。若新版本中未出现旧笔记，请先联系支持，避免直接清空数据或删除旧资料。"
+      ],
+      [
+        "scope",
+        "首版功能范围",
+        "当前 macOS 首版专注本机文字笔记、搜索和整理。iCloud 同步、Agent、AI、订阅，以及应用内 Markdown 导出与自动备份尚未提供。"
+      ],
+      [
+        "contact",
+        "联系支持",
+        "请发邮件到 <a href=\"mailto:hello@go2come.com?subject=Jotra%20Support\">hello@go2come.com</a>，说明 macOS 版本、应用版本和复现步骤。截图请先遮住私人笔记；无需发送数据库、账号密码或任何密钥。"
+      ]
+    ],
+    "privacy_sections": [
+      [
+        "scope",
+        "适用范围与主体",
+        "本政策适用于由 Manbao Interactive Entertainment Limited（满宝互娱有限公司）提供的寸念 / Jotra macOS 本机笔记首版，以及 henkeyi.com 上的 Jotra 产品、支持与隐私页面和 jotra.henkeyi.com。henkeyi.com 同时承载其他产品，它们适用各自说明。"
+      ],
+      [
+        "local",
+        "应用中的本机数据",
+        "笔记正文、标题、链接、来源、时间、标签、整理状态、最近查看和最近搜索保存在你的 Mac 上。系统入口可能先在同一应用组的本机共享存储中暂存内容，再由主应用导入。此版本不通过应用功能把这些内容上传给开发者，也不启用 iCloud 同步、AI 服务或远程 Agent。"
+      ],
+      [
+        "capture",
+        "分享、Safari 与系统入口",
+        "分享菜单接收你提供的文字、链接和附注。启用 Safari 扩展后，剪藏脚本会在你授权的网站运行，按功能读取页面标题、网址、选中文字或右键链接，以供预览和保存；保存内容通过本机扩展写入笔记，不发送至我们的中转服务器。你可以在 Safari 设置中调整网站权限或停用扩展。快捷指令与 Mac 服务接收本次操作传入的文本；应用不持续监控通用剪贴板。使用 Siri 时，语音功能由 Apple 系统提供。"
+      ],
+      [
+        "search",
+        "系统搜索和历史记录",
+        "Spotlight 默认开启：应用会把未删除笔记（含归档笔记）的标题、正文前 300 个字符及标签提交给系统本地搜索索引。在设置中关闭后，应用会请求删除自身索引，处理进度受系统与运行状态影响。查看历史最多保留 5 条、搜索记录最多 10 条，均存在本机。「显示最近查看」开关只隐藏卡片，不会停止记录或清空历史；最近搜索可在搜索页删除或清空。"
+      ],
+      [
+        "network",
+        "分析、诊断与外部操作",
+        "此版本不包含广告、跨应用跟踪、访问分析或第三方崩溃上报 SDK。点击复制时，内容写入系统剪贴板；打开外部链接、支持网页或发邮件时，目标服务会按其自身规则处理请求。Apple 可能依据你的系统设置处理 App Store、系统或诊断信息，这与开发者通过本应用收集数据不同。"
+      ],
+      [
+        "website",
+        "访问网站",
+        "Jotra 页面使用 Cloudflare 托管。提供网页、安全防护和故障处理可能涉及 IP 地址、请求时间、浏览器信息及请求或错误日志。这些 Jotra 页面不嵌入广告或访问分析脚本，也不要求注册账号。网页访问产生的必要请求信息与笔记数据分开处理；请同时参阅 <a href=\"https://www.cloudflare.com/privacypolicy/\" rel=\"noopener noreferrer\">Cloudflare 隐私政策</a>。"
+      ],
+      [
+        "support",
+        "主动联系支持",
+        "发邮件时，我们会收到你的邮箱地址及你主动提供的内容，仅用于回复、排查与处理该问题。请不要发送密码、密钥或不必要的私人笔记。若希望删除支持通信中的个人信息，请通过同一邮箱提出；法律要求保留的情况除外。"
+      ],
+      [
+        "retention",
+        "删除、保留与备份",
+        "笔记通常保留至你删除。普通删除进入回收站，超过 30 天后在应用清理时删除；你也可提前彻底删除。最近记录会在数量上限内更新。删除是应用层面的数据移除，不承诺对存储介质进行物理安全擦除，也不能自动删除你另行保存的文件或系统备份。卸载应用不应被当作所有副本已删除的保证。"
+      ],
+      [
+        "control",
+        "你的选择与安全",
+        "你可以编辑、删除笔记，清空回收站，管理最近搜索，关闭 Spotlight，调整扩展的网站权限。请保护 Mac 登录账户、使用合适的设备安全措施并保管备份。此版本没有需要注销的应用账户，不宣称提供独立的笔记加密或端到端加密。"
+      ],
+      [
+        "changes",
+        "更新与联系",
+        "若未来加入同步、AI 或其他涉及数据处理的功能，我们会在相应版本更新说明。政策问题或个人信息请求请联系 <a href=\"mailto:hello@go2come.com?subject=Jotra%20Privacy\">hello@go2come.com</a>。"
+      ]
+    ],
+    "language": "语言",
+    "description": "用寸念记录灵感、阅读摘记与日常片段。本机文字笔记，支持搜索、标签、置顶、归档和回收站，无需账号。",
+    "updated": "更新日期：2026 年 11 月 5 日",
+    "notice": "此说明对应 macOS 本机笔记首版。",
+    "toc": "本页内容",
+    "screenAlt": "寸念真实 Mac 界面，内容为虚构示例",
+    "productTitle": "本机文字笔记",
+    "languageHelp": "本网站支持 15 种语言，可通过语言菜单切换。"
+  },
+  "safari": {
+    "extensionDescription": "将文字和网页存到本机寸念。",
+    "close": "关闭",
+    "save": "存为 Spark",
+    "noteLabel": "备注",
+    "notePlaceholder": "补一句…",
+    "offline": "不离开 Safari，离线也能保存。",
+    "currentPage": "当前网页",
+    "unsupported": "此页面不能保存",
+    "saved": "已保存",
+    "empty": "文本不能为空",
+    "tooLong": "超过 20,000 字上限",
+    "writeFailed": "保存失败，请重试。",
+    "contextSelection": "存到寸念",
+    "contextLink": "存链接到寸念",
+    "extension_name": "寸念"
+  },
+  "chrome": {
+    "extension_name": {
+      "message": "寸念"
+    },
+    "extension_description": {
+      "message": "选中文字、链接或当前网页，一键端到端加密存到寸念。"
+    },
+    "brand_name": {
+      "message": "寸念"
+    },
+    "pair_title": {
+      "message": "连接寸念"
+    },
+    "pair_help": {
+      "message": "在 iPhone / iPad / Mac 的寸念 →「设置 → 连接扩展与 Agent」里获取 6 位配对码"
+    },
+    "pair_code_label": {
+      "message": "6 位配对码"
+    },
+    "pair_connect": {
+      "message": "连接"
+    },
+    "pair_connecting": {
+      "message": "正在连接…"
+    },
+    "error_pairing_invalid": {
+      "message": "配对码无效或已过期"
+    },
+    "error_too_many_attempts": {
+      "message": "尝试次数过多，请 1 分钟后再试"
+    },
+    "error_pair_network": {
+      "message": "无法连接寸念服务，请检查网络"
+    },
+    "error_revoked": {
+      "message": "连接已撤销，请重新配对"
+    },
+    "error_not_paired": {
+      "message": "尚未连接寸念，请先配对"
+    },
+    "error_text_empty": {
+      "message": "内容为空"
+    },
+    "error_text_too_long": {
+      "message": "超过 20,000 字上限"
+    },
+    "error_daily_limit": {
+      "message": "今天发送太多，请明天再试"
+    },
+    "error_send_network": {
+      "message": "发送失败，请检查网络"
+    },
+    "error_send_generic": {
+      "message": "发送失败，请稍后再试"
+    },
+    "error_payload_too_large": {
+      "message": "内容太大，无法发送"
+    },
+    "error_cannot_read_page": {
+      "message": "无法读取此页面"
+    },
+    "status_connected": {
+      "message": "已连接"
+    },
+    "preview_current_page": {
+      "message": "当前网页"
+    },
+    "note_placeholder": {
+      "message": "补一句…"
+    },
+    "note_label": {
+      "message": "备注"
+    },
+    "save_button": {
+      "message": "存到寸念"
+    },
+    "saving": {
+      "message": "正在发送…"
+    },
+    "sent": {
+      "message": "已发送"
+    },
+    "sent_notification": {
+      "message": "已发送到寸念"
+    },
+    "recent_title": {
+      "message": "最近发送"
+    },
+    "recent_empty": {
+      "message": "还没有发送记录"
+    },
+    "recent_untitled": {
+      "message": "（无内容）"
+    },
+    "status_sending": {
+      "message": "发送中"
+    },
+    "status_pending": {
+      "message": "已发送"
+    },
+    "status_delivered": {
+      "message": "已送达"
+    },
+    "status_expired": {
+      "message": "未送达，已过期"
+    },
+    "status_failed": {
+      "message": "发送失败"
+    },
+    "status_unknown": {
+      "message": "未知"
+    },
+    "resend": {
+      "message": "重新发送"
+    },
+    "disconnect": {
+      "message": "断开连接"
+    },
+    "disconnect_confirm": {
+      "message": "断开后需要重新输入配对码才能发送。确定断开吗？"
+    },
+    "disconnect_confirm_ok": {
+      "message": "断开"
+    },
+    "cancel": {
+      "message": "取消"
+    },
+    "menu_save_selection": {
+      "message": "存到寸念"
+    },
+    "menu_save_link": {
+      "message": "存链接到寸念"
+    },
+    "menu_save_page": {
+      "message": "存当前网页到寸念"
+    },
+    "context_hint": {
+      "message": "也可以选中文字后右键「存到寸念」"
+    }
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "catalogs": {
+    "app": {
+      "app.name": "Jotra",
+      "notice.title": "Jotra",
+      "notice.empty": "テキストを入力してください",
+      "notice.tooLong": "20,000文字の上限を超えています",
+      "notice.missing": "このSparkは存在しません",
+      "notice.storage": "変更を保存できませんでした。もう一度お試しください。",
+      "notice.tagSkipped %lld": "文字数の上限を超えた%lld件のSparkをスキップしました",
+      "startup.failed": "ノートまたは共有受信箱を開けませんでした。もう一度お試しください。",
+      "action.ok": "OK",
+      "action.cancel": "キャンセル",
+      "action.retry": "再試行",
+      "action.skip": "スキップ",
+      "action.continue": "続ける",
+      "action.done": "完了",
+      "action.select": "選択",
+      "action.pin": "ピン留め",
+      "action.unpin": "ピン留めを解除",
+      "action.archive": "アーカイブ",
+      "action.unarchive": "アーカイブを解除",
+      "action.trash": "ゴミ箱に移動",
+      "action.copy": "コピー",
+      "action.addTag": "タグを追加",
+      "action.back": "戻る",
+      "action.save": "保存",
+      "navigation.all": "すべてのSpark",
+      "navigation.pinned": "ピン留め",
+      "navigation.archived": "アーカイブ済み",
+      "navigation.trash": "ゴミ箱",
+      "navigation.settings": "設定",
+      "navigation.menu": "メニュー",
+      "list.pinned": "ピン留め",
+      "list.recent": "最近の記録",
+      "list.empty.title": "Sparkはまだありません",
+      "list.empty.body": "共有シート、Safari拡張機能、ショートカットから保存できます。",
+      "list.filtered.empty": "一致するSparkがありません",
+      "list.filtered.body": "フィルターを解除すると、さらにSparkが表示されます。",
+      "filter.title": "フィルター",
+      "filter.status": "状態",
+      "filter.source": "保存元",
+      "filter.removeStatus": "状態フィルターを解除",
+      "filter.removeSource %@": "保存元フィルターを解除：%@",
+      "tag.placeholder": "#を付けずにタグを入力",
+      "selection.count %lld": "%lld件を選択中",
+      "date.yesterday %@": "昨日 %@",
+      "detail.choose": "Sparkを選択",
+      "detail.body": "Sparkの本文",
+      "detail.created": "作成日時",
+      "detail.sourceHint": "この保存元のSparkをすべて表示",
+      "trash.empty.title": "ゴミ箱は空です",
+      "trash.empty.body": "削除したSparkは30日間ここに保管されます。",
+      "trash.retention": "削除したSparkは30日間保管されます",
+      "trash.remaining %lld": "%lld日後に自動削除",
+      "trash.restore": "復元",
+      "trash.deletePermanent": "完全に削除",
+      "trash.empty.action": "ゴミ箱を空にする",
+      "trash.confirm.message": "完全に削除したSparkは復元できません。",
+      "settings.guides": "保存ガイド",
+      "settings.about": "このアプリについて",
+      "settings.version %@ %@": "バージョン %@（%@）",
+      "guide.share.title": "共有シート",
+      "guide.share.body": "任意のアプリでテキストやリンクを選択し、「共有」からJotraを選びます。表示されない場合は「その他」→「編集」で有効にしてください。",
+      "guide.safari.title": "Safari拡張機能",
+      "guide.safari.body": "iPhoneやiPadでは「設定」→「アプリ」→「Safari」→「機能拡張」でJotraを有効にします。MacではSafariの「設定」→「機能拡張」を開きます。その後、Jotra拡張機能からページや選択した内容を保存できます。",
+      "guide.shortcut.title": "ショートカットとSiri",
+      "guide.shortcut.body": "ショートカットにJotraの「新規Spark」アクションを追加してテキストを渡すか、Siriでショートカットを実行します。",
+      "guide.services.title": "Macのサービス",
+      "guide.services.body": "Macでテキストを選択し、アプリのメニューやコンテキストメニューから「サービス」→「Jotraに保存」を選びます。",
+      "onboarding.1.title": "どこからでも記録",
+      "onboarding.1.body": "ブラウザ、Agent、共有シートから。Jotraを開かずに思いつきを保存できます。",
+      "onboarding.2.title": "すぐに見つかる",
+      "onboarding.2.body": "全文検索に加え、タグ、保存元、日時で絞り込み。各Sparkには保存元も残ります。",
+      "onboarding.3.title": "データはあなたのもの",
+      "onboarding.3.body": "デバイスとあなたのiCloudに保存。Markdownを直接Obsidianに書き出せます。",
+      "onboarding.start": "使い始める",
+      "onboarding.progress %lld %lld": "%lld / %lldページ",
+      "capture.saved": "保存しました",
+      "new.title": "新規Spark",
+      "settings.connections": "拡張機能とAgentを接続",
+      "settings.connections.count %lld": "%lld件接続済み",
+      "settings.pro": "Jotra Pro",
+      "settings.pro.notSubscribed": "未登録",
+      "settings.tab.general": "一般",
+      "settings.tab.connections": "接続",
+      "settings.tab.pro": "Pro",
+      "connections.title": "拡張機能とAgentを接続",
+      "connections.rename.title": "接続名を変更",
+      "connections.rename.placeholder": "名前（1～40文字）",
+      "connections.rename": "名前を変更",
+      "connections.revoke": "取り消す",
+      "connections.revoke.title": "この接続を取り消しますか？",
+      "connections.revoke.message": "取り消すと、この接続から書き込めなくなります。受信済みのSparkには影響しません。",
+      "connections.deleteAll": "すべて切断し中継データを削除",
+      "connections.deleteAll.title": "すべて切断しますか？",
+      "connections.deleteAll.message": "すべての拡張機能とAgentからの書き込みが停止し、中継サーバー上の未受信データが削除されます。このデバイスに保存済みのSparkには影響しません。",
+      "connections.unreachable": "Jotraサービスに接続できません。ネットワークを確認してください。",
+      "connections.rateLimited": "試行回数が多すぎます。しばらくしてからお試しください。",
+      "connections.unavailable": "Jotraサービスを利用できません。しばらくしてからお試しください。",
+      "connections.extension.header": "ブラウザ拡張機能をペアリング（無料）",
+      "connections.extension.footer": "コンピュータのChromeまたはEdgeにJotra拡張機能をインストールし、拡張機能にコードを入力してください。",
+      "connections.pair": "Chrome / Edge拡張機能を接続",
+      "connections.pair.generating": "ペアリングコードを生成中…",
+      "connections.list.header %lld": "接続済み（%lld）",
+      "connections.list.failed": "接続を読み込めませんでした",
+      "connections.empty": "接続はまだありません",
+      "connections.lastWrite %@": "最終書き込み：%@",
+      "connections.lastWriteYesterday %@": "最終書き込み：昨日 %@",
+      "connections.neverWritten": "まだ書き込まれていません",
+      "pairing.instruction": "Chrome / Edge拡張機能にこのコードを入力してください。一度だけ使用できます。",
+      "pairing.expired": "このコードは期限切れです",
+      "pairing.regenerate": "新しいコードを生成",
+      "pairing.expires %lld %@": "有効期限まで%lld分%@秒",
+      "pro.title": "Jotra Pro",
+      "pro.comingSoon.title": "近日公開",
+      "pro.comingSoon.body": "ProではAgentからの書き込みに対応予定です。メールの取り込みとTelegramにも順次対応します。",
+      "pro.free.note": "クリップ用拡張機能と基本機能は、ずっと無料です。",
+      "notice.syncFailed": "同期に失敗しました。後でもう一度試します。",
+      "navigation.tags": "タグ",
+      "navigation.search": "検索",
+      "list.recentViews": "最近表示した項目",
+      "search.title": "検索",
+      "search.placeholder": "検索",
+      "search.clearText": "テキストを消去",
+      "search.find": "検索",
+      "search.recent.clearConfirm": "最近の検索を消去しますか？",
+      "search.recent.clear": "消去",
+      "search.recent.title": "最近の検索",
+      "search.recent.delete %@": "最近の検索「%@」を削除",
+      "search.recent.deleteAction": "削除",
+      "search.topTags.title": "よく使うタグ",
+      "search.filter.tag": "タグ",
+      "search.filter.source": "保存元",
+      "search.filter.time": "日時",
+      "search.filter.status": "状態",
+      "search.filter.sort": "並べ替え",
+      "search.time.today": "今日",
+      "search.time.week": "今週",
+      "search.time.month": "今月",
+      "search.time.custom": "カスタム…",
+      "search.time.any": "すべての期間",
+      "search.time.from": "開始",
+      "search.time.through": "終了",
+      "search.sort.created": "作成日時",
+      "search.sort.updated": "更新日時",
+      "search.marker.sortUpdated": "更新日時順",
+      "search.marker.a11y %@": "%@で絞り込み中。タップして解除",
+      "search.clearAll": "すべて消去",
+      "search.clearFilters": "フィルターを解除",
+      "search.empty.title": "見つかりませんでした",
+      "search.empty.filteredBody": "絞り込み条件を減らしてみてください。",
+      "search.count %lld": "%lld件の結果",
+      "search.tags.placeholder": "タグを検索",
+      "tags.toast.updated %lld": "%lld件のSparkを更新しました",
+      "tags.rename.title": "タグ名を変更",
+      "tags.rename.placeholder": "タグの完全なパス",
+      "tags.rename.confirm": "名前を変更",
+      "tags.merge.confirm.title": "タグを統合",
+      "tags.merge.confirm.action": "統合",
+      "tags.merge.confirm.message %@ %@ %lld": "「%@」を「%@」に統合します。%lld件のSparkが更新されます。",
+      "tags.merge.exists %@": "「%@」はすでに存在します。このタグに統合しますか？",
+      "tags.delete.confirm.title": "タグを削除",
+      "tags.delete.confirm.action": "削除",
+      "tags.delete.confirm.message %@": "タグ「%@」を削除しますか？Sparkは残り、本文中の#だけが取り除かれます。",
+      "tags.empty.title": "タグはまだありません",
+      "tags.empty.body": "Sparkに#単語と入力するとタグになります。",
+      "tags.hint": "左にスワイプして名前の変更、統合、削除ができます。タグを削除してもSparkは削除されません。",
+      "tags.collapse": "折りたたむ",
+      "tags.expand": "展開",
+      "tags.row.a11y %@ %lld": "タグ：%@、%lld件のSpark",
+      "tags.action.rename": "名前を変更",
+      "tags.action.merge": "統合先…",
+      "tags.action.delete": "削除",
+      "tags.merge.title": "統合先…",
+      "tags.merge.none": "ほかのタグはありません",
+      "notice.tagEditSkipped %lld": "文字数の上限を超えた%lld件のSparkは変更されませんでした",
+      "notice.invalidTag": "タグには空白や句読点を使えず、数字のみのタグも使えません。",
+      "trash.restoreAll": "すべて復元",
+      "settings.searchSection": "検索",
+      "settings.showRecentViews": "最近表示した項目を表示",
+      "settings.spotlight": "システム検索に表示",
+      "settings.spotlight.footer": "SpotlightでSparkを検索できます。オフにするとシステム検索から削除されます。",
+      "onboarding.localMac.1.body": "Jotraに思いつきを記録したり、共有シート、Safari、Macのサービスからテキストを保存したりできます。",
+      "onboarding.localMac.2.body": "全文検索に加え、タグ、保存元、日時で絞り込み。各Sparkには保存元も残ります。",
+      "onboarding.localMac.3.body": "ノートはこのMacに保存されます。アカウントやサブスクリプションは不要です。",
+      "settings.localMac.storage": "ノートはこのMacに保存されます。大切な内容を守るため、Macを定期的にバックアップしてください。",
+      "settings.localMac.support": "サポートとヘルプ",
+      "settings.localMac.privacy": "プライバシーポリシー",
+      "settings.localMac.releaseNotes": "新機能",
+      "settings.localMac.releaseNotes.body": "• 設定でバージョンの更新内容を確認できます。\n• 「このアプリについて」からヘルプとプライバシーポリシーを開けます。\n• このMacにテキストノートを保存し、検索、タグ、ピン留め、アーカイブ、ゴミ箱を利用できます。",
+      "settings.language": "言語",
+      "settings.language.system": "システムのデフォルト",
+      "settings.language.footer": "Jotraで使う言語を選びます。システムメニューと拡張機能は、システム設定で指定したアプリの言語に従います。",
+      "source.app": "アプリ内",
+      "source.control": "コントロール",
+      "source.actionButton": "アクションボタン",
+      "source.widget": "ウィジェット",
+      "source.shortcut": "ショートカット",
+      "source.siri": "Siri",
+      "source.link": "リンク",
+      "source.share": "共有",
+      "source.safariIOS": "Safari拡張機能（iOS）",
+      "source.safariMac": "Safari拡張機能（Mac）",
+      "source.servicesMac": "サービス（Mac）",
+      "source.hotkeyMac": "Macのホットキー",
+      "source.menubarMac": "メニューバー（Mac）",
+      "source.chrome": "Chrome拡張機能",
+      "source.edge": "Edge拡張機能",
+      "source.agent": "Agent",
+      "localTools.title": "ローカルツール",
+      "localTools.enabled": "ローカルツールを許可",
+      "localTools.explanation": "このMac上のツールから無料で新しいメモを保存できます。Jotraを起動したままにしてください。同期のサブスクリプションは不要です。",
+      "localTools.running": "ローカル接続は動作中です",
+      "localTools.grants": "許可済みのツール",
+      "localTools.grants.empty": "許可済みのツールはありません。",
+      "localTools.grantName": "ツール名",
+      "localTools.create": "許可を作成",
+      "localTools.revoked": "取り消し済み",
+      "localTools.revoke": "取り消す",
+      "localTools.receipt.title": "書き込み結果を確認",
+      "localTools.receipt.explanation": "許可を取り消したツールを含め、過去のリクエストを確認します。結果は過去の保存を証明するもので、メモの内容は表示しません。",
+      "localTools.receipt.grant": "ツール",
+      "localTools.receipt.select": "ツールを選択",
+      "localTools.receipt.requestId": "リクエストID",
+      "localTools.receipt.check": "結果を確認",
+      "localTools.receipt.persisted": "ローカルに保存済み",
+      "localTools.receipt.sparkId": "メモID",
+      "localTools.receipt.savedAt": "保存日時",
+      "localTools.rebuild": "ローカル接続を再設定",
+      "localTools.rebuild.explanation": "すべてのツールの許可を取り消します。先に上で未確定のリクエストを確認してから、各ツールに新しい許可を作成して再接続してください。",
+      "localTools.rebuild.confirm": "ローカル接続を再設定して、すべてのツールの許可を取り消しますか？",
+      "localTools.cancel": "キャンセル",
+      "localTools.pairing.title": "このツールを接続",
+      "localTools.pairing.explanation": "このMacのCLIインポートコマンドに許可情報をコピーしてください。情報を取得できるのは今だけです。秘密に保管してください。",
+      "localTools.pairing.copy": "許可情報をコピー",
+      "localTools.pairing.copied": "コピーしました",
+      "localTools.pairing.done": "完了",
+      "localTools.error.port": "ローカルポートは使用中です。競合するツールを終了するか、接続を再設定してください。",
+      "localTools.error.identity": "ローカルIDを使用できません。接続を再設定して、新しいIDと許可を作成してください。",
+      "localTools.error.disabled": "先にローカルツールを有効にしてください。",
+      "localTools.error.input": "ツール名または入力内容を確認して、もう一度お試しください。",
+      "localTools.error.limit": "許可できるツールは32個までです。使わないツールの許可を先に取り消してください。",
+      "localTools.error.unavailable": "ローカル接続を利用できません。もう一度お試しください。",
+      "localTools.receipt.invalid": "ツールを選び、有効なリクエストIDを入力してください。",
+      "localTools.receipt.notFound": "このリクエストの保存結果が見つかりません。実行中のリクエストは後から完了する場合があります。"
+    },
+    "ui": {
+      "source.accessibility %@": "保存元：%@",
+      "toast.undo": "取り消す",
+      "toast.undo.hint": "取り消しボタン",
+      "source.app": "アプリ内",
+      "source.control": "コントロール",
+      "source.actionButton": "アクションボタン",
+      "source.widget": "ウィジェット",
+      "source.shortcut": "ショートカット",
+      "source.siri": "Siri",
+      "source.link": "リンク",
+      "source.share": "共有",
+      "source.safariIOS": "Safari拡張機能（iOS）",
+      "source.safariMac": "Safari拡張機能（Mac）",
+      "source.servicesMac": "サービス（Mac）",
+      "source.hotkeyMac": "Macのホットキー",
+      "source.menubarMac": "メニューバー（Mac）",
+      "source.chrome": "Chrome拡張機能",
+      "source.edge": "Edge拡張機能",
+      "source.agent": "Agent"
+    },
+    "sources": {
+      "source.app": "アプリ内",
+      "source.control": "コントロール",
+      "source.actionButton": "アクションボタン",
+      "source.widget": "ウィジェット",
+      "source.shortcut": "ショートカット",
+      "source.siri": "Siri",
+      "source.link": "リンク",
+      "source.share": "共有",
+      "source.safariIOS": "Safari拡張機能（iOS）",
+      "source.safariMac": "Safari拡張機能（Mac）",
+      "source.servicesMac": "サービス（Mac）",
+      "source.hotkeyMac": "Macのホットキー",
+      "source.menubarMac": "メニューバー（Mac）",
+      "source.chrome": "Chrome拡張機能",
+      "source.edge": "Edge拡張機能",
+      "source.agent": "Agent"
+    },
+    "share": {
+      "share.title": "Jotraに保存",
+      "share.cancel": "キャンセル",
+      "share.save": "保存",
+      "share.note": "メモを追加…",
+      "share.source": "共有",
+      "share.offline": "テキストとリンクに対応。オフラインでも保存できます。",
+      "share.loadFailed": "共有内容を読み取れませんでした。もう一度お試しください。",
+      "capture.saved": "Jotraに保存しました",
+      "capture.empty": "テキストを入力してください",
+      "capture.tooLong": "20,000文字の上限を超えています",
+      "capture.writeFailed": "保存できませんでした。もう一度お試しください。"
+    },
+    "entries": {
+      "intent.newSpark": "新規Spark",
+      "intent.text": "テキスト",
+      "capture.saved": "Jotraに保存しました",
+      "capture.empty": "テキストを入力してください",
+      "capture.tooLong": "20,000文字の上限を超えています",
+      "capture.writeFailed": "保存できませんでした。もう一度お試しください。"
+    },
+    "shortcuts": {
+      "Create a Spark with ${applicationName}": "${applicationName}でSparkを作成",
+      "Save to ${applicationName}": "${applicationName}に保存"
+    }
+  },
+  "website": {
+    "brand": "Jotra",
+    "home": "製品",
+    "support": "サポート",
+    "privacy": "プライバシーポリシー",
+    "switch": "English",
+    "eyebrow": "JOTRA · あなたのローカルノート",
+    "headline": "ふと浮かんだ思いに。<br>残せる場所を。",
+    "lead": "アイデア、読書メモ、日々の気づきを記録。検索とタグで、もう一度考えたい思いを見つけられます。",
+    "status": "macOS初版を準備中 · macOS 14以降 · ノートはローカルに保存",
+    "features": [
+      [
+        "思いつきを記録",
+        "ひとこと、読書メモ、まだまとまらないアイデアをテキストノートに。アカウントは不要です。"
+      ],
+      [
+        "もう一度見つける",
+        "ノートを検索し、タグ、保存元、日時で絞り込み。階層タグで内容を整理できます。"
+      ],
+      [
+        "Macに残す",
+        "初版のデータはMacに保存されます。大切な記録をピン留めし、済んだノートをアーカイブ。削除したノートはゴミ箱から復元できます。"
+      ]
+    ],
+    "support_sections": [
+      [
+        "start",
+        "1つのノートから始める",
+        "ツールバーの「新規Spark」を選び、テキストを書いて保存します。ノートを選択すると続けて編集できます。Sparkは1件のノートを指します。"
+      ],
+      [
+        "find",
+        "検索とタグ",
+        "検索欄または⌘Fで本文を探し、タグ、保存元、日時、状態で結果を絞り込めます。ノートに#タグや#親/子と書くと、タグページで整理できます。"
+      ],
+      [
+        "capture",
+        "ほかの場所から保存",
+        "Macの共有シート、Safari拡張機能、ショートカット、Macのサービスでテキストを保存できます。Safari →「設定」→「機能拡張」でSafari拡張機能を有効にし、アクセスを許可するWebサイトを選んでください。Webクリップでは選択したテキスト、タイトル、リンク、追記を保存します。"
+      ],
+      [
+        "storage",
+        "ノートの保存場所",
+        "このバージョンでは、ノートと整理情報をアプリ専用のローカルストレージに保存します。Mac間での自動同期には対応していません。大切なノートは別の文書にもコピーし、Macを定期的にバックアップしてください。"
+      ],
+      [
+        "spotlight",
+        "システム検索と最近の記録",
+        "「システム検索に表示」はデフォルトでオンです。ノートのタイトル、本文の抜粋、タグをローカルのSpotlightに登録します。Jotraの設定でオフにすると、アプリの索引の削除を要求します。「最近表示した項目を表示」はホームのカードの表示を切り替える設定です。最近の検索は個別削除や一括消去ができます。"
+      ],
+      [
+        "trash",
+        "削除と復元",
+        "ノートを削除すると、まずゴミ箱に移動します。30日を超えた項目は、次にアプリが整理処理を行う際に削除されます。それより前に完全に削除したり、ゴミ箱を空にしたりすることもできます。完全に削除するとアプリ内では元に戻せません。別途作成したシステムバックアップは、ご自身で管理してください。"
+      ],
+      [
+        "upgrade",
+        "旧テスト版からの更新",
+        "更新前に大切なノートをバックアップし、旧版のアプリデータも残してください。以前のノートが表示されない場合は、データや古いファイルを削除する前にサポートへご連絡ください。"
+      ],
+      [
+        "scope",
+        "初版の機能範囲",
+        "このmacOS版は、ローカルのテキストノート、検索、整理を中心としています。iCloud同期、Agent・AI機能、サブスクリプション、アプリ内のMarkdown書き出しと自動バックアップは含まれません。"
+      ],
+      [
+        "contact",
+        "サポートへの連絡",
+        "macOSのバージョン、アプリのバージョン、再現手順を添えて<a href=\"mailto:hello@go2come.com?subject=Jotra%20Support\">hello@go2come.com</a>までご連絡ください。スクリーンショットの個人的なノートは隠してください。データベース、パスワード、鍵を送る必要はありません。"
+      ]
+    ],
+    "privacy_sections": [
+      [
+        "scope",
+        "適用範囲と提供者",
+        "本ポリシーは、Manbao Interactive Entertainment Limitedが提供するJotraのローカルノート用macOS初版、およびhenkeyi.comとjotra.henkeyi.com上のJotraの製品、サポート、プライバシーの各ページに適用されます。henkeyi.com上のほかの製品には、それぞれの説明が適用されます。"
+      ],
+      [
+        "local",
+        "Macに保存されるデータ",
+        "ノートの本文、タイトル、リンク、保存元、日時、タグ、整理状態、最近の表示と検索の記録はMacに保存されます。システムの保存機能は、メインアプリが取り込む前にローカルのApp Groupストレージに内容を一時保存する場合があります。このバージョンは、アプリ機能を通じてその内容を開発者へアップロードせず、iCloud同期、AIサービス、リモートAgentを有効にしません。"
+      ],
+      [
+        "capture",
+        "共有、Safari、システムの保存機能",
+        "共有シートは、あなたが渡したテキスト、リンク、追記を受け取ります。Safariの保存スクリプトを有効にすると、許可したWebサイト上で動作し、プレビューと保存のためにページのタイトル、URL、選択テキスト、コンテキストメニューのリンクを読み取ります。保存内容は中継サーバーではなく、ローカル拡張機能を通じてノートに渡されます。Safariの設定でWebサイトへのアクセスを管理したり、拡張機能を無効にしたりできます。ショートカットとMacのサービスは、その操作に渡されたテキストを受け取ります。アプリが汎用クリップボードを継続監視することはありません。Siriの音声機能はAppleのシステムサービスにより提供されます。"
+      ],
+      [
+        "search",
+        "システム検索と履歴",
+        "Spotlightはデフォルトで有効です。アプリは通常およびアーカイブ済みノートのタイトル、本文の最初の300文字、タグをローカルのシステム検索索引に渡します。オフにするとアプリの索引の削除を要求しますが、完了時期はシステムと実行状態によります。最近表示した項目は最大5件、最近の検索は最大10件をローカルに保存します。「最近表示した項目を表示」はホームのカードを隠すだけで、記録の停止や履歴の消去は行いません。最近の検索は検索ページで削除や消去ができます。"
+      ],
+      [
+        "network",
+        "解析、診断、外部への操作",
+        "このバージョンには広告、アプリ横断の追跡、アクセス解析、第三者のクラッシュ報告SDKは含まれません。コピーするとノート本文がシステムのクリップボードに書き込まれます。外部リンク、サポートページ、メールを開くと、独自の取り扱いルールを持つ外部サービスが利用されます。Appleはシステム設定に従ってApp Store、システム、診断の情報を処理する場合があります。これは開発者が本アプリでデータを収集することとは別です。"
+      ],
+      [
+        "website",
+        "Webサイトへのアクセス",
+        "JotraのページはCloudflareがホストしています。ページの配信、安全性の確保、障害対応のため、IPアドレス、リクエスト日時、ブラウザ情報、リクエストやエラーのログが処理される場合があります。Jotraの各ページには広告やアクセス解析スクリプトを埋め込まず、アカウント登録も求めません。必要なWebリクエスト情報は、ノートデータとは別に処理されます。<a href=\"https://www.cloudflare.com/privacypolicy/\" rel=\"noopener noreferrer\">Cloudflareのプライバシーポリシー</a>もご確認ください。"
+      ],
+      [
+        "support",
+        "サポートへの連絡",
+        "メールでご連絡いただくと、メールアドレスとあなたが提供した内容を受け取ります。これらは返信、調査、問題の解決に利用します。パスワード、鍵、不要な個人的ノートの送付は避けてください。サポート通信に含まれる個人情報の削除は、同じメールアドレスにご依頼ください。ただし、法律上保存が必要な場合を除きます。"
+      ],
+      [
+        "retention",
+        "保管、削除、バックアップ",
+        "ノートは通常、あなたが削除するまで保持されます。通常の削除ではゴミ箱に移動し、30日を超えた項目はアプリの整理処理中に削除されます。それ以前に完全に削除することもできます。最近の記録は件数上限の範囲で更新されます。削除とはアプリ上のデータの除去であり、記憶媒体の物理的な安全消去を約束するものではありません。別途保存したファイルやシステムバックアップを自動で削除することもできません。アプリのアンインストールは、すべてのコピーの消去を保証しません。"
+      ],
+      [
+        "control",
+        "選択肢と安全性",
+        "ノートの編集や削除、ゴミ箱を空にする操作、最近の検索の管理、Spotlightの無効化、拡張機能のWebサイト権限の変更ができます。Macのログインアカウントを保護し、適切なデバイスの安全対策を取り、バックアップを安全に保管してください。このバージョンには解約が必要なアプリアカウントはなく、独立したノート暗号化やエンドツーエンド暗号化をうたいません。"
+      ],
+      [
+        "changes",
+        "更新と連絡先",
+        "今後、同期、AI、その他のデータ処理機能を追加する場合は、関連する説明を更新します。ポリシーに関する質問や個人情報に関するご依頼は、<a href=\"mailto:hello@go2come.com?subject=Jotra%20Privacy\">hello@go2come.com</a>までご連絡ください。"
+      ]
+    ],
+    "language": "言語",
+    "description": "Mac用のローカルテキストノートJotraでアイデアを記録。検索、タグ、ピン留め、アーカイブ、ゴミ箱に対応。アカウントは不要です。",
+    "updated": "更新日：2026年11月5日",
+    "notice": "この説明はmacOS向けローカルノートの初版についてのものです。",
+    "toc": "このページの内容",
+    "screenAlt": "架空のサンプルノートを表示したMac上のJotra",
+    "productTitle": "Mac用のローカルノート",
+    "languageHelp": "このウェブサイトは15言語に対応しています。メニューから言語を選択できます。"
+  },
+  "safari": {
+    "extensionDescription": "このデバイスのJotraにテキストやページを保存します。",
+    "close": "閉じる",
+    "save": "Sparkとして保存",
+    "noteLabel": "メモ",
+    "notePlaceholder": "メモを追加…",
+    "offline": "Safariから離れずに保存。オフラインでも利用できます。",
+    "currentPage": "現在のページ",
+    "unsupported": "このページは保存できません",
+    "saved": "保存しました",
+    "empty": "テキストを入力してください",
+    "tooLong": "20,000文字の上限を超えています",
+    "writeFailed": "保存できませんでした。もう一度お試しください。",
+    "contextSelection": "Jotraに保存",
+    "contextLink": "リンクをJotraに保存",
+    "extension_name": "Jotra"
+  },
+  "chrome": {
+    "extension_name": {
+      "message": "Jotra"
+    },
+    "extension_description": {
+      "message": "選択したテキスト、リンク、現在のページをエンドツーエンド暗号化してJotraに保存します。"
+    },
+    "brand_name": {
+      "message": "Jotra"
+    },
+    "pair_title": {
+      "message": "Jotraに接続"
+    },
+    "pair_help": {
+      "message": "iPhone / iPad / MacのJotraで「設定 → 拡張機能とAgent」を開き、6桁のペアリングコードを取得してください。"
+    },
+    "pair_code_label": {
+      "message": "6桁のペアリングコード"
+    },
+    "pair_connect": {
+      "message": "接続"
+    },
+    "pair_connecting": {
+      "message": "接続中…"
+    },
+    "error_pairing_invalid": {
+      "message": "ペアリングコードが無効か期限切れです"
+    },
+    "error_too_many_attempts": {
+      "message": "試行回数が多すぎます。1分後に再試行してください"
+    },
+    "error_pair_network": {
+      "message": "Jotraサービスに接続できません。ネットワークを確認してください"
+    },
+    "error_revoked": {
+      "message": "この接続は取り消されました。もう一度ペアリングしてください"
+    },
+    "error_not_paired": {
+      "message": "まだJotraに接続していません。先にペアリングしてください。"
+    },
+    "error_text_empty": {
+      "message": "保存する内容がありません"
+    },
+    "error_text_too_long": {
+      "message": "20,000文字の上限を超えています"
+    },
+    "error_daily_limit": {
+      "message": "本日の件数が多すぎます。明日もう一度お試しください"
+    },
+    "error_send_network": {
+      "message": "送信できませんでした。ネットワークを確認してください"
+    },
+    "error_send_generic": {
+      "message": "送信できませんでした。しばらくしてからお試しください"
+    },
+    "error_payload_too_large": {
+      "message": "内容が大きすぎて送信できません"
+    },
+    "error_cannot_read_page": {
+      "message": "このページを読み取れません"
+    },
+    "status_connected": {
+      "message": "接続済み"
+    },
+    "preview_current_page": {
+      "message": "現在のページ"
+    },
+    "note_placeholder": {
+      "message": "メモを追加…"
+    },
+    "note_label": {
+      "message": "メモ"
+    },
+    "save_button": {
+      "message": "Jotraに保存"
+    },
+    "saving": {
+      "message": "送信中…"
+    },
+    "sent": {
+      "message": "送信済み"
+    },
+    "sent_notification": {
+      "message": "Jotraに送信しました"
+    },
+    "recent_title": {
+      "message": "最近の送信"
+    },
+    "recent_empty": {
+      "message": "まだ送信していません"
+    },
+    "recent_untitled": {
+      "message": "（空）"
+    },
+    "status_sending": {
+      "message": "送信中"
+    },
+    "status_pending": {
+      "message": "送信済み"
+    },
+    "status_delivered": {
+      "message": "配信済み"
+    },
+    "status_expired": {
+      "message": "未配信、期限切れ"
+    },
+    "status_failed": {
+      "message": "失敗"
+    },
+    "status_unknown": {
+      "message": "不明"
+    },
+    "resend": {
+      "message": "再送信"
+    },
+    "disconnect": {
+      "message": "切断"
+    },
+    "disconnect_confirm": {
+      "message": "再び送信するには新しいペアリングコードが必要です。切断しますか？"
+    },
+    "disconnect_confirm_ok": {
+      "message": "切断"
+    },
+    "cancel": {
+      "message": "キャンセル"
+    },
+    "menu_save_selection": {
+      "message": "Jotraに保存"
+    },
+    "menu_save_link": {
+      "message": "リンクをJotraに保存"
+    },
+    "menu_save_page": {
+      "message": "ページをJotraに保存"
+    },
+    "context_hint": {
+      "message": "選択したテキストを右クリックして「Jotraに保存」も選べます"
+    }
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "catalogs": {
+    "app": {
+      "app.name": "Jotra",
+      "notice.title": "Jotra",
+      "notice.empty": "Teks tidak boleh kosong",
+      "notice.tooLong": "Melebihi batas 20.000 karakter",
+      "notice.missing": "Spark ini tidak ada",
+      "notice.storage": "Perubahan tidak dapat disimpan. Silakan coba lagi.",
+      "notice.tagSkipped %lld": "%lld Spark melewati batas karakter dan dilewati",
+      "startup.failed": "Catatan atau kotak masuk bersama tidak dapat dibuka. Silakan coba lagi.",
+      "action.ok": "OK",
+      "action.cancel": "Batal",
+      "action.retry": "Coba Lagi",
+      "action.skip": "Lewati",
+      "action.continue": "Lanjutkan",
+      "action.done": "Selesai",
+      "action.select": "Pilih",
+      "action.pin": "Sematkan",
+      "action.unpin": "Lepas Sematan",
+      "action.archive": "Arsipkan",
+      "action.unarchive": "Keluarkan dari Arsip",
+      "action.trash": "Pindahkan ke Sampah",
+      "action.copy": "Salin",
+      "action.addTag": "Tambah Tag",
+      "action.back": "Kembali",
+      "action.save": "Simpan",
+      "navigation.all": "Semua Spark",
+      "navigation.pinned": "Disematkan",
+      "navigation.archived": "Diarsipkan",
+      "navigation.trash": "Sampah",
+      "navigation.settings": "Pengaturan",
+      "navigation.menu": "Menu",
+      "list.pinned": "Disematkan",
+      "list.recent": "Terbaru",
+      "list.empty.title": "Belum ada Spark",
+      "list.empty.body": "Simpan sesuatu dari lembar berbagi, ekstensi Safari, atau Pintasan.",
+      "list.filtered.empty": "Tidak ada Spark yang cocok",
+      "list.filtered.body": "Hapus salah satu filter untuk melihat lebih banyak Spark.",
+      "filter.title": "Filter",
+      "filter.status": "Status",
+      "filter.source": "Sumber",
+      "filter.removeStatus": "Hapus filter status",
+      "filter.removeSource %@": "Hapus filter sumber: %@",
+      "tag.placeholder": "Tag tanpa #",
+      "selection.count %lld": "%lld dipilih",
+      "date.yesterday %@": "Kemarin %@",
+      "detail.choose": "Pilih Spark",
+      "detail.body": "Teks Spark",
+      "detail.created": "Dibuat",
+      "detail.sourceHint": "Tampilkan semua Spark dari sumber ini",
+      "trash.empty.title": "Sampah kosong",
+      "trash.empty.body": "Spark yang dihapus disimpan di sini selama 30 hari.",
+      "trash.retention": "Spark yang dihapus disimpan selama 30 hari",
+      "trash.remaining %lld": "Dihapus otomatis dalam %lld hari",
+      "trash.restore": "Pulihkan",
+      "trash.deletePermanent": "Hapus Permanen",
+      "trash.empty.action": "Kosongkan Sampah",
+      "trash.confirm.message": "Spark yang dihapus permanen tidak dapat dipulihkan.",
+      "settings.guides": "Panduan Pencatatan",
+      "settings.about": "Tentang",
+      "settings.version %@ %@": "Versi %@ (%@)",
+      "guide.share.title": "Lembar Berbagi",
+      "guide.share.body": "Di aplikasi apa pun, pilih teks atau tautan, ketuk Bagikan, lalu pilih Jotra. Jika Jotra tidak terlihat, aktifkan melalui Lainnya → Edit.",
+      "guide.safari.title": "Ekstensi Safari",
+      "guide.safari.body": "Di iPhone atau iPad, aktifkan Jotra melalui Pengaturan → Aplikasi → Safari → Ekstensi. Di Mac, buka Safari → Pengaturan → Ekstensi. Lalu gunakan ekstensi Jotra untuk menyimpan halaman atau pilihan teks.",
+      "guide.shortcut.title": "Pintasan & Siri",
+      "guide.shortcut.body": "Di Pintasan, tambahkan tindakan “Spark Baru” milik Jotra dan berikan teks, atau jalankan pintasan dengan Siri.",
+      "guide.services.title": "Layanan Mac",
+      "guide.services.body": "Di Mac, pilih teks lalu pilih Layanan → Simpan ke Jotra dari menu aplikasi atau menu konteks.",
+      "onboarding.1.title": "Catat dari mana saja",
+      "onboarding.1.body": "Dari browser, Agent, atau lembar berbagi. Simpan ide tanpa membuka Jotra.",
+      "onboarding.2.title": "Temukan seketika",
+      "onboarding.2.body": "Pencarian teks lengkap. Filter menurut tag, sumber, dan waktu. Setiap Spark menyimpan asalnya.",
+      "onboarding.3.title": "Data Anda, milik Anda",
+      "onboarding.3.body": "Disimpan di perangkat dan iCloud Anda. Ekspor Markdown langsung ke Obsidian.",
+      "onboarding.start": "Mulai",
+      "onboarding.progress %lld %lld": "Halaman %lld dari %lld",
+      "capture.saved": "Tersimpan",
+      "new.title": "Spark Baru",
+      "settings.connections": "Hubungkan Ekstensi & Agent",
+      "settings.connections.count %lld": "%lld terhubung",
+      "settings.pro": "Jotra Pro",
+      "settings.pro.notSubscribed": "Belum berlangganan",
+      "settings.tab.general": "Umum",
+      "settings.tab.connections": "Koneksi",
+      "settings.tab.pro": "Pro",
+      "connections.title": "Hubungkan Ekstensi & Agent",
+      "connections.rename.title": "Ubah Nama Koneksi",
+      "connections.rename.placeholder": "Nama (1–40 karakter)",
+      "connections.rename": "Ubah Nama",
+      "connections.revoke": "Cabut",
+      "connections.revoke.title": "Cabut koneksi ini?",
+      "connections.revoke.message": "Setelah dicabut, koneksi ini tidak dapat menulis lagi. Spark yang sudah diterima tidak terpengaruh.",
+      "connections.deleteAll": "Putuskan Semua dan Hapus Data Relai",
+      "connections.deleteAll.title": "Putuskan semua koneksi?",
+      "connections.deleteAll.message": "Semua ekstensi dan Agent akan berhenti menulis, dan konten di relai yang belum diterima akan dihapus. Spark yang sudah ada di perangkat ini tidak terpengaruh.",
+      "connections.unreachable": "Tidak dapat menjangkau layanan Jotra. Periksa jaringan Anda.",
+      "connections.rateLimited": "Terlalu banyak percobaan. Coba lagi nanti.",
+      "connections.unavailable": "Layanan Jotra tidak tersedia. Coba lagi nanti.",
+      "connections.extension.header": "Pasangkan Ekstensi Browser (Gratis)",
+      "connections.extension.footer": "Pasang ekstensi Jotra di Chrome atau Edge pada komputer, lalu masukkan kode di ekstensi.",
+      "connections.pair": "Hubungkan Ekstensi Chrome / Edge",
+      "connections.pair.generating": "Membuat kode pemasangan…",
+      "connections.list.header %lld": "Terhubung (%lld)",
+      "connections.list.failed": "Koneksi tidak dapat dimuat",
+      "connections.empty": "Belum ada koneksi",
+      "connections.lastWrite %@": "Penulisan terakhir: %@",
+      "connections.lastWriteYesterday %@": "Penulisan terakhir: kemarin %@",
+      "connections.neverWritten": "Belum ada penulisan",
+      "pairing.instruction": "Masukkan kode ini di ekstensi Chrome / Edge. Kode hanya dapat digunakan sekali.",
+      "pairing.expired": "Kode ini kedaluwarsa",
+      "pairing.regenerate": "Buat Kode Baru",
+      "pairing.expires %lld %@": "Kedaluwarsa dalam %lld menit %@ detik",
+      "pro.title": "Jotra Pro",
+      "pro.comingSoon.title": "Segera Hadir",
+      "pro.comingSoon.body": "Pro akan mencakup penulisan dari Agent, disusul impor email dan Telegram.",
+      "pro.free.note": "Ekstensi kliping dan fitur inti gratis selamanya.",
+      "notice.syncFailed": "Sinkronisasi gagal. Akan dicoba lagi nanti.",
+      "navigation.tags": "Tag",
+      "navigation.search": "Cari",
+      "list.recentViews": "Terakhir dilihat",
+      "search.title": "Cari",
+      "search.placeholder": "Cari",
+      "search.clearText": "Hapus teks",
+      "search.find": "Temukan",
+      "search.recent.clearConfirm": "Hapus pencarian terbaru?",
+      "search.recent.clear": "Hapus",
+      "search.recent.title": "Pencarian terbaru",
+      "search.recent.delete %@": "Hapus pencarian terbaru %@",
+      "search.recent.deleteAction": "Hapus",
+      "search.topTags.title": "Tag yang sering digunakan",
+      "search.filter.tag": "Tag",
+      "search.filter.source": "Sumber",
+      "search.filter.time": "Waktu",
+      "search.filter.status": "Status",
+      "search.filter.sort": "Urutkan",
+      "search.time.today": "Hari ini",
+      "search.time.week": "Minggu ini",
+      "search.time.month": "Bulan ini",
+      "search.time.custom": "Kustom…",
+      "search.time.any": "Kapan saja",
+      "search.time.from": "Dari",
+      "search.time.through": "Sampai",
+      "search.sort.created": "Dibuat",
+      "search.sort.updated": "Diubah",
+      "search.marker.sortUpdated": "Menurut perubahan",
+      "search.marker.a11y %@": "Difilter menurut %@, ketuk untuk menghapus",
+      "search.clearAll": "Hapus semua",
+      "search.clearFilters": "Hapus filter",
+      "search.empty.title": "Tidak ditemukan",
+      "search.empty.filteredBody": "Coba kurangi batasan filter.",
+      "search.count %lld": "%lld hasil",
+      "search.tags.placeholder": "Cari tag",
+      "tags.toast.updated %lld": "%lld Spark diperbarui",
+      "tags.rename.title": "Ubah nama tag",
+      "tags.rename.placeholder": "Jalur tag lengkap",
+      "tags.rename.confirm": "Ubah Nama",
+      "tags.merge.confirm.title": "Gabungkan tag",
+      "tags.merge.confirm.action": "Gabungkan",
+      "tags.merge.confirm.message %@ %@ %lld": "Gabungkan “%@” ke “%@”. %lld Spark akan diperbarui.",
+      "tags.merge.exists %@": "“%@” sudah ada. Gabungkan ke tag tersebut?",
+      "tags.delete.confirm.title": "Hapus tag",
+      "tags.delete.confirm.action": "Hapus",
+      "tags.delete.confirm.message %@": "Hapus tag “%@”? Spark tetap disimpan; tanda # dihapus dari teksnya.",
+      "tags.empty.title": "Belum ada tag",
+      "tags.empty.body": "Tulis #kata di Spark untuk menjadikannya tag.",
+      "tags.hint": "Geser ke kiri untuk mengubah nama, menggabungkan, atau menghapus. Menghapus tag tidak menghapus Spark.",
+      "tags.collapse": "Ciutkan",
+      "tags.expand": "Perluas",
+      "tags.row.a11y %@ %lld": "Tag: %@, %lld Spark",
+      "tags.action.rename": "Ubah Nama",
+      "tags.action.merge": "Gabungkan ke…",
+      "tags.action.delete": "Hapus",
+      "tags.merge.title": "Gabungkan ke…",
+      "tags.merge.none": "Tidak ada tag lain",
+      "notice.tagEditSkipped %lld": "%lld Spark melewati batas karakter dan tidak diubah",
+      "notice.invalidTag": "Tag tidak boleh berisi spasi atau tanda baca dan tidak boleh hanya terdiri dari angka.",
+      "trash.restoreAll": "Pulihkan Semua",
+      "settings.searchSection": "Cari",
+      "settings.showRecentViews": "Tampilkan yang terakhir dilihat",
+      "settings.spotlight": "Tampilkan di pencarian sistem",
+      "settings.spotlight.footer": "Izinkan Spotlight menemukan Spark. Menonaktifkannya akan menghapus Spark dari pencarian sistem.",
+      "onboarding.localMac.1.body": "Catat ide di Jotra atau simpan teks dari lembar berbagi, Safari, dan Layanan Mac.",
+      "onboarding.localMac.2.body": "Pencarian teks lengkap. Filter menurut tag, sumber, dan waktu. Setiap Spark menyimpan asalnya.",
+      "onboarding.localMac.3.body": "Catatan disimpan di Mac ini. Tidak perlu akun atau langganan.",
+      "settings.localMac.storage": "Catatan disimpan di Mac ini. Cadangkan Mac secara berkala agar tetap aman.",
+      "settings.localMac.support": "Dukungan & Bantuan",
+      "settings.localMac.privacy": "Kebijakan Privasi",
+      "settings.localMac.releaseNotes": "Yang baru",
+      "settings.localMac.releaseNotes.body": "• Baca catatan versi di Pengaturan.\n• Buka bantuan dan kebijakan privasi dari Tentang.\n• Simpan catatan teks di Mac ini dengan pencarian, tag, sematan, arsip, dan Sampah.",
+      "settings.language": "Bahasa",
+      "settings.language.system": "Default Sistem",
+      "settings.language.footer": "Pilih bahasa yang digunakan di Jotra. Menu sistem dan ekstensi mengikuti bahasa aplikasi yang ditetapkan di pengaturan sistem.",
+      "source.app": "Dalam Aplikasi",
+      "source.control": "Kontrol",
+      "source.actionButton": "Tombol Tindakan",
+      "source.widget": "Widget",
+      "source.shortcut": "Pintasan",
+      "source.siri": "Siri",
+      "source.link": "Tautan",
+      "source.share": "Bagikan",
+      "source.safariIOS": "Ekstensi Safari (iOS)",
+      "source.safariMac": "Ekstensi Safari (Mac)",
+      "source.servicesMac": "Layanan (Mac)",
+      "source.hotkeyMac": "Tombol Pintas Mac",
+      "source.menubarMac": "Bar Menu (Mac)",
+      "source.chrome": "Ekstensi Chrome",
+      "source.edge": "Ekstensi Edge",
+      "source.agent": "Agent",
+      "localTools.title": "Alat Lokal",
+      "localTools.enabled": "Izinkan alat lokal",
+      "localTools.explanation": "Alat di Mac ini dapat menyimpan catatan baru secara gratis. Biarkan Jotra terbuka; langganan sinkronisasi tidak diperlukan.",
+      "localTools.running": "Akses lokal sedang berjalan",
+      "localTools.grants": "Alat yang diizinkan",
+      "localTools.grants.empty": "Belum ada alat yang diizinkan.",
+      "localTools.grantName": "Nama alat",
+      "localTools.create": "Buat Izin",
+      "localTools.revoked": "Dicabut",
+      "localTools.revoke": "Cabut",
+      "localTools.receipt.title": "Periksa Bukti Penulisan",
+      "localTools.receipt.explanation": "Periksa permintaan sebelumnya, termasuk dari alat yang izinnya dicabut. Bukti mengonfirmasi penyimpanan terdahulu tanpa menampilkan isi catatan.",
+      "localTools.receipt.grant": "Alat",
+      "localTools.receipt.select": "Pilih alat",
+      "localTools.receipt.requestId": "ID permintaan",
+      "localTools.receipt.check": "Periksa Bukti",
+      "localTools.receipt.persisted": "Tersimpan secara lokal",
+      "localTools.receipt.sparkId": "ID catatan",
+      "localTools.receipt.savedAt": "Waktu penyimpanan",
+      "localTools.rebuild": "Atur Ulang Koneksi Lokal",
+      "localTools.rebuild.explanation": "Ini mencabut izin semua alat. Periksa permintaan yang belum pasti di atas terlebih dahulu, lalu hubungkan kembali setiap alat dengan izin baru.",
+      "localTools.rebuild.confirm": "Atur ulang koneksi lokal dan cabut izin semua alat?",
+      "localTools.cancel": "Batal",
+      "localTools.pairing.title": "Hubungkan Alat Ini",
+      "localTools.pairing.explanation": "Salin izin ini ke perintah impor CLI di Mac ini. Izin hanya tersedia sekarang. Jaga kerahasiaannya.",
+      "localTools.pairing.copy": "Salin Izin",
+      "localTools.pairing.copied": "Disalin",
+      "localTools.pairing.done": "Selesai",
+      "localTools.error.port": "Port lokal sedang digunakan. Tutup alat yang bentrok atau atur ulang koneksi.",
+      "localTools.error.identity": "Identitas lokal tidak tersedia. Atur ulang koneksi untuk membuat identitas dan izin baru.",
+      "localTools.error.disabled": "Aktifkan alat lokal terlebih dahulu.",
+      "localTools.error.input": "Periksa nama alat atau masukan, lalu coba lagi.",
+      "localTools.error.limit": "Maksimal 32 alat dapat diizinkan. Cabut izin alat yang tidak digunakan terlebih dahulu.",
+      "localTools.error.unavailable": "Koneksi lokal tidak tersedia. Coba lagi.",
+      "localTools.receipt.invalid": "Pilih alat dan masukkan ID permintaan yang valid.",
+      "localTools.receipt.notFound": "Tidak ditemukan bukti tersimpan untuk permintaan ini. Permintaan yang sedang berjalan masih dapat selesai."
+    },
+    "ui": {
+      "source.accessibility %@": "Sumber: %@",
+      "toast.undo": "Urungkan",
+      "toast.undo.hint": "Tombol urungkan",
+      "source.app": "Dalam Aplikasi",
+      "source.control": "Kontrol",
+      "source.actionButton": "Tombol Tindakan",
+      "source.widget": "Widget",
+      "source.shortcut": "Pintasan",
+      "source.siri": "Siri",
+      "source.link": "Tautan",
+      "source.share": "Bagikan",
+      "source.safariIOS": "Ekstensi Safari (iOS)",
+      "source.safariMac": "Ekstensi Safari (Mac)",
+      "source.servicesMac": "Layanan (Mac)",
+      "source.hotkeyMac": "Tombol Pintas Mac",
+      "source.menubarMac": "Bar Menu (Mac)",
+      "source.chrome": "Ekstensi Chrome",
+      "source.edge": "Ekstensi Edge",
+      "source.agent": "Agent"
+    },
+    "sources": {
+      "source.app": "Dalam Aplikasi",
+      "source.control": "Kontrol",
+      "source.actionButton": "Tombol Tindakan",
+      "source.widget": "Widget",
+      "source.shortcut": "Pintasan",
+      "source.siri": "Siri",
+      "source.link": "Tautan",
+      "source.share": "Bagikan",
+      "source.safariIOS": "Ekstensi Safari (iOS)",
+      "source.safariMac": "Ekstensi Safari (Mac)",
+      "source.servicesMac": "Layanan (Mac)",
+      "source.hotkeyMac": "Tombol Pintas Mac",
+      "source.menubarMac": "Bar Menu (Mac)",
+      "source.chrome": "Ekstensi Chrome",
+      "source.edge": "Ekstensi Edge",
+      "source.agent": "Agent"
+    },
+    "share": {
+      "share.title": "Simpan ke Jotra",
+      "share.cancel": "Batal",
+      "share.save": "Simpan",
+      "share.note": "Tambah catatan…",
+      "share.source": "Bagikan",
+      "share.offline": "Hanya teks dan tautan. Penyimpanan dapat dilakukan secara offline.",
+      "share.loadFailed": "Konten yang dibagikan tidak dapat dibaca. Silakan coba lagi.",
+      "capture.saved": "Tersimpan ke Jotra",
+      "capture.empty": "Teks tidak boleh kosong",
+      "capture.tooLong": "Melebihi batas 20.000 karakter",
+      "capture.writeFailed": "Tidak dapat menyimpan. Silakan coba lagi."
+    },
+    "entries": {
+      "intent.newSpark": "Spark Baru",
+      "intent.text": "Teks",
+      "capture.saved": "Tersimpan ke Jotra",
+      "capture.empty": "Teks tidak boleh kosong",
+      "capture.tooLong": "Melebihi batas 20.000 karakter",
+      "capture.writeFailed": "Tidak dapat menyimpan. Silakan coba lagi."
+    },
+    "shortcuts": {
+      "Create a Spark with ${applicationName}": "Buat Spark dengan ${applicationName}",
+      "Save to ${applicationName}": "Simpan ke ${applicationName}"
+    }
+  },
+  "website": {
+    "brand": "Jotra",
+    "home": "Produk",
+    "support": "Dukungan",
+    "privacy": "Kebijakan privasi",
+    "switch": "English",
+    "eyebrow": "JOTRA · BUKU CATATAN LOKAL ANDA",
+    "headline": "Ide yang melintas.<br>Tempat untuk menyimpannya.",
+    "lead": "Catat ide, catatan bacaan, dan pengamatan sehari-hari. Gunakan pencarian dan tag untuk kembali ke pemikiran yang layak dikembangkan.",
+    "status": "Rilis macOS pertama sedang disiapkan · macOS 14 atau lebih baru · Catatan disimpan secara lokal",
+    "features": [
+      [
+        "Catat sebuah ide",
+        "Buat catatan teks untuk satu kalimat, catatan bacaan, atau ide yang belum selesai. Tidak perlu akun."
+      ],
+      [
+        "Temukan kembali",
+        "Cari catatan dan gabungkan filter tag, sumber, serta waktu. Susun catatan dengan tag bertingkat."
+      ],
+      [
+        "Simpan di Mac",
+        "Rilis pertama ini menyimpan data di Mac. Sematkan yang penting, arsipkan catatan yang sudah selesai, dan pulihkan catatan yang dihapus dari Sampah."
+      ]
+    ],
+    "support_sections": [
+      [
+        "start",
+        "Mulai dengan satu catatan",
+        "Pilih Spark Baru di bar alat, tulis teks, lalu simpan. Pilih catatan untuk melanjutkan penyuntingan. Spark adalah sebutan untuk satu catatan."
+      ],
+      [
+        "find",
+        "Pencarian dan tag",
+        "Gunakan kolom pencarian atau ⌘F untuk mencari teks, lalu persempit hasil berdasarkan tag, sumber, waktu, atau status. Tulis #tag atau #induk/anak dalam catatan untuk menyusunnya di halaman Tag."
+      ],
+      [
+        "capture",
+        "Simpan dari tempat lain",
+        "Gunakan lembar berbagi Mac, ekstensi Safari, Pintasan, atau Layanan Mac untuk menyimpan teks. Aktifkan ekstensi Safari melalui Safari → Pengaturan → Ekstensi dan pilih situs yang boleh diakses. Kliping web menyimpan teks pilihan, judul, tautan, dan anotasi Anda."
+      ],
+      [
+        "storage",
+        "Di mana catatan saya?",
+        "Rilis ini menyimpan catatan dan informasi penyusunannya di penyimpanan lokal khusus aplikasi. Catatan tidak otomatis disinkronkan antar-Mac. Salin catatan penting ke dokumen terpisah dan cadangkan Mac secara berkala."
+      ],
+      [
+        "spotlight",
+        "Pencarian sistem dan riwayat terbaru",
+        "Tampilkan di Pencarian Sistem aktif secara default. Fitur ini menambahkan judul catatan, cuplikan teks, dan tag ke Spotlight lokal. Nonaktifkan di pengaturan Jotra untuk meminta penghapusan indeks aplikasi. Tampilkan yang Terakhir Dilihat hanya mengatur visibilitas kartu beranda; pencarian terbaru dapat dihapus satu per satu atau seluruhnya."
+      ],
+      [
+        "trash",
+        "Hapus dan pulihkan",
+        "Menghapus catatan memindahkannya ke Sampah terlebih dahulu. Item yang berusia lebih dari 30 hari dihapus saat aplikasi melakukan pembersihan berikutnya. Anda dapat menghapus permanen lebih awal atau mengosongkan Sampah. Penghapusan permanen tidak dapat diurungkan dalam aplikasi; cadangan sistem terpisah tetap dikelola oleh Anda."
+      ],
+      [
+        "upgrade",
+        "Memperbarui dari versi uji sebelumnya",
+        "Cadangkan catatan penting dan simpan data aplikasi versi sebelumnya sebelum memperbarui. Jika catatan lama tidak muncul, hubungi dukungan sebelum membersihkan data atau menghapus file lama."
+      ],
+      [
+        "scope",
+        "Cakupan rilis pertama",
+        "Rilis macOS ini berfokus pada catatan teks lokal, pencarian, dan penyusunan. Sinkronisasi iCloud, fitur Agent dan AI, langganan, serta ekspor Markdown atau pencadangan otomatis dalam aplikasi belum disertakan."
+      ],
+      [
+        "contact",
+        "Hubungi dukungan",
+        "Kirim email ke <a href=\"mailto:hello@go2come.com?subject=Jotra%20Support\">hello@go2come.com</a> beserta versi macOS, versi aplikasi, dan langkah untuk mereproduksi masalah. Sembunyikan catatan pribadi pada tangkapan layar. Anda tidak perlu mengirim basis data, kata sandi, atau kunci."
+      ]
+    ],
+    "privacy_sections": [
+      [
+        "scope",
+        "Cakupan dan penyedia",
+        "Kebijakan ini berlaku untuk rilis macOS pertama Jotra sebagai buku catatan lokal, yang disediakan oleh Manbao Interactive Entertainment Limited, serta halaman produk, dukungan, dan privasi Jotra di henkeyi.com dan jotra.henkeyi.com. Produk lain di henkeyi.com memiliki pemberitahuannya sendiri."
+      ],
+      [
+        "local",
+        "Data yang disimpan di Mac",
+        "Teks catatan, judul, tautan, sumber, tanggal, tag, status penyusunan, riwayat tampilan, dan pencarian terbaru disimpan di Mac. Fitur pencatatan sistem dapat menempatkan konten terlebih dahulu di penyimpanan App Group lokal sebelum diimpor oleh aplikasi utama. Rilis ini tidak mengunggah konten tersebut kepada pengembang melalui fitur aplikasi dan tidak mengaktifkan sinkronisasi iCloud, layanan AI, atau Agent jarak jauh."
+      ],
+      [
+        "capture",
+        "Berbagi, Safari, dan pencatatan sistem",
+        "Lembar berbagi menerima teks, tautan, dan anotasi yang Anda berikan. Saat diaktifkan, skrip pencatatan Safari berjalan di situs yang Anda izinkan dan membaca judul halaman, URL, teks pilihan, atau tautan menu konteks untuk pratinjau dan penyimpanan. Konten yang disimpan melewati ekstensi lokal menuju catatan, bukan server relai kami. Kelola akses situs atau nonaktifkan ekstensi di pengaturan Safari. Pintasan dan Layanan Mac menerima teks yang diberikan kepada tindakan tersebut; aplikasi tidak terus-menerus memantau papan klip umum. Fitur suara Siri disediakan oleh layanan sistem Apple."
+      ],
+      [
+        "search",
+        "Pencarian sistem dan riwayat terbaru",
+        "Spotlight aktif secara default. Aplikasi menyerahkan judul, 300 karakter pertama teks, dan tag dari catatan aktif maupun yang diarsipkan ke indeks pencarian sistem lokal. Menonaktifkannya meminta penghapusan indeks aplikasi; penyelesaiannya bergantung pada sistem dan status eksekusi. Hingga lima tampilan terbaru dan sepuluh pencarian terbaru disimpan secara lokal. Tampilkan yang Terakhir Dilihat hanya menyembunyikan kartu beranda; fitur ini tidak menghentikan pencatatan atau menghapus riwayat. Pencarian terbaru dapat dihapus atau dibersihkan di halaman pencarian."
+      ],
+      [
+        "network",
+        "Analitik, diagnostik, dan tindakan eksternal",
+        "Rilis ini tidak berisi iklan, pelacakan lintas aplikasi, analitik, atau SDK pelaporan kerusakan pihak ketiga. Menyalin menempatkan teks catatan di papan klip sistem. Membuka tautan eksternal, halaman dukungan, atau email memanggil layanan lain yang memiliki kebijakannya sendiri. Apple dapat memproses informasi App Store, sistem, atau diagnostik sesuai pengaturan Anda; hal ini terpisah dari pengumpulan data oleh pengembang melalui aplikasi ini."
+      ],
+      [
+        "website",
+        "Kunjungan situs",
+        "Cloudflare menghosting halaman Jotra. Penyajian halaman, keamanan, dan penanganan masalah dapat melibatkan alamat IP, waktu permintaan, informasi browser, serta log permintaan atau kesalahan. Halaman Jotra tidak menyematkan iklan atau skrip analitik dan tidak memerlukan akun. Informasi permintaan situs yang diperlukan diproses terpisah dari data catatan. Lihat <a href=\"https://www.cloudflare.com/privacypolicy/\" rel=\"noopener noreferrer\">kebijakan privasi Cloudflare</a>."
+      ],
+      [
+        "support",
+        "Menghubungi dukungan",
+        "Jika Anda mengirim email, kami menerima alamat email dan konten yang Anda pilih untuk diberikan. Kami menggunakannya untuk membalas, menyelidiki, dan menyelesaikan masalah. Hindari mengirim kata sandi, kunci, atau catatan pribadi yang tidak diperlukan. Penghapusan informasi pribadi dalam korespondensi dukungan dapat diminta melalui alamat email yang sama, kecuali bila penyimpanan diwajibkan oleh hukum."
+      ],
+      [
+        "retention",
+        "Penyimpanan, penghapusan, dan cadangan",
+        "Catatan biasanya disimpan sampai Anda menghapusnya. Penghapusan biasa memindahkan catatan ke Sampah; item yang berusia lebih dari 30 hari dihapus saat pembersihan aplikasi, atau Anda dapat menghapusnya permanen lebih awal. Riwayat terbaru diperbarui dalam batas jumlahnya. Penghapusan adalah pembuangan data pada tingkat aplikasi, bukan janji penghapusan fisik aman pada media penyimpanan, dan tidak dapat otomatis menghapus file yang disimpan terpisah atau cadangan sistem. Menghapus instalasi aplikasi tidak menjamin semua salinan telah dihapus."
+      ],
+      [
+        "control",
+        "Pilihan dan keamanan Anda",
+        "Edit atau hapus catatan, kosongkan Sampah, kelola pencarian terbaru, nonaktifkan Spotlight, dan sesuaikan izin situs pada ekstensi. Lindungi akun masuk Mac, gunakan langkah keamanan perangkat yang sesuai, dan jaga cadangan dengan aman. Rilis ini tidak memiliki akun aplikasi yang perlu ditutup dan tidak mengklaim enkripsi catatan mandiri atau enkripsi menyeluruh."
+      ],
+      [
+        "changes",
+        "Pembaruan dan kontak",
+        "Jika versi selanjutnya menambahkan sinkronisasi, AI, atau pemrosesan data lain, kami akan memperbarui pemberitahuan terkait. Untuk pertanyaan kebijakan atau permintaan informasi pribadi, kirim email ke <a href=\"mailto:hello@go2come.com?subject=Jotra%20Privacy\">hello@go2come.com</a>."
+      ]
+    ],
+    "language": "Bahasa",
+    "description": "Catat ide di Jotra, buku catatan teks lokal untuk Mac. Pencarian, tag, sematan, arsip, dan Sampah. Tidak perlu akun.",
+    "updated": "Diperbarui 5 November 2026",
+    "notice": "Pemberitahuan ini menjelaskan rilis macOS pertama sebagai buku catatan lokal.",
+    "toc": "Di halaman ini",
+    "screenAlt": "Jotra di Mac dengan contoh catatan fiktif",
+    "productTitle": "Buku catatan lokal untuk Mac",
+    "languageHelp": "Situs web ini tersedia dalam 15 bahasa. Pilih bahasa dari menu."
+  },
+  "safari": {
+    "extensionDescription": "Simpan teks dan halaman ke Jotra di perangkat ini.",
+    "close": "Tutup",
+    "save": "Simpan sebagai Spark",
+    "noteLabel": "Catatan",
+    "notePlaceholder": "Tambah catatan…",
+    "offline": "Tetap di Safari. Penyimpanan dapat dilakukan secara offline.",
+    "currentPage": "Halaman saat ini",
+    "unsupported": "Halaman ini tidak dapat disimpan",
+    "saved": "Tersimpan",
+    "empty": "Teks tidak boleh kosong",
+    "tooLong": "Melebihi batas 20.000 karakter",
+    "writeFailed": "Tidak dapat menyimpan. Silakan coba lagi.",
+    "contextSelection": "Simpan ke Jotra",
+    "contextLink": "Simpan Tautan ke Jotra",
+    "extension_name": "Jotra"
+  },
+  "chrome": {
+    "extension_name": {
+      "message": "Jotra"
+    },
+    "extension_description": {
+      "message": "Simpan teks pilihan, tautan, atau halaman saat ini ke Jotra dengan enkripsi menyeluruh."
+    },
+    "brand_name": {
+      "message": "Jotra"
+    },
+    "pair_title": {
+      "message": "Hubungkan ke Jotra"
+    },
+    "pair_help": {
+      "message": "Dapatkan kode pemasangan 6 digit di Jotra pada iPhone / iPad / Mac → “Pengaturan → Ekstensi & Agent”."
+    },
+    "pair_code_label": {
+      "message": "Kode pemasangan 6 digit"
+    },
+    "pair_connect": {
+      "message": "Hubungkan"
+    },
+    "pair_connecting": {
+      "message": "Menghubungkan…"
+    },
+    "error_pairing_invalid": {
+      "message": "Kode pemasangan tidak valid atau telah kedaluwarsa"
+    },
+    "error_too_many_attempts": {
+      "message": "Terlalu banyak percobaan. Coba lagi dalam 1 menit"
+    },
+    "error_pair_network": {
+      "message": "Tidak dapat menjangkau layanan Jotra. Periksa jaringan Anda"
+    },
+    "error_revoked": {
+      "message": "Koneksi ini telah dicabut. Silakan pasangkan kembali"
+    },
+    "error_not_paired": {
+      "message": "Belum terhubung ke Jotra. Pasangkan terlebih dahulu."
+    },
+    "error_text_empty": {
+      "message": "Tidak ada yang dapat disimpan"
+    },
+    "error_text_too_long": {
+      "message": "Melebihi batas 20.000 karakter"
+    },
+    "error_daily_limit": {
+      "message": "Terlalu banyak item hari ini. Coba lagi besok"
+    },
+    "error_send_network": {
+      "message": "Tidak dapat mengirim. Periksa jaringan Anda"
+    },
+    "error_send_generic": {
+      "message": "Tidak dapat mengirim. Silakan coba lagi nanti"
+    },
+    "error_payload_too_large": {
+      "message": "Konten terlalu besar untuk dikirim"
+    },
+    "error_cannot_read_page": {
+      "message": "Tidak dapat membaca halaman ini"
+    },
+    "status_connected": {
+      "message": "Terhubung"
+    },
+    "preview_current_page": {
+      "message": "Halaman saat ini"
+    },
+    "note_placeholder": {
+      "message": "Tambah catatan…"
+    },
+    "note_label": {
+      "message": "Catatan"
+    },
+    "save_button": {
+      "message": "Simpan ke Jotra"
+    },
+    "saving": {
+      "message": "Mengirim…"
+    },
+    "sent": {
+      "message": "Terkirim"
+    },
+    "sent_notification": {
+      "message": "Terkirim ke Jotra"
+    },
+    "recent_title": {
+      "message": "Terbaru"
+    },
+    "recent_empty": {
+      "message": "Belum ada yang dikirim"
+    },
+    "recent_untitled": {
+      "message": "(Kosong)"
+    },
+    "status_sending": {
+      "message": "Mengirim"
+    },
+    "status_pending": {
+      "message": "Terkirim"
+    },
+    "status_delivered": {
+      "message": "Diterima"
+    },
+    "status_expired": {
+      "message": "Tidak diterima, kedaluwarsa"
+    },
+    "status_failed": {
+      "message": "Gagal"
+    },
+    "status_unknown": {
+      "message": "Tidak diketahui"
+    },
+    "resend": {
+      "message": "Kirim Ulang"
+    },
+    "disconnect": {
+      "message": "Putuskan Koneksi"
+    },
+    "disconnect_confirm": {
+      "message": "Anda memerlukan kode pemasangan baru untuk mengirim lagi. Putuskan koneksi?"
+    },
+    "disconnect_confirm_ok": {
+      "message": "Putuskan Koneksi"
+    },
+    "cancel": {
+      "message": "Batal"
+    },
+    "menu_save_selection": {
+      "message": "Simpan ke Jotra"
+    },
+    "menu_save_link": {
+      "message": "Simpan tautan ke Jotra"
+    },
+    "menu_save_page": {
+      "message": "Simpan halaman ke Jotra"
+    },
+    "context_hint": {
+      "message": "Anda juga dapat mengeklik kanan teks pilihan → “Simpan ke Jotra”"
+    }
+  }
+}
