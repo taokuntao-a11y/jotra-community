@@ -1,11 +1,13 @@
 # Plugin collaboration / 插件协作
 
-Use an [integration proposal](https://github.com/taokuntao-a11y/jotra-community/issues/new?template=integration.yml) to discuss a tool or workflow before implementing it. Start from the [proposal template](proposals/TEMPLATE.md).
+The first example is [Obsidian Selection](obsidian-selection/README.md): explicitly selected text is sent through the trusted local CLI's stdin, and success requires a matching persistence receipt. It contains only an independent external adapter, not Jotra product implementation.
 
-The initial goal is authorized local writing. **A public CLI/MCP release is not yet available.** Read [PLUGINS.md](../PLUGINS.md) for the current boundary. There are currently no verified integrations listed in this repository.
+It has passed real CLI/App and Obsidian desktop GUI checks in an isolated developer-preview environment. **A compatible preview App and CLI must be supplied separately; there is no public binary release here.** Read [setup and recovery](../docs/local-tools.md), [validation limits](../docs/validation.md), and [integration status](../PLUGINS.md).
 
-Proposals can be reviewed now. A future integration submission must include its own author/license information, setup and removal instructions, exact supported versions, permissions and data flow, and tests for real persistence, retries, revocation, and failures. Community maintenance does not imply official product support.
+For AI tool clients, see the separately verified [Codex local MCP connection](../docs/mcp-codex.md). It exposes creation and own-receipt lookup only; it is not an Obsidian dependency.
 
-Product source, credentials, private notes, and direct database access do not belong in submissions. Code for an external adapter may be considered separately once a supported interface and its licensing are established.
+Use an [integration proposal](https://github.com/taokuntao-a11y/jotra-community/issues/new?template=integration.yml) to discuss another tool or workflow. Start from the [proposal template](proposals/TEMPLATE.md). Include author/rights information, installation and removal, exact supported versions, permissions and data flow, and real persistence, retry, revocation, and failure tests. Label experimental work accurately.
 
-目前接受接入提案与工作流讨论，不提供尚未发布的安装包或接口。未来外围适配器由作者说明许可证、权限、维护范围及实际兼容证据，不包含产品源码。
+Product source, credentials, private notes, and direct database access do not belong in submissions. Community maintenance does not imply official product support. Other external adapters must state their own rights and licensing; the included example follows [RIGHTS.md](../RIGHTS.md).
+
+首个示例已跑通，可阅读代码并在独立预览环境验证。其他接入先提交提案，明确版本、权限、维护范围与验收证据；产品源码继续保持私有。

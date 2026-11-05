@@ -1,6 +1,6 @@
 # Contributing / 参与贡献
 
-Accepted contribution areas are feedback, translations, public documentation, and external integration proposals. Product source code remains private.
+Accepted contribution areas are feedback, translations, public documentation, external integration proposals, and improvements to the independent adapter example. Product source code remains private.
 
 ## Feedback
 
@@ -16,7 +16,7 @@ Product changes proposed in an issue are reviewed by the maintainer and implemen
 
 ## Integration proposals
 
-Describe the tool, intended workflow, data read and written, requested permissions, platforms, and maintenance contact. Check [PLUGINS.md](PLUGINS.md). Do not include working credentials or claim compatibility before a released interface and end-to-end verification exist.
+Describe the tool, intended workflow, data read and written, requested permissions, platforms, and maintenance contact. Check [PLUGINS.md](PLUGINS.md). Do not include working credentials. Label preview-only results with exact tested versions and end-to-end evidence; do not call a preview a released integration. Adapter changes should include meaningful tests for altered persistence, retry, authorization, or process behavior.
 
 ## Review
 

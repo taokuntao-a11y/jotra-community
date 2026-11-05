@@ -17,14 +17,18 @@
 
 ## 当前接入状态
 
-macOS 首版是本机笔记应用。免费本机 CLI / MCP 写入仍在设计与验证，尚未发布。这里的接入讨论不是可调用的 API、SDK 或插件安装市场。
+macOS 首版是本机笔记应用。免费本机 CLI、Codex MCP 接入与首个 Obsidian 选中文字示例已完成隔离环境联调，处于开发者预览，尚无公开 App / CLI / MCP 下载包。已提交商店的版本不等同于接口预览。
 
-产品代码公开范围与社区反馈渠道是两件事：参与翻译、反馈和外围集成，不需要访问应用实现。未来如发布插件 SDK、适配器或示例，会分别说明版本、权限与许可证。
+Codex 的实际写入、重放及回执查询已通过；重启寸念 App 后的 MCP 重放复验仍待完成，详见实测记录。
+
+[CLI 授权、写入与回执](docs/local-tools.md) · [Codex MCP 配置](docs/mcp-codex.md) · [Obsidian 插件示例](integrations/obsidian-selection/README.md) · [实测版本与限制](docs/validation.md)
+
+参与翻译、反馈和外围集成，不需要访问应用实现。当前外围示例已说明版本、权限和版权范围；后续 SDK 或其他适配器也会分别说明。
 
 ## 反馈与隐私
 
 请不要在公开 Issue / PR 中放真实笔记、数据库、密钥、配对材料或私人联系方式。敏感问题请联系 [hello@go2come.com](mailto:hello@go2come.com)。没有 GitHub 账号也可以通过邮件反馈。
 
-本仓库公开文档、翻译资源和协作配置，未包含 App、Core、CLI、MCP 或中转服务的产品实现。文档与译文暂未添加通用开源许可证，版权说明见 [RIGHTS.md](RIGHTS.md)。
+本仓库公开文档、翻译资源、协作配置和独立外围插件示例，未包含 App、Core、CLI、MCP 或中转服务的产品实现。目前未添加通用开源许可证，版权说明见 [RIGHTS.md](RIGHTS.md)。
 
-本地检查：`python3 .github/scripts/validate_translations.py`。Pull Request 会自动检查翻译结构、占位符、链接与章节标识。
+本地检查：`python3 .github/scripts/validate_translations.py`；插件检查：在 `integrations/obsidian-selection` 运行 `npm test`。Pull Request 会自动检查翻译与插件示例。

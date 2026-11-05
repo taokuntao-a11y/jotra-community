@@ -1,0 +1,8 @@
+{
+  "name": "jotra-obsidian-selection-example",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Independent external adapter example; no Jotra product implementation",
+  "scripts": { "test": "node --test test/*.test.cjs" },
+  "engines": { "node": ">=20" }
+}

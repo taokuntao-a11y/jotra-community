@@ -1,4 +1,4 @@
-name: Translation checks
+name: Community checks
 
 on:
   pull_request:
@@ -17,3 +17,6 @@ jobs:
           persist-credentials: false
       - name: Validate translation resources
         run: python3 .github/scripts/validate_translations.py
+      - name: Check external adapter example
+        working-directory: integrations/obsidian-selection
+        run: node --test test/*.test.cjs

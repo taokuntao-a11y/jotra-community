@@ -1,0 +1,10 @@
+{
+  "id": "jotra-selection",
+  "name": "Jotra Selection (Preview)",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Save selected text through an explicitly configured local Jotra CLI and verify its persistence receipt.",
+  "author": "Jotra community",
+  "authorUrl": "https://github.com/taokuntao-a11y/jotra-community",
+  "isDesktopOnly": true
+}
