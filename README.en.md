@@ -15,7 +15,7 @@ The website provides product information, help, privacy notices, and developer d
 
 The first Mac release is a local notebook. Free local CLI writing, Codex MCP integration, and the first Obsidian selection adapter have passed isolated end-to-end preview tests. A compatible preview App, CLI, and MCP package must be supplied separately; no public binary download is provided here. The submitted App Store build is separate from this preview.
 
-Actual Codex creation, replay, and receipt lookup passed. MCP replay after restarting the Jotra App remains pending; see the validation record.
+On 2026-11-06, original-request replay and receipt lookup also passed after restarting the isolated Jotra App. The Spark ID and persistence time stayed identical, and the App GUI confirmed one matching record; see the validation record.
 
 [CLI authorization, writing, and receipts](docs/local-tools.md) · [Codex MCP setup](docs/mcp-codex.md) · [Obsidian example](integrations/obsidian-selection/README.md) · [Tested versions and limits](docs/validation.md)
 

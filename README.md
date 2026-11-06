@@ -19,7 +19,7 @@
 
 macOS 首版是本机笔记应用。免费本机 CLI、Codex MCP 接入与首个 Obsidian 选中文字示例已完成隔离环境联调，处于开发者预览，尚无公开 App / CLI / MCP 下载包。已提交商店的版本不等同于接口预览。
 
-Codex 的实际写入、重放及回执查询已通过；重启寸念 App 后的 MCP 重放复验仍待完成，详见实测记录。
+2026-11-06 已通过寸念测试 App 重启后的 MCP 原请求重放与回执复验：Spark ID、保存时间保持一致，界面核对仍为唯一一条记录，详见实测记录。
 
 [CLI 授权、写入与回执](docs/local-tools.md) · [Codex MCP 配置](docs/mcp-codex.md) · [Obsidian 插件示例](integrations/obsidian-selection/README.md) · [实测版本与限制](docs/validation.md)
 

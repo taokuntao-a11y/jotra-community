@@ -1,6 +1,6 @@
 # Integration status / 插件接入状态
 
-Updated: 2026-11-05. **Developer preview; see passed and pending checks in the validation matrix. No public App / CLI binary release.** Product source code remains private.
+Updated: 2026-11-06. **Developer preview; controlled App-restart replay and GUI uniqueness checks passed. See the tested scope and remaining limits in the validation matrix. No public App / CLI binary release.** Product source code remains private.
 
 ## Start here
 
